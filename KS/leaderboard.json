@@ -1,0 +1,282 @@
+[
+  {
+    "id": "20260323_031235_062655",
+    "score": 6.610504196636619,
+    "peak_max_u": 4.434701501290125,
+    "timestamp": "2026-03-23T03:12:37.420414+00:00",
+    "config": {
+      "name": "odd_sawtooth",
+      "description": "Odd-harmonics only: 1/n for n=1,3,5..15 (square wave)",
+      "initial_condition": "odd_sawtooth",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031424_a930d8",
+    "score": 6.610504196636619,
+    "peak_max_u": 4.434701501290125,
+    "timestamp": "2026-03-23T03:14:26.066201+00:00",
+    "config": {
+      "name": "odd_sawtooth",
+      "description": "Odd-harmonics only: 1/n for n=1,3,5..15 (square wave)",
+      "initial_condition": "odd_sawtooth",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031240_3e433b",
+    "score": 6.112694527190239,
+    "peak_max_u": 4.077524946576178,
+    "timestamp": "2026-03-23T03:12:41.871145+00:00",
+    "config": {
+      "name": "sawtooth_n20",
+      "description": "Sawtooth extended to n=20 (slightly into stable band)",
+      "initial_condition": "sawtooth_n20",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031428_3b5c7d",
+    "score": 6.112694527190239,
+    "peak_max_u": 4.077524946576178,
+    "timestamp": "2026-03-23T03:14:30.376238+00:00",
+    "config": {
+      "name": "sawtooth_n20",
+      "description": "Sawtooth extended to n=20 (slightly into stable band)",
+      "initial_condition": "sawtooth_n20",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_030919_61ed40",
+    "score": 6.066182528551189,
+    "peak_max_u": 4.054777581863793,
+    "timestamp": "2026-03-23T03:09:21.129648+00:00",
+    "config": {
+      "name": "sawtooth_profile",
+      "description": "Sawtooth: modes n=1..15 with 1/n amplitude",
+      "initial_condition": "sawtooth_profile",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031600_c5cc78",
+    "score": 5.790456922695845,
+    "peak_max_u": 3.8958853505813384,
+    "timestamp": "2026-03-23T03:16:01.932668+00:00",
+    "config": {
+      "name": "odd_sawtooth_boosted",
+      "description": "Odd-sawtooth 1/n with 2x boost at n=11",
+      "initial_condition": "odd_sawtooth_boosted",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031103_6b377b",
+    "score": 5.777650552145239,
+    "peak_max_u": 4.414659166496605,
+    "timestamp": "2026-03-23T03:11:05.359756+00:00",
+    "config": {
+      "name": "step_function",
+      "description": "Pure step function: full-spectrum 1/n weights, untruncated",
+      "initial_condition": "step_function",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031109_5097f0",
+    "score": 5.692089834394307,
+    "peak_max_u": 3.865991344195246,
+    "timestamp": "2026-03-23T03:11:10.852759+00:00",
+    "config": {
+      "name": "sawtooth_multiscale",
+      "description": "Sawtooth at L + 0.3x sawtooth at L/2",
+      "initial_condition": "sawtooth_multiscale",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_032217_e25e86",
+    "score": 5.68796841180132,
+    "peak_max_u": 3.819320529860364,
+    "timestamp": "2026-03-23T03:22:18.670664+00:00",
+    "config": {
+      "name": "odd_sawtooth_n0p75",
+      "description": "Odd modes 1/n^0.75 decay",
+      "initial_condition": "odd_sawtooth_n0p75",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_032215_033a6c",
+    "score": 5.5585617788880235,
+    "peak_max_u": 3.6954552830323326,
+    "timestamp": "2026-03-23T03:22:17.249407+00:00",
+    "config": {
+      "name": "odd_sawtooth_n1p5",
+      "description": "Odd modes 1/n^1.5 decay",
+      "initial_condition": "odd_sawtooth_n1p5",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031558_9d1474",
+    "score": 5.514742075512828,
+    "peak_max_u": 3.711263014044511,
+    "timestamp": "2026-03-23T03:16:00.373319+00:00",
+    "config": {
+      "name": "odd_sawtooth_sqrtn",
+      "description": "Odd modes n=1..15 with 1/sqrt(n) amplitude",
+      "initial_condition": "odd_sawtooth_sqrtn",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_030921_0a0185",
+    "score": 5.308624441441038,
+    "peak_max_u": 3.520179290635049,
+    "timestamp": "2026-03-23T03:09:22.670539+00:00",
+    "config": {
+      "name": "gaussian_bump",
+      "description": "Localized Gaussian bump, sigma=L/20",
+      "initial_condition": "gaussian_bump",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031108_ed6d9e",
+    "score": 5.045323541860357,
+    "peak_max_u": 3.3550786131819246,
+    "timestamp": "2026-03-23T03:11:09.489173+00:00",
+    "config": {
+      "name": "double_bump",
+      "description": "Two Gaussian bumps opposite sign, sep=L/2",
+      "initial_condition": "double_bump",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_032057_3092a7",
+    "score": 4.978004133391923,
+    "peak_max_u": 3.3509757918375125,
+    "timestamp": "2026-03-23T03:20:59.162498+00:00",
+    "config": {
+      "name": "odd_sawtooth_eps",
+      "description": "Odd sawtooth + eps=0.27 even-mode seed (n=10,12)",
+      "initial_condition": "odd_sawtooth_eps",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_032056_261f5f",
+    "score": 4.9290783927322455,
+    "peak_max_u": 3.3147548739163657,
+    "timestamp": "2026-03-23T03:20:57.561998+00:00",
+    "config": {
+      "name": "odd_sawtooth_n9start",
+      "description": "Odd sawtooth n=3..15 (drop n=1, sigma~0.004)",
+      "initial_condition": "odd_sawtooth_n9start",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_030918_16b7ce",
+    "score": 4.890002210352878,
+    "peak_max_u": 3.308943913955151,
+    "timestamp": "2026-03-23T03:09:19.610058+00:00",
+    "config": {
+      "name": "peak_modes_sum",
+      "description": "Five modes near k* (n=9-13)",
+      "initial_condition": "peak_modes_sum",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_032214_4cc5fe",
+    "score": 4.619683845159714,
+    "peak_max_u": 3.0910292418336898,
+    "timestamp": "2026-03-23T03:22:15.804090+00:00",
+    "config": {
+      "name": "three_period_square",
+      "description": "3-period square wave: modes n=3,9,15",
+      "initial_condition": "three_period_square",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031555_bf7664",
+    "score": 3.9017077226575134,
+    "peak_max_u": 4.4688345818551625,
+    "timestamp": "2026-03-23T03:15:57.370698+00:00",
+    "config": {
+      "name": "square_wave",
+      "description": "Full square wave: all odd harmonics with 1/n via sign(sin(x))",
+      "initial_condition": "square_wave",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_031106_640b8c",
+    "score": 3.8790859345282644,
+    "peak_max_u": 3.8698885115960135,
+    "timestamp": "2026-03-23T03:11:08.122598+00:00",
+    "config": {
+      "name": "sawtooth_sharp",
+      "description": "Sawtooth 1/n^2 \u2014 energy concentrated at lowest k",
+      "initial_condition": "sawtooth_sharp",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  },
+  {
+    "id": "20260323_030922_c75b7b",
+    "score": 3.835215888541875,
+    "peak_max_u": 3.8702538028336253,
+    "timestamp": "2026-03-23T03:09:24.191908+00:00",
+    "config": {
+      "name": "optimal_linear_growth",
+      "description": "Amplitude weighted by linear growth rate sigma(k)",
+      "initial_condition": "optimal_linear_growth",
+      "N": 512,
+      "L": 100.53096491487338,
+      "max_wall_seconds": 60
+    }
+  }
+]

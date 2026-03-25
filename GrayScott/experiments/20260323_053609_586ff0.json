@@ -1,0 +1,5022 @@
+{
+  "id": "20260323_053609_586ff0",
+  "timestamp": "2026-03-23T05:37:26.603126+00:00",
+  "config": {
+    "name": "k0577",
+    "F": 0.025,
+    "k": 0.0577,
+    "Du": 0.16,
+    "Dv": 0.08,
+    "N": 128,
+    "L": 128.0,
+    "max_wall_seconds": 120
+  },
+  "score": 3.0959416582084778,
+  "sim_code_hash": "e6adac0a",
+  "num_timesteps": 500,
+  "peak_spectral_entropy": 5.43121534288537,
+  "peak_contrast": 0.5700231339779226,
+  "final_mean_v": 0.11538870372140328,
+  "metrics_history": [
+    {
+      "spectral_entropy": 4.690520826316604,
+      "pattern_energy": 15.064925175906092,
+      "pattern_contrast": 0.3190938190806235,
+      "mean_v": 0.007515828875275283,
+      "n_spots": 4,
+      "time": 99.0,
+      "step": 99,
+      "wall_elapsed": 0.16676688194274902
+    },
+    {
+      "spectral_entropy": 4.562911607598123,
+      "pattern_energy": 19.029186774132214,
+      "pattern_contrast": 0.3089122191500949,
+      "mean_v": 0.009392232658026817,
+      "n_spots": 4,
+      "time": 199.0,
+      "step": 199,
+      "wall_elapsed": 0.3158731460571289
+    },
+    {
+      "spectral_entropy": 4.553751612950888,
+      "pattern_energy": 19.946011336114616,
+      "pattern_contrast": 0.30045913827488263,
+      "mean_v": 0.010226530386983977,
+      "n_spots": 5,
+      "time": 299.0,
+      "step": 299,
+      "wall_elapsed": 0.4638814926147461
+    },
+    {
+      "spectral_entropy": 4.509961388683088,
+      "pattern_energy": 21.66275966060792,
+      "pattern_contrast": 0.29545939922817505,
+      "mean_v": 0.011261133032141941,
+      "n_spots": 5,
+      "time": 399.0,
+      "step": 399,
+      "wall_elapsed": 0.6153061389923096
+    },
+    {
+      "spectral_entropy": 4.515077391569241,
+      "pattern_energy": 23.379824698627612,
+      "pattern_contrast": 0.29575300978966584,
+      "mean_v": 0.012160199898057784,
+      "n_spots": 6,
+      "time": 499.0,
+      "step": 499,
+      "wall_elapsed": 0.7646768093109131
+    },
+    {
+      "spectral_entropy": 4.511060556126294,
+      "pattern_energy": 24.621618999427728,
+      "pattern_contrast": 0.2936278752684631,
+      "mean_v": 0.012958164420381245,
+      "n_spots": 6,
+      "time": 599.0,
+      "step": 599,
+      "wall_elapsed": 0.9086875915527344
+    },
+    {
+      "spectral_entropy": 4.509810225646426,
+      "pattern_energy": 26.230017559639936,
+      "pattern_contrast": 0.29486009617285563,
+      "mean_v": 0.013816044116734618,
+      "n_spots": 7,
+      "time": 699.0,
+      "step": 699,
+      "wall_elapsed": 1.0537118911743164
+    },
+    {
+      "spectral_entropy": 4.504347834723046,
+      "pattern_energy": 27.573981697972105,
+      "pattern_contrast": 0.29487144395462334,
+      "mean_v": 0.014595035784731307,
+      "n_spots": 7,
+      "time": 799.0,
+      "step": 799,
+      "wall_elapsed": 1.2035255432128906
+    },
+    {
+      "spectral_entropy": 4.488988832195677,
+      "pattern_energy": 29.110753781718067,
+      "pattern_contrast": 0.29687445621114084,
+      "mean_v": 0.015444009972795566,
+      "n_spots": 7,
+      "time": 899.0,
+      "step": 899,
+      "wall_elapsed": 1.3668742179870605
+    },
+    {
+      "spectral_entropy": 4.455068365774421,
+      "pattern_energy": 30.7385172804254,
+      "pattern_contrast": 0.30215501891127705,
+      "mean_v": 0.016339229431754712,
+      "n_spots": 8,
+      "time": 999.0,
+      "step": 999,
+      "wall_elapsed": 1.5144355297088623
+    },
+    {
+      "spectral_entropy": 4.4136236598929965,
+      "pattern_energy": 32.60279718489509,
+      "pattern_contrast": 0.3082945677778143,
+      "mean_v": 0.01739415480413093,
+      "n_spots": 8,
+      "time": 1099.0,
+      "step": 1099,
+      "wall_elapsed": 1.6703855991363525
+    },
+    {
+      "spectral_entropy": 4.425799348606962,
+      "pattern_energy": 35.0423948332251,
+      "pattern_contrast": 0.31886419962081325,
+      "mean_v": 0.018785567372489074,
+      "n_spots": 9,
+      "time": 1199.0,
+      "step": 1199,
+      "wall_elapsed": 1.8252811431884766
+    },
+    {
+      "spectral_entropy": 4.3739308736544125,
+      "pattern_energy": 38.616956425332425,
+      "pattern_contrast": 0.3331877771742279,
+      "mean_v": 0.020869874931603694,
+      "n_spots": 10,
+      "time": 1299.0,
+      "step": 1299,
+      "wall_elapsed": 1.976348638534546
+    },
+    {
+      "spectral_entropy": 4.29062110988605,
+      "pattern_energy": 44.467627520255775,
+      "pattern_contrast": 0.35641577892896925,
+      "mean_v": 0.024249906365461708,
+      "n_spots": 11,
+      "time": 1399.0,
+      "step": 1399,
+      "wall_elapsed": 2.135540723800659
+    },
+    {
+      "spectral_entropy": 4.2595540918444295,
+      "pattern_energy": 51.626869361104426,
+      "pattern_contrast": 0.36445151267029025,
+      "mean_v": 0.028532528443782307,
+      "n_spots": 13,
+      "time": 1499.0,
+      "step": 1499,
+      "wall_elapsed": 2.290170192718506
+    },
+    {
+      "spectral_entropy": 4.364547315898848,
+      "pattern_energy": 64.64474443310155,
+      "pattern_contrast": 0.3503758589876724,
+      "mean_v": 0.03519880637777717,
+      "n_spots": 14,
+      "time": 1599.0,
+      "step": 1599,
+      "wall_elapsed": 2.443044424057007
+    },
+    {
+      "spectral_entropy": 4.249261347485804,
+      "pattern_energy": 72.9140779323984,
+      "pattern_contrast": 0.36044402047322477,
+      "mean_v": 0.04248171071317282,
+      "n_spots": 18,
+      "time": 1699.0,
+      "step": 1699,
+      "wall_elapsed": 2.5946309566497803
+    },
+    {
+      "spectral_entropy": 4.398157554095956,
+      "pattern_energy": 74.43830627978167,
+      "pattern_contrast": 0.3590435276764597,
+      "mean_v": 0.04466626547704351,
+      "n_spots": 18,
+      "time": 1799.0,
+      "step": 1799,
+      "wall_elapsed": 2.7494492530822754
+    },
+    {
+      "spectral_entropy": 4.350201199659299,
+      "pattern_energy": 82.77503627911402,
+      "pattern_contrast": 0.3455160532532754,
+      "mean_v": 0.05025331716733339,
+      "n_spots": 19,
+      "time": 1899.0,
+      "step": 1899,
+      "wall_elapsed": 2.9381463527679443
+    },
+    {
+      "spectral_entropy": 4.397642935472026,
+      "pattern_energy": 86.01401589405677,
+      "pattern_contrast": 0.35549220007604454,
+      "mean_v": 0.05466244531604149,
+      "n_spots": 20,
+      "time": 1999.0,
+      "step": 1999,
+      "wall_elapsed": 3.0893733501434326
+    },
+    {
+      "spectral_entropy": 4.398427483953229,
+      "pattern_energy": 91.27708648024189,
+      "pattern_contrast": 0.3537626668690801,
+      "mean_v": 0.059412611201508314,
+      "n_spots": 22,
+      "time": 2099.0,
+      "step": 2099,
+      "wall_elapsed": 3.2403564453125
+    },
+    {
+      "spectral_entropy": 4.497844057499627,
+      "pattern_energy": 92.9607350962536,
+      "pattern_contrast": 0.33297704156728636,
+      "mean_v": 0.06291627702895504,
+      "n_spots": 23,
+      "time": 2199.0,
+      "step": 2199,
+      "wall_elapsed": 3.3827953338623047
+    },
+    {
+      "spectral_entropy": 4.5689141234173745,
+      "pattern_energy": 96.68358095441828,
+      "pattern_contrast": 0.33445461807255444,
+      "mean_v": 0.06676401931371581,
+      "n_spots": 24,
+      "time": 2299.0,
+      "step": 2299,
+      "wall_elapsed": 3.5448482036590576
+    },
+    {
+      "spectral_entropy": 4.585024781963693,
+      "pattern_energy": 97.31882744809714,
+      "pattern_contrast": 0.34473664537697396,
+      "mean_v": 0.06953704040297268,
+      "n_spots": 24,
+      "time": 2399.0,
+      "step": 2399,
+      "wall_elapsed": 3.7003347873687744
+    },
+    {
+      "spectral_entropy": 4.619787353530066,
+      "pattern_energy": 101.62482407587908,
+      "pattern_contrast": 0.36354927451713276,
+      "mean_v": 0.07260298718231878,
+      "n_spots": 25,
+      "time": 2499.0,
+      "step": 2499,
+      "wall_elapsed": 3.8864588737487793
+    },
+    {
+      "spectral_entropy": 4.646078091694607,
+      "pattern_energy": 102.79184499747555,
+      "pattern_contrast": 0.34222722636916164,
+      "mean_v": 0.0765278687568112,
+      "n_spots": 26,
+      "time": 2599.0,
+      "step": 2599,
+      "wall_elapsed": 4.042546033859253
+    },
+    {
+      "spectral_entropy": 4.7667031082581355,
+      "pattern_energy": 104.75390746969755,
+      "pattern_contrast": 0.3523690417796004,
+      "mean_v": 0.07972184040309405,
+      "n_spots": 26,
+      "time": 2699.0,
+      "step": 2699,
+      "wall_elapsed": 4.2275896072387695
+    },
+    {
+      "spectral_entropy": 4.850763869529472,
+      "pattern_energy": 107.30274024972105,
+      "pattern_contrast": 0.368887527108528,
+      "mean_v": 0.08502022025350323,
+      "n_spots": 27,
+      "time": 2799.0,
+      "step": 2799,
+      "wall_elapsed": 4.386334180831909
+    },
+    {
+      "spectral_entropy": 4.911142071566548,
+      "pattern_energy": 106.77641415643409,
+      "pattern_contrast": 0.3738242329801512,
+      "mean_v": 0.08981778699199211,
+      "n_spots": 28,
+      "time": 2899.0,
+      "step": 2899,
+      "wall_elapsed": 4.541609525680542
+    },
+    {
+      "spectral_entropy": 4.951179660635388,
+      "pattern_energy": 103.97588132974107,
+      "pattern_contrast": 0.3630258972481745,
+      "mean_v": 0.09460792894840969,
+      "n_spots": 28,
+      "time": 2999.0,
+      "step": 2999,
+      "wall_elapsed": 4.694528818130493
+    },
+    {
+      "spectral_entropy": 4.98158323724419,
+      "pattern_energy": 100.19199962599703,
+      "pattern_contrast": 0.354071173040932,
+      "mean_v": 0.09658156162156031,
+      "n_spots": 29,
+      "time": 3099.0,
+      "step": 3099,
+      "wall_elapsed": 4.861979246139526
+    },
+    {
+      "spectral_entropy": 5.049098549172607,
+      "pattern_energy": 101.66917348175524,
+      "pattern_contrast": 0.3540884835728989,
+      "mean_v": 0.10367236536386978,
+      "n_spots": 30,
+      "time": 3199.0,
+      "step": 3199,
+      "wall_elapsed": 5.030867099761963
+    },
+    {
+      "spectral_entropy": 5.106154750907084,
+      "pattern_energy": 98.25234820783503,
+      "pattern_contrast": 0.3688658693705188,
+      "mean_v": 0.11037452319886185,
+      "n_spots": 31,
+      "time": 3299.0,
+      "step": 3299,
+      "wall_elapsed": 5.186762094497681
+    },
+    {
+      "spectral_entropy": 5.079169805980289,
+      "pattern_energy": 93.89089378042436,
+      "pattern_contrast": 0.3752391404983811,
+      "mean_v": 0.11231094843713907,
+      "n_spots": 31,
+      "time": 3399.0,
+      "step": 3399,
+      "wall_elapsed": 5.341546058654785
+    },
+    {
+      "spectral_entropy": 5.041304314654824,
+      "pattern_energy": 95.33669811746555,
+      "pattern_contrast": 0.3514475293443648,
+      "mean_v": 0.11242555025943249,
+      "n_spots": 31,
+      "time": 3499.0,
+      "step": 3499,
+      "wall_elapsed": 5.490148544311523
+    },
+    {
+      "spectral_entropy": 5.044482275794711,
+      "pattern_energy": 95.65161246143377,
+      "pattern_contrast": 0.35630399915345473,
+      "mean_v": 0.11484957935826959,
+      "n_spots": 31,
+      "time": 3599.0,
+      "step": 3599,
+      "wall_elapsed": 5.641456604003906
+    },
+    {
+      "spectral_entropy": 5.0747304318270245,
+      "pattern_energy": 93.93532536114544,
+      "pattern_contrast": 0.33593417027571304,
+      "mean_v": 0.11509999418533773,
+      "n_spots": 31,
+      "time": 3699.0,
+      "step": 3699,
+      "wall_elapsed": 5.795450687408447
+    },
+    {
+      "spectral_entropy": 5.054861730213563,
+      "pattern_energy": 94.2222545686435,
+      "pattern_contrast": 0.35750605529898627,
+      "mean_v": 0.11695189863922434,
+      "n_spots": 32,
+      "time": 3799.0,
+      "step": 3799,
+      "wall_elapsed": 5.968686819076538
+    },
+    {
+      "spectral_entropy": 4.957773688269607,
+      "pattern_energy": 92.43508148091796,
+      "pattern_contrast": 0.36142513692058315,
+      "mean_v": 0.11737753718268974,
+      "n_spots": 32,
+      "time": 3899.0,
+      "step": 3899,
+      "wall_elapsed": 6.128373861312866
+    },
+    {
+      "spectral_entropy": 4.914129896540684,
+      "pattern_energy": 92.51644079862744,
+      "pattern_contrast": 0.3380968880848928,
+      "mean_v": 0.11951800451679073,
+      "n_spots": 31,
+      "time": 3999.0,
+      "step": 3999,
+      "wall_elapsed": 6.288567066192627
+    },
+    {
+      "spectral_entropy": 4.953091879558206,
+      "pattern_energy": 90.59834488165224,
+      "pattern_contrast": 0.344484539903356,
+      "mean_v": 0.11972893240493707,
+      "n_spots": 31,
+      "time": 4099.0,
+      "step": 4099,
+      "wall_elapsed": 6.440295219421387
+    },
+    {
+      "spectral_entropy": 4.999059521145651,
+      "pattern_energy": 90.88686188393419,
+      "pattern_contrast": 0.3398416176357658,
+      "mean_v": 0.12129895774841681,
+      "n_spots": 32,
+      "time": 4199.0,
+      "step": 4199,
+      "wall_elapsed": 6.591565370559692
+    },
+    {
+      "spectral_entropy": 5.027216850475809,
+      "pattern_energy": 90.13342318269291,
+      "pattern_contrast": 0.33643502256523844,
+      "mean_v": 0.12060107849641799,
+      "n_spots": 31,
+      "time": 4299.0,
+      "step": 4299,
+      "wall_elapsed": 6.741902828216553
+    },
+    {
+      "spectral_entropy": 5.058291843123092,
+      "pattern_energy": 90.45247943903203,
+      "pattern_contrast": 0.3410878750909455,
+      "mean_v": 0.12257315251369932,
+      "n_spots": 32,
+      "time": 4399.0,
+      "step": 4399,
+      "wall_elapsed": 6.917212247848511
+    },
+    {
+      "spectral_entropy": 5.085694383809363,
+      "pattern_energy": 89.6509951563277,
+      "pattern_contrast": 0.34407407713897303,
+      "mean_v": 0.12158725132931072,
+      "n_spots": 32,
+      "time": 4499.0,
+      "step": 4499,
+      "wall_elapsed": 7.085662364959717
+    },
+    {
+      "spectral_entropy": 5.101941234012876,
+      "pattern_energy": 89.55191034534478,
+      "pattern_contrast": 0.34078617916074333,
+      "mean_v": 0.1241138895977999,
+      "n_spots": 32,
+      "time": 4599.0,
+      "step": 4599,
+      "wall_elapsed": 7.245903730392456
+    },
+    {
+      "spectral_entropy": 5.125070897945875,
+      "pattern_energy": 88.72191593272552,
+      "pattern_contrast": 0.34436243494056656,
+      "mean_v": 0.12251578038338468,
+      "n_spots": 32,
+      "time": 4699.0,
+      "step": 4699,
+      "wall_elapsed": 7.3930134773254395
+    },
+    {
+      "spectral_entropy": 5.113082360280989,
+      "pattern_energy": 88.8127223193685,
+      "pattern_contrast": 0.3401710457749696,
+      "mean_v": 0.12495581833657846,
+      "n_spots": 33,
+      "time": 4799.0,
+      "step": 4799,
+      "wall_elapsed": 7.5527331829071045
+    },
+    {
+      "spectral_entropy": 5.135185390293004,
+      "pattern_energy": 88.45234141437487,
+      "pattern_contrast": 0.3486730861126419,
+      "mean_v": 0.1233315881763274,
+      "n_spots": 32,
+      "time": 4899.0,
+      "step": 4899,
+      "wall_elapsed": 7.709482192993164
+    },
+    {
+      "spectral_entropy": 5.073277820057431,
+      "pattern_energy": 89.02817534812905,
+      "pattern_contrast": 0.3417530612189551,
+      "mean_v": 0.12460113619328683,
+      "n_spots": 32,
+      "time": 4999.0,
+      "step": 4999,
+      "wall_elapsed": 7.876850605010986
+    },
+    {
+      "spectral_entropy": 5.037864394080203,
+      "pattern_energy": 91.43461351072041,
+      "pattern_contrast": 0.35046140653339974,
+      "mean_v": 0.12427423515781635,
+      "n_spots": 32,
+      "time": 5099.0,
+      "step": 5099,
+      "wall_elapsed": 8.056061029434204
+    },
+    {
+      "spectral_entropy": 5.0100144932249915,
+      "pattern_energy": 88.35245555695923,
+      "pattern_contrast": 0.3458980973620891,
+      "mean_v": 0.1254682503159441,
+      "n_spots": 33,
+      "time": 5199.0,
+      "step": 5199,
+      "wall_elapsed": 8.212546348571777
+    },
+    {
+      "spectral_entropy": 4.987170055301526,
+      "pattern_energy": 92.96122361566917,
+      "pattern_contrast": 0.3486279847851806,
+      "mean_v": 0.12472917348872486,
+      "n_spots": 32,
+      "time": 5299.0,
+      "step": 5299,
+      "wall_elapsed": 8.368464946746826
+    },
+    {
+      "spectral_entropy": 4.966126389842771,
+      "pattern_energy": 87.40416377537271,
+      "pattern_contrast": 0.33715029748394226,
+      "mean_v": 0.1255531373210384,
+      "n_spots": 32,
+      "time": 5399.0,
+      "step": 5399,
+      "wall_elapsed": 8.52646517753601
+    },
+    {
+      "spectral_entropy": 4.932121896607018,
+      "pattern_energy": 95.51991941161478,
+      "pattern_contrast": 0.3533878369484913,
+      "mean_v": 0.1251211928525836,
+      "n_spots": 31,
+      "time": 5499.0,
+      "step": 5499,
+      "wall_elapsed": 8.692899227142334
+    },
+    {
+      "spectral_entropy": 4.904858499897133,
+      "pattern_energy": 86.36233524132078,
+      "pattern_contrast": 0.3391272163129288,
+      "mean_v": 0.12547634081561107,
+      "n_spots": 32,
+      "time": 5599.0,
+      "step": 5599,
+      "wall_elapsed": 8.84683084487915
+    },
+    {
+      "spectral_entropy": 4.839413586336003,
+      "pattern_energy": 98.84333651771972,
+      "pattern_contrast": 0.35502360763447005,
+      "mean_v": 0.12534778065774382,
+      "n_spots": 31,
+      "time": 5699.0,
+      "step": 5699,
+      "wall_elapsed": 9.023444175720215
+    },
+    {
+      "spectral_entropy": 4.758712273937573,
+      "pattern_energy": 86.85625373167305,
+      "pattern_contrast": 0.3441228112207318,
+      "mean_v": 0.12444904762979847,
+      "n_spots": 32,
+      "time": 5799.0,
+      "step": 5799,
+      "wall_elapsed": 9.179724931716919
+    },
+    {
+      "spectral_entropy": 4.711600713111192,
+      "pattern_energy": 103.51480867392917,
+      "pattern_contrast": 0.35790691557613324,
+      "mean_v": 0.12705335270595053,
+      "n_spots": 31,
+      "time": 5899.0,
+      "step": 5899,
+      "wall_elapsed": 9.33211898803711
+    },
+    {
+      "spectral_entropy": 4.680308468795123,
+      "pattern_energy": 85.88260752756504,
+      "pattern_contrast": 0.34338383230829284,
+      "mean_v": 0.12297210668657177,
+      "n_spots": 31,
+      "time": 5999.0,
+      "step": 5999,
+      "wall_elapsed": 9.478553295135498
+    },
+    {
+      "spectral_entropy": 4.653415970526489,
+      "pattern_energy": 107.4052671908131,
+      "pattern_contrast": 0.3665902264275028,
+      "mean_v": 0.1294995263309946,
+      "n_spots": 31,
+      "time": 6099.0,
+      "step": 6099,
+      "wall_elapsed": 9.64286756515503
+    },
+    {
+      "spectral_entropy": 4.622610416655148,
+      "pattern_energy": 83.65125159809806,
+      "pattern_contrast": 0.34273675927602526,
+      "mean_v": 0.12053731339103557,
+      "n_spots": 31,
+      "time": 6199.0,
+      "step": 6199,
+      "wall_elapsed": 9.799699544906616
+    },
+    {
+      "spectral_entropy": 4.775980099528412,
+      "pattern_energy": 110.7035551037636,
+      "pattern_contrast": 0.3790473072619124,
+      "mean_v": 0.12646594918529025,
+      "n_spots": 31,
+      "time": 6299.0,
+      "step": 6299,
+      "wall_elapsed": 10.001933813095093
+    },
+    {
+      "spectral_entropy": 4.706329259286392,
+      "pattern_energy": 85.01697437881684,
+      "pattern_contrast": 0.35236891268715187,
+      "mean_v": 0.11798577659964254,
+      "n_spots": 30,
+      "time": 6399.0,
+      "step": 6399,
+      "wall_elapsed": 10.170539140701294
+    },
+    {
+      "spectral_entropy": 4.707436091769382,
+      "pattern_energy": 112.63625367563131,
+      "pattern_contrast": 0.37820828888121333,
+      "mean_v": 0.12612204307251082,
+      "n_spots": 30,
+      "time": 6499.0,
+      "step": 6499,
+      "wall_elapsed": 10.326068639755249
+    },
+    {
+      "spectral_entropy": 4.6466680176828765,
+      "pattern_energy": 86.13098200232072,
+      "pattern_contrast": 0.3440534217901639,
+      "mean_v": 0.1180567696133248,
+      "n_spots": 30,
+      "time": 6599.0,
+      "step": 6599,
+      "wall_elapsed": 10.491403579711914
+    },
+    {
+      "spectral_entropy": 4.651755585882756,
+      "pattern_energy": 115.6875807005463,
+      "pattern_contrast": 0.37840886871580287,
+      "mean_v": 0.12797616495895225,
+      "n_spots": 30,
+      "time": 6699.0,
+      "step": 6699,
+      "wall_elapsed": 10.650186538696289
+    },
+    {
+      "spectral_entropy": 4.510806800950588,
+      "pattern_energy": 81.04310138890854,
+      "pattern_contrast": 0.3340190883911311,
+      "mean_v": 0.1190138576118935,
+      "n_spots": 30,
+      "time": 6799.0,
+      "step": 6799,
+      "wall_elapsed": 10.818152666091919
+    },
+    {
+      "spectral_entropy": 4.596052597157765,
+      "pattern_energy": 121.59013429361706,
+      "pattern_contrast": 0.499996921014313,
+      "mean_v": 0.12161202274582744,
+      "n_spots": 28,
+      "time": 6899.0,
+      "step": 6899,
+      "wall_elapsed": 11.010496616363525
+    },
+    {
+      "spectral_entropy": 4.580159564746985,
+      "pattern_energy": 81.82574070546579,
+      "pattern_contrast": 0.33455729078916324,
+      "mean_v": 0.12329548504912288,
+      "n_spots": 30,
+      "time": 6999.0,
+      "step": 6999,
+      "wall_elapsed": 11.167633533477783
+    },
+    {
+      "spectral_entropy": 4.702804912719929,
+      "pattern_energy": 120.9629121464523,
+      "pattern_contrast": 0.41723387424132774,
+      "mean_v": 0.1165531003092572,
+      "n_spots": 27,
+      "time": 7099.0,
+      "step": 7099,
+      "wall_elapsed": 11.32108449935913
+    },
+    {
+      "spectral_entropy": 4.7136251063017065,
+      "pattern_energy": 81.31253464509443,
+      "pattern_contrast": 0.3301370253443616,
+      "mean_v": 0.1265871995444345,
+      "n_spots": 31,
+      "time": 7199.0,
+      "step": 7199,
+      "wall_elapsed": 11.476136684417725
+    },
+    {
+      "spectral_entropy": 4.826848274753947,
+      "pattern_energy": 111.05098981715835,
+      "pattern_contrast": 0.41995560251949426,
+      "mean_v": 0.10986072108279792,
+      "n_spots": 26,
+      "time": 7299.0,
+      "step": 7299,
+      "wall_elapsed": 11.630167007446289
+    },
+    {
+      "spectral_entropy": 4.819597634056515,
+      "pattern_energy": 84.52026699166493,
+      "pattern_contrast": 0.3225832137847802,
+      "mean_v": 0.1355393026547202,
+      "n_spots": 32,
+      "time": 7399.0,
+      "step": 7399,
+      "wall_elapsed": 11.77983570098877
+    },
+    {
+      "spectral_entropy": 4.831284452842993,
+      "pattern_energy": 95.86872304655026,
+      "pattern_contrast": 0.4099511920904084,
+      "mean_v": 0.09798905617568149,
+      "n_spots": 25,
+      "time": 7499.0,
+      "step": 7499,
+      "wall_elapsed": 11.965420722961426
+    },
+    {
+      "spectral_entropy": 4.943522720398055,
+      "pattern_energy": 95.28940902135737,
+      "pattern_contrast": 0.36139814288109867,
+      "mean_v": 0.13422722502911372,
+      "n_spots": 32,
+      "time": 7599.0,
+      "step": 7599,
+      "wall_elapsed": 12.118263483047485
+    },
+    {
+      "spectral_entropy": 5.186965084554238,
+      "pattern_energy": 82.14162651904337,
+      "pattern_contrast": 0.3801839522927554,
+      "mean_v": 0.09356687072003574,
+      "n_spots": 25,
+      "time": 7699.0,
+      "step": 7699,
+      "wall_elapsed": 12.273857831954956
+    },
+    {
+      "spectral_entropy": 5.12844141487373,
+      "pattern_energy": 107.27739479108484,
+      "pattern_contrast": 0.37578950993666316,
+      "mean_v": 0.1352514196029052,
+      "n_spots": 32,
+      "time": 7799.0,
+      "step": 7799,
+      "wall_elapsed": 12.427313089370728
+    },
+    {
+      "spectral_entropy": 5.1389992173528825,
+      "pattern_energy": 69.87597708865559,
+      "pattern_contrast": 0.34654122799629605,
+      "mean_v": 0.09595670947262519,
+      "n_spots": 27,
+      "time": 7899.0,
+      "step": 7899,
+      "wall_elapsed": 12.57933783531189
+    },
+    {
+      "spectral_entropy": 5.195756102020864,
+      "pattern_energy": 123.41366900975841,
+      "pattern_contrast": 0.37585965618345774,
+      "mean_v": 0.12781448695031075,
+      "n_spots": 30,
+      "time": 7999.0,
+      "step": 7999,
+      "wall_elapsed": 12.734627962112427
+    },
+    {
+      "spectral_entropy": 5.132128438807286,
+      "pattern_energy": 69.14635195937835,
+      "pattern_contrast": 0.3422938845023797,
+      "mean_v": 0.10725699696927467,
+      "n_spots": 29,
+      "time": 8099.0,
+      "step": 8099,
+      "wall_elapsed": 12.913095235824585
+    },
+    {
+      "spectral_entropy": 5.2216007470179635,
+      "pattern_energy": 121.73382563944458,
+      "pattern_contrast": 0.4140945429698049,
+      "mean_v": 0.10937309473973317,
+      "n_spots": 27,
+      "time": 8199.0,
+      "step": 8199,
+      "wall_elapsed": 13.060595989227295
+    },
+    {
+      "spectral_entropy": 5.261257924686219,
+      "pattern_energy": 80.85780804416808,
+      "pattern_contrast": 0.3531115928751104,
+      "mean_v": 0.11623007970907359,
+      "n_spots": 32,
+      "time": 8299.0,
+      "step": 8299,
+      "wall_elapsed": 13.214962005615234
+    },
+    {
+      "spectral_entropy": 5.044923201574708,
+      "pattern_energy": 106.85328076795909,
+      "pattern_contrast": 0.40959968562900284,
+      "mean_v": 0.09475796470783528,
+      "n_spots": 25,
+      "time": 8399.0,
+      "step": 8399,
+      "wall_elapsed": 13.365606307983398
+    },
+    {
+      "spectral_entropy": 5.1229848088753736,
+      "pattern_energy": 98.76469882604383,
+      "pattern_contrast": 0.36266600776936486,
+      "mean_v": 0.12397216485559241,
+      "n_spots": 32,
+      "time": 8499.0,
+      "step": 8499,
+      "wall_elapsed": 13.516414403915405
+    },
+    {
+      "spectral_entropy": 5.146662287473928,
+      "pattern_energy": 86.38179134879594,
+      "pattern_contrast": 0.36878300295554667,
+      "mean_v": 0.09884694084905582,
+      "n_spots": 27,
+      "time": 8599.0,
+      "step": 8599,
+      "wall_elapsed": 13.663974046707153
+    },
+    {
+      "spectral_entropy": 5.1703156899405265,
+      "pattern_energy": 105.48116774853156,
+      "pattern_contrast": 0.3762683870205467,
+      "mean_v": 0.1290351090835718,
+      "n_spots": 33,
+      "time": 8699.0,
+      "step": 8699,
+      "wall_elapsed": 13.824526309967041
+    },
+    {
+      "spectral_entropy": 5.045106231223064,
+      "pattern_energy": 76.65882178469957,
+      "pattern_contrast": 0.3472194331984735,
+      "mean_v": 0.10375712237328337,
+      "n_spots": 29,
+      "time": 8799.0,
+      "step": 8799,
+      "wall_elapsed": 14.009597778320312
+    },
+    {
+      "spectral_entropy": 5.007282549451324,
+      "pattern_energy": 112.27503221493193,
+      "pattern_contrast": 0.37047446015305713,
+      "mean_v": 0.11758790461796303,
+      "n_spots": 30,
+      "time": 8899.0,
+      "step": 8899,
+      "wall_elapsed": 14.16141963005066
+    },
+    {
+      "spectral_entropy": 4.9460275193848044,
+      "pattern_energy": 81.18117968883759,
+      "pattern_contrast": 0.34971353113641596,
+      "mean_v": 0.11014357979951203,
+      "n_spots": 31,
+      "time": 8999.0,
+      "step": 8999,
+      "wall_elapsed": 14.310938835144043
+    },
+    {
+      "spectral_entropy": 4.9209163608775635,
+      "pattern_energy": 107.65410938363966,
+      "pattern_contrast": 0.3905140940042075,
+      "mean_v": 0.11739060857305221,
+      "n_spots": 30,
+      "time": 9099.0,
+      "step": 9099,
+      "wall_elapsed": 14.472313165664673
+    },
+    {
+      "spectral_entropy": 4.9710061508582815,
+      "pattern_energy": 83.0437763020516,
+      "pattern_contrast": 0.3427818441467835,
+      "mean_v": 0.1148591920432749,
+      "n_spots": 31,
+      "time": 9199.0,
+      "step": 9199,
+      "wall_elapsed": 14.623449802398682
+    },
+    {
+      "spectral_entropy": 4.916179547471765,
+      "pattern_energy": 103.79088073364836,
+      "pattern_contrast": 0.3827334234277397,
+      "mean_v": 0.11816646294850505,
+      "n_spots": 30,
+      "time": 9299.0,
+      "step": 9299,
+      "wall_elapsed": 14.776113986968994
+    },
+    {
+      "spectral_entropy": 4.836100149322837,
+      "pattern_energy": 88.27808024280372,
+      "pattern_contrast": 0.3953069056338189,
+      "mean_v": 0.12042529174198441,
+      "n_spots": 31,
+      "time": 9399.0,
+      "step": 9399,
+      "wall_elapsed": 14.968007802963257
+    },
+    {
+      "spectral_entropy": 4.601439227008617,
+      "pattern_energy": 106.18877919287398,
+      "pattern_contrast": 0.3864651318679903,
+      "mean_v": 0.12285181699959064,
+      "n_spots": 30,
+      "time": 9499.0,
+      "step": 9499,
+      "wall_elapsed": 15.12515139579773
+    },
+    {
+      "spectral_entropy": 4.4186361639167115,
+      "pattern_energy": 90.08433593485243,
+      "pattern_contrast": 0.3584633281886898,
+      "mean_v": 0.12240909174010779,
+      "n_spots": 31,
+      "time": 9599.0,
+      "step": 9599,
+      "wall_elapsed": 15.28261113166809
+    },
+    {
+      "spectral_entropy": 4.401769074291634,
+      "pattern_energy": 104.6121093451675,
+      "pattern_contrast": 0.38365050558204317,
+      "mean_v": 0.11901843770999915,
+      "n_spots": 29,
+      "time": 9699.0,
+      "step": 9699,
+      "wall_elapsed": 15.443674802780151
+    },
+    {
+      "spectral_entropy": 4.179341849125184,
+      "pattern_energy": 96.29938733974262,
+      "pattern_contrast": 0.3625589464907967,
+      "mean_v": 0.12537152655926356,
+      "n_spots": 31,
+      "time": 9799.0,
+      "step": 9799,
+      "wall_elapsed": 15.601864099502563
+    },
+    {
+      "spectral_entropy": 4.234234036682623,
+      "pattern_energy": 106.04220374848565,
+      "pattern_contrast": 0.3973460889184635,
+      "mean_v": 0.1176830119298081,
+      "n_spots": 29,
+      "time": 9899.0,
+      "step": 9899,
+      "wall_elapsed": 15.762632608413696
+    },
+    {
+      "spectral_entropy": 4.086885686091705,
+      "pattern_energy": 97.92033400106965,
+      "pattern_contrast": 0.35993284985548113,
+      "mean_v": 0.12660750852421854,
+      "n_spots": 30,
+      "time": 9999.0,
+      "step": 9999,
+      "wall_elapsed": 15.958730459213257
+    },
+    {
+      "spectral_entropy": 4.195903745552195,
+      "pattern_energy": 104.95586100890596,
+      "pattern_contrast": 0.3764552499686227,
+      "mean_v": 0.11561734358955089,
+      "n_spots": 28,
+      "time": 10099.0,
+      "step": 10099,
+      "wall_elapsed": 16.127468585968018
+    },
+    {
+      "spectral_entropy": 4.040147219825952,
+      "pattern_energy": 100.34230605538426,
+      "pattern_contrast": 0.34551059493074193,
+      "mean_v": 0.1284647636211445,
+      "n_spots": 31,
+      "time": 10199.0,
+      "step": 10199,
+      "wall_elapsed": 16.29863667488098
+    },
+    {
+      "spectral_entropy": 4.144668249367136,
+      "pattern_energy": 102.40344984571729,
+      "pattern_contrast": 0.36982039966590485,
+      "mean_v": 0.11365328383473054,
+      "n_spots": 28,
+      "time": 10299.0,
+      "step": 10299,
+      "wall_elapsed": 16.467361450195312
+    },
+    {
+      "spectral_entropy": 4.01554400973509,
+      "pattern_energy": 102.32334804227786,
+      "pattern_contrast": 0.3428122358225364,
+      "mean_v": 0.13078574552650427,
+      "n_spots": 31,
+      "time": 10399.0,
+      "step": 10399,
+      "wall_elapsed": 16.638271808624268
+    },
+    {
+      "spectral_entropy": 4.111462862131857,
+      "pattern_energy": 98.42571919763144,
+      "pattern_contrast": 0.37611682309272676,
+      "mean_v": 0.11051732082587258,
+      "n_spots": 27,
+      "time": 10499.0,
+      "step": 10499,
+      "wall_elapsed": 16.813430309295654
+    },
+    {
+      "spectral_entropy": 4.020056011096111,
+      "pattern_energy": 106.79868971045843,
+      "pattern_contrast": 0.3421101180330225,
+      "mean_v": 0.13398503051540644,
+      "n_spots": 31,
+      "time": 10599.0,
+      "step": 10599,
+      "wall_elapsed": 16.998579740524292
+    },
+    {
+      "spectral_entropy": 4.051387607893064,
+      "pattern_energy": 91.50266426397968,
+      "pattern_contrast": 0.38959448232720423,
+      "mean_v": 0.10677022159325403,
+      "n_spots": 27,
+      "time": 10699.0,
+      "step": 10699,
+      "wall_elapsed": 17.158396005630493
+    },
+    {
+      "spectral_entropy": 4.106780172081697,
+      "pattern_energy": 114.34357480875198,
+      "pattern_contrast": 0.35403208571480393,
+      "mean_v": 0.13737409407575957,
+      "n_spots": 31,
+      "time": 10799.0,
+      "step": 10799,
+      "wall_elapsed": 17.320621013641357
+    },
+    {
+      "spectral_entropy": 3.992914254168795,
+      "pattern_energy": 82.52210020099619,
+      "pattern_contrast": 0.4236765971462629,
+      "mean_v": 0.10341900403730322,
+      "n_spots": 27,
+      "time": 10899.0,
+      "step": 10899,
+      "wall_elapsed": 17.477107763290405
+    },
+    {
+      "spectral_entropy": 4.11789553993406,
+      "pattern_energy": 132.7502507111828,
+      "pattern_contrast": 0.39282187062496343,
+      "mean_v": 0.1352472395860736,
+      "n_spots": 30,
+      "time": 10999.0,
+      "step": 10999,
+      "wall_elapsed": 17.632394075393677
+    },
+    {
+      "spectral_entropy": 3.856151582346493,
+      "pattern_energy": 75.59164561231883,
+      "pattern_contrast": 0.4375683743107053,
+      "mean_v": 0.10687851106388602,
+      "n_spots": 29,
+      "time": 11099.0,
+      "step": 11099,
+      "wall_elapsed": 17.789160013198853
+    },
+    {
+      "spectral_entropy": 4.079929406021056,
+      "pattern_energy": 150.4669813141956,
+      "pattern_contrast": 0.4441184546988356,
+      "mean_v": 0.1310427033677592,
+      "n_spots": 29,
+      "time": 11199.0,
+      "step": 11199,
+      "wall_elapsed": 17.969102144241333
+    },
+    {
+      "spectral_entropy": 3.788751868845032,
+      "pattern_energy": 68.65018247903436,
+      "pattern_contrast": 0.2996654494199219,
+      "mean_v": 0.11397790246462187,
+      "n_spots": 31,
+      "time": 11299.0,
+      "step": 11299,
+      "wall_elapsed": 18.12315273284912
+    },
+    {
+      "spectral_entropy": 3.9887985860312867,
+      "pattern_energy": 150.4493371137164,
+      "pattern_contrast": 0.4870577771897681,
+      "mean_v": 0.0967091574391084,
+      "n_spots": 23,
+      "time": 11399.0,
+      "step": 11399,
+      "wall_elapsed": 18.279284954071045
+    },
+    {
+      "spectral_entropy": 4.193056761099344,
+      "pattern_energy": 87.4069662141669,
+      "pattern_contrast": 0.34074608680032326,
+      "mean_v": 0.11892572831563622,
+      "n_spots": 33,
+      "time": 11499.0,
+      "step": 11499,
+      "wall_elapsed": 18.428030967712402
+    },
+    {
+      "spectral_entropy": 4.953549841673523,
+      "pattern_energy": 100.43551682316348,
+      "pattern_contrast": 0.46485902984075356,
+      "mean_v": 0.0752005152210122,
+      "n_spots": 21,
+      "time": 11599.0,
+      "step": 11599,
+      "wall_elapsed": 18.590518474578857
+    },
+    {
+      "spectral_entropy": 4.896573027655922,
+      "pattern_energy": 112.0055915644804,
+      "pattern_contrast": 0.3734268535577658,
+      "mean_v": 0.1167149165952045,
+      "n_spots": 32,
+      "time": 11699.0,
+      "step": 11699,
+      "wall_elapsed": 18.773377895355225
+    },
+    {
+      "spectral_entropy": 5.0912813510506005,
+      "pattern_energy": 86.27357575305075,
+      "pattern_contrast": 0.3677688506877693,
+      "mean_v": 0.09395233177010118,
+      "n_spots": 28,
+      "time": 11799.0,
+      "step": 11799,
+      "wall_elapsed": 18.955350399017334
+    },
+    {
+      "spectral_entropy": 5.061407010266544,
+      "pattern_energy": 110.95714537086887,
+      "pattern_contrast": 0.3981908003644469,
+      "mean_v": 0.1123380027135702,
+      "n_spots": 30,
+      "time": 11899.0,
+      "step": 11899,
+      "wall_elapsed": 19.115577459335327
+    },
+    {
+      "spectral_entropy": 5.035783208673869,
+      "pattern_energy": 82.95304160426046,
+      "pattern_contrast": 0.37724091026769047,
+      "mean_v": 0.1005176551364086,
+      "n_spots": 30,
+      "time": 11999.0,
+      "step": 11999,
+      "wall_elapsed": 19.278032779693604
+    },
+    {
+      "spectral_entropy": 4.937012697638103,
+      "pattern_energy": 114.72903322060125,
+      "pattern_contrast": 0.3958921374755384,
+      "mean_v": 0.11733646237634388,
+      "n_spots": 30,
+      "time": 12099.0,
+      "step": 12099,
+      "wall_elapsed": 19.42884588241577
+    },
+    {
+      "spectral_entropy": 4.9018627617401185,
+      "pattern_energy": 85.57672015629569,
+      "pattern_contrast": 0.36848703684242556,
+      "mean_v": 0.11322099326458655,
+      "n_spots": 31,
+      "time": 12199.0,
+      "step": 12199,
+      "wall_elapsed": 19.58166480064392
+    },
+    {
+      "spectral_entropy": 4.855612463901471,
+      "pattern_energy": 109.64776353386671,
+      "pattern_contrast": 0.405587489993812,
+      "mean_v": 0.12642027382582766,
+      "n_spots": 30,
+      "time": 12299.0,
+      "step": 12299,
+      "wall_elapsed": 19.726825714111328
+    },
+    {
+      "spectral_entropy": 4.699123630008756,
+      "pattern_energy": 78.33988242227271,
+      "pattern_contrast": 0.33445175744822164,
+      "mean_v": 0.11702662918696814,
+      "n_spots": 31,
+      "time": 12399.0,
+      "step": 12399,
+      "wall_elapsed": 19.89409875869751
+    },
+    {
+      "spectral_entropy": 4.648809742946804,
+      "pattern_energy": 112.70407389045124,
+      "pattern_contrast": 0.3656187946053815,
+      "mean_v": 0.126249650467604,
+      "n_spots": 30,
+      "time": 12499.0,
+      "step": 12499,
+      "wall_elapsed": 20.078598260879517
+    },
+    {
+      "spectral_entropy": 4.495972000791562,
+      "pattern_energy": 76.46770298523194,
+      "pattern_contrast": 0.3155368923249206,
+      "mean_v": 0.11822934049116413,
+      "n_spots": 32,
+      "time": 12599.0,
+      "step": 12599,
+      "wall_elapsed": 20.254459857940674
+    },
+    {
+      "spectral_entropy": 4.616422087929081,
+      "pattern_energy": 111.66239803093033,
+      "pattern_contrast": 0.384708130024201,
+      "mean_v": 0.11697154284529611,
+      "n_spots": 28,
+      "time": 12699.0,
+      "step": 12699,
+      "wall_elapsed": 20.434818506240845
+    },
+    {
+      "spectral_entropy": 4.676660539466182,
+      "pattern_energy": 87.08355342712585,
+      "pattern_contrast": 0.3419198342752182,
+      "mean_v": 0.11720582791156992,
+      "n_spots": 31,
+      "time": 12799.0,
+      "step": 12799,
+      "wall_elapsed": 20.598432302474976
+    },
+    {
+      "spectral_entropy": 4.633636637866555,
+      "pattern_energy": 113.7603343888055,
+      "pattern_contrast": 0.39665279689440275,
+      "mean_v": 0.1154549851274346,
+      "n_spots": 29,
+      "time": 12899.0,
+      "step": 12899,
+      "wall_elapsed": 20.753154754638672
+    },
+    {
+      "spectral_entropy": 4.577827226412671,
+      "pattern_energy": 85.40311812884529,
+      "pattern_contrast": 0.3496801625626057,
+      "mean_v": 0.12571115815051925,
+      "n_spots": 31,
+      "time": 12999.0,
+      "step": 12999,
+      "wall_elapsed": 20.939311981201172
+    },
+    {
+      "spectral_entropy": 4.5423110162683535,
+      "pattern_energy": 108.79706152232991,
+      "pattern_contrast": 0.5057417115876314,
+      "mean_v": 0.1123237178242277,
+      "n_spots": 27,
+      "time": 13099.0,
+      "step": 13099,
+      "wall_elapsed": 21.098361492156982
+    },
+    {
+      "spectral_entropy": 4.452803750279909,
+      "pattern_energy": 87.01729166646997,
+      "pattern_contrast": 0.3550886736181972,
+      "mean_v": 0.13199246929762065,
+      "n_spots": 32,
+      "time": 13199.0,
+      "step": 13199,
+      "wall_elapsed": 21.251380443572998
+    },
+    {
+      "spectral_entropy": 4.739293515241426,
+      "pattern_energy": 98.18801236954913,
+      "pattern_contrast": 0.4146553472663791,
+      "mean_v": 0.10341525256127279,
+      "n_spots": 26,
+      "time": 13299.0,
+      "step": 13299,
+      "wall_elapsed": 21.4079110622406
+    },
+    {
+      "spectral_entropy": 4.817932694690593,
+      "pattern_energy": 97.78441165769975,
+      "pattern_contrast": 0.36008524016564125,
+      "mean_v": 0.1285183895617654,
+      "n_spots": 32,
+      "time": 13399.0,
+      "step": 13399,
+      "wall_elapsed": 21.565595865249634
+    },
+    {
+      "spectral_entropy": 4.877906512148448,
+      "pattern_energy": 88.50263309612828,
+      "pattern_contrast": 0.4033335502268594,
+      "mean_v": 0.10276285703240594,
+      "n_spots": 27,
+      "time": 13499.0,
+      "step": 13499,
+      "wall_elapsed": 21.728131771087646
+    },
+    {
+      "spectral_entropy": 4.945460346299263,
+      "pattern_energy": 101.77096213147513,
+      "pattern_contrast": 0.35955950780084867,
+      "mean_v": 0.13249267738380177,
+      "n_spots": 32,
+      "time": 13599.0,
+      "step": 13599,
+      "wall_elapsed": 21.893609523773193
+    },
+    {
+      "spectral_entropy": 5.000046011872523,
+      "pattern_energy": 76.14661213591579,
+      "pattern_contrast": 0.3431731397792742,
+      "mean_v": 0.10209547982799408,
+      "n_spots": 27,
+      "time": 13699.0,
+      "step": 13699,
+      "wall_elapsed": 22.074631929397583
+    },
+    {
+      "spectral_entropy": 5.067291022830322,
+      "pattern_energy": 115.35194592133941,
+      "pattern_contrast": 0.36516442903560187,
+      "mean_v": 0.11435812678842844,
+      "n_spots": 29,
+      "time": 13799.0,
+      "step": 13799,
+      "wall_elapsed": 22.22500705718994
+    },
+    {
+      "spectral_entropy": 5.135144229424491,
+      "pattern_energy": 84.54786498583842,
+      "pattern_contrast": 0.3741570012122015,
+      "mean_v": 0.1087635874527221,
+      "n_spots": 29,
+      "time": 13899.0,
+      "step": 13899,
+      "wall_elapsed": 22.390157461166382
+    },
+    {
+      "spectral_entropy": 5.031715322984682,
+      "pattern_energy": 106.68429056410554,
+      "pattern_contrast": 0.3622842933853349,
+      "mean_v": 0.11464194676226891,
+      "n_spots": 29,
+      "time": 13999.0,
+      "step": 13999,
+      "wall_elapsed": 22.549890756607056
+    },
+    {
+      "spectral_entropy": 4.994542448685977,
+      "pattern_energy": 85.2089919913967,
+      "pattern_contrast": 0.35143982747092956,
+      "mean_v": 0.11511465915592485,
+      "n_spots": 31,
+      "time": 14099.0,
+      "step": 14099,
+      "wall_elapsed": 22.701899766921997
+    },
+    {
+      "spectral_entropy": 4.986887364899574,
+      "pattern_energy": 101.85996100746772,
+      "pattern_contrast": 0.37349703739767576,
+      "mean_v": 0.11415348862547116,
+      "n_spots": 29,
+      "time": 14199.0,
+      "step": 14199,
+      "wall_elapsed": 22.865447282791138
+    },
+    {
+      "spectral_entropy": 4.974389095712087,
+      "pattern_energy": 90.14888364068219,
+      "pattern_contrast": 0.3562696613878425,
+      "mean_v": 0.1203905358358977,
+      "n_spots": 31,
+      "time": 14299.0,
+      "step": 14299,
+      "wall_elapsed": 23.029683351516724
+    },
+    {
+      "spectral_entropy": 5.067751405594137,
+      "pattern_energy": 92.45369374839704,
+      "pattern_contrast": 0.4412160274750115,
+      "mean_v": 0.11477412372928625,
+      "n_spots": 30,
+      "time": 14399.0,
+      "step": 14399,
+      "wall_elapsed": 23.183835744857788
+    },
+    {
+      "spectral_entropy": 5.10921899790422,
+      "pattern_energy": 89.94358200056857,
+      "pattern_contrast": 0.36693429337784345,
+      "mean_v": 0.12628080473671144,
+      "n_spots": 32,
+      "time": 14499.0,
+      "step": 14499,
+      "wall_elapsed": 23.330381155014038
+    },
+    {
+      "spectral_entropy": 5.046123960048636,
+      "pattern_energy": 84.42209598676476,
+      "pattern_contrast": 0.35035048247983624,
+      "mean_v": 0.1157442058004226,
+      "n_spots": 30,
+      "time": 14599.0,
+      "step": 14599,
+      "wall_elapsed": 23.48376750946045
+    },
+    {
+      "spectral_entropy": 5.140246632158991,
+      "pattern_energy": 93.91629614192827,
+      "pattern_contrast": 0.3640551438048955,
+      "mean_v": 0.11881835766232364,
+      "n_spots": 30,
+      "time": 14699.0,
+      "step": 14699,
+      "wall_elapsed": 23.63870406150818
+    },
+    {
+      "spectral_entropy": 5.085483586660112,
+      "pattern_energy": 87.20166406743141,
+      "pattern_contrast": 0.3486508524586528,
+      "mean_v": 0.11608315446540682,
+      "n_spots": 30,
+      "time": 14799.0,
+      "step": 14799,
+      "wall_elapsed": 23.79050064086914
+    },
+    {
+      "spectral_entropy": 5.09119125212723,
+      "pattern_energy": 90.75419961710631,
+      "pattern_contrast": 0.3567211204430706,
+      "mean_v": 0.1198670279865067,
+      "n_spots": 31,
+      "time": 14899.0,
+      "step": 14899,
+      "wall_elapsed": 23.96425986289978
+    },
+    {
+      "spectral_entropy": 5.074559574872865,
+      "pattern_energy": 87.73661889393387,
+      "pattern_contrast": 0.3451242345612418,
+      "mean_v": 0.11705977029995054,
+      "n_spots": 30,
+      "time": 14999.0,
+      "step": 14999,
+      "wall_elapsed": 24.117612838745117
+    },
+    {
+      "spectral_entropy": 5.081054912593097,
+      "pattern_energy": 90.98615051834348,
+      "pattern_contrast": 0.3560134681190047,
+      "mean_v": 0.11952945505857573,
+      "n_spots": 30,
+      "time": 15099.0,
+      "step": 15099,
+      "wall_elapsed": 24.266695022583008
+    },
+    {
+      "spectral_entropy": 5.078476223838256,
+      "pattern_energy": 91.41796788656013,
+      "pattern_contrast": 0.3524700412692337,
+      "mean_v": 0.11900119931474465,
+      "n_spots": 30,
+      "time": 15199.0,
+      "step": 15199,
+      "wall_elapsed": 24.41667675971985
+    },
+    {
+      "spectral_entropy": 4.989119549639316,
+      "pattern_energy": 90.79291648079139,
+      "pattern_contrast": 0.3454666733334908,
+      "mean_v": 0.12013956823186456,
+      "n_spots": 30,
+      "time": 15299.0,
+      "step": 15299,
+      "wall_elapsed": 24.56628680229187
+    },
+    {
+      "spectral_entropy": 4.96695440045786,
+      "pattern_energy": 93.0148954178554,
+      "pattern_contrast": 0.35048422249263717,
+      "mean_v": 0.12147404256493971,
+      "n_spots": 30,
+      "time": 15399.0,
+      "step": 15399,
+      "wall_elapsed": 24.719571113586426
+    },
+    {
+      "spectral_entropy": 4.887995201647956,
+      "pattern_energy": 90.34165574919736,
+      "pattern_contrast": 0.34378204279829,
+      "mean_v": 0.12100768022630021,
+      "n_spots": 30,
+      "time": 15499.0,
+      "step": 15499,
+      "wall_elapsed": 24.866621017456055
+    },
+    {
+      "spectral_entropy": 4.85986961159188,
+      "pattern_energy": 94.03011167731007,
+      "pattern_contrast": 0.3503211121047538,
+      "mean_v": 0.12378721765398101,
+      "n_spots": 31,
+      "time": 15599.0,
+      "step": 15599,
+      "wall_elapsed": 25.03937530517578
+    },
+    {
+      "spectral_entropy": 4.746541049615649,
+      "pattern_energy": 90.15215094614352,
+      "pattern_contrast": 0.3480001897333286,
+      "mean_v": 0.12206458520749765,
+      "n_spots": 30,
+      "time": 15699.0,
+      "step": 15699,
+      "wall_elapsed": 25.196261882781982
+    },
+    {
+      "spectral_entropy": 4.660932773446545,
+      "pattern_energy": 94.9602135338204,
+      "pattern_contrast": 0.3532302423474744,
+      "mean_v": 0.12602989208087262,
+      "n_spots": 31,
+      "time": 15799.0,
+      "step": 15799,
+      "wall_elapsed": 25.352099895477295
+    },
+    {
+      "spectral_entropy": 4.553284954228834,
+      "pattern_energy": 88.72116271844814,
+      "pattern_contrast": 0.3535812642663952,
+      "mean_v": 0.1228263975466908,
+      "n_spots": 30,
+      "time": 15899.0,
+      "step": 15899,
+      "wall_elapsed": 25.503535509109497
+    },
+    {
+      "spectral_entropy": 4.534596364884214,
+      "pattern_energy": 96.06622706470328,
+      "pattern_contrast": 0.34911779015150557,
+      "mean_v": 0.12735779087472382,
+      "n_spots": 31,
+      "time": 15999.0,
+      "step": 15999,
+      "wall_elapsed": 25.6530978679657
+    },
+    {
+      "spectral_entropy": 4.507013415997905,
+      "pattern_energy": 88.97590265423405,
+      "pattern_contrast": 0.3424993088803937,
+      "mean_v": 0.12220297724191316,
+      "n_spots": 30,
+      "time": 16099.0,
+      "step": 16099,
+      "wall_elapsed": 25.80612564086914
+    },
+    {
+      "spectral_entropy": 4.484937116401529,
+      "pattern_energy": 98.12698034418345,
+      "pattern_contrast": 0.3494921452107482,
+      "mean_v": 0.12782140968964914,
+      "n_spots": 30,
+      "time": 16199.0,
+      "step": 16199,
+      "wall_elapsed": 25.983319997787476
+    },
+    {
+      "spectral_entropy": 4.468776003210274,
+      "pattern_energy": 87.91814386823818,
+      "pattern_contrast": 0.33578187677509436,
+      "mean_v": 0.1217145191202185,
+      "n_spots": 30,
+      "time": 16299.0,
+      "step": 16299,
+      "wall_elapsed": 26.134129524230957
+    },
+    {
+      "spectral_entropy": 4.472518243706514,
+      "pattern_energy": 99.99391713972626,
+      "pattern_contrast": 0.35212955077773855,
+      "mean_v": 0.12840061785995338,
+      "n_spots": 31,
+      "time": 16399.0,
+      "step": 16399,
+      "wall_elapsed": 26.28278684616089
+    },
+    {
+      "spectral_entropy": 4.457827463788671,
+      "pattern_energy": 85.95266010219264,
+      "pattern_contrast": 0.33625888469394877,
+      "mean_v": 0.1216303216485091,
+      "n_spots": 30,
+      "time": 16499.0,
+      "step": 16499,
+      "wall_elapsed": 26.433678150177002
+    },
+    {
+      "spectral_entropy": 4.4779844770547,
+      "pattern_energy": 101.98710504080522,
+      "pattern_contrast": 0.355475809663115,
+      "mean_v": 0.12881382049021572,
+      "n_spots": 30,
+      "time": 16599.0,
+      "step": 16599,
+      "wall_elapsed": 26.57980990409851
+    },
+    {
+      "spectral_entropy": 4.4443618681741315,
+      "pattern_energy": 84.26023289110664,
+      "pattern_contrast": 0.3341721205053634,
+      "mean_v": 0.12166074252733891,
+      "n_spots": 30,
+      "time": 16699.0,
+      "step": 16699,
+      "wall_elapsed": 26.726584911346436
+    },
+    {
+      "spectral_entropy": 4.489889623562695,
+      "pattern_energy": 104.38151833495445,
+      "pattern_contrast": 0.37109513730289057,
+      "mean_v": 0.12897229823768516,
+      "n_spots": 30,
+      "time": 16799.0,
+      "step": 16799,
+      "wall_elapsed": 26.87480926513672
+    },
+    {
+      "spectral_entropy": 4.440228073468173,
+      "pattern_energy": 82.3171692303569,
+      "pattern_contrast": 0.3310868367272845,
+      "mean_v": 0.12179779391381074,
+      "n_spots": 30,
+      "time": 16899.0,
+      "step": 16899,
+      "wall_elapsed": 27.045690774917603
+    },
+    {
+      "spectral_entropy": 4.5258214297129005,
+      "pattern_energy": 106.88060662311415,
+      "pattern_contrast": 0.395728514448843,
+      "mean_v": 0.12869942604425638,
+      "n_spots": 30,
+      "time": 16999.0,
+      "step": 16999,
+      "wall_elapsed": 27.19019889831543
+    },
+    {
+      "spectral_entropy": 4.442426044503737,
+      "pattern_energy": 80.12433370589464,
+      "pattern_contrast": 0.3318842674225771,
+      "mean_v": 0.12218417436179038,
+      "n_spots": 31,
+      "time": 17099.0,
+      "step": 17099,
+      "wall_elapsed": 27.333770990371704
+    },
+    {
+      "spectral_entropy": 4.590025229325699,
+      "pattern_energy": 109.73225642111245,
+      "pattern_contrast": 0.42194155155576707,
+      "mean_v": 0.12774259636805607,
+      "n_spots": 30,
+      "time": 17199.0,
+      "step": 17199,
+      "wall_elapsed": 27.48400902748108
+    },
+    {
+      "spectral_entropy": 4.45425527105681,
+      "pattern_energy": 77.64850825652928,
+      "pattern_contrast": 0.33166915859085744,
+      "mean_v": 0.1231184966310438,
+      "n_spots": 31,
+      "time": 17299.0,
+      "step": 17299,
+      "wall_elapsed": 27.63417363166809
+    },
+    {
+      "spectral_entropy": 4.708388483908972,
+      "pattern_energy": 112.40784282174712,
+      "pattern_contrast": 0.4185875669569299,
+      "mean_v": 0.1251068185106174,
+      "n_spots": 29,
+      "time": 17399.0,
+      "step": 17399,
+      "wall_elapsed": 27.784200429916382
+    },
+    {
+      "spectral_entropy": 4.483366422350025,
+      "pattern_energy": 75.12089518312445,
+      "pattern_contrast": 0.3276067114688628,
+      "mean_v": 0.1254192170968939,
+      "n_spots": 31,
+      "time": 17499.0,
+      "step": 17499,
+      "wall_elapsed": 27.94203543663025
+    },
+    {
+      "spectral_entropy": 4.837180710460899,
+      "pattern_energy": 114.72527957858246,
+      "pattern_contrast": 0.4389457103714601,
+      "mean_v": 0.11817083406699208,
+      "n_spots": 27,
+      "time": 17599.0,
+      "step": 17599,
+      "wall_elapsed": 28.095549821853638
+    },
+    {
+      "spectral_entropy": 4.845430549625992,
+      "pattern_energy": 75.17301833703287,
+      "pattern_contrast": 0.3570565078801296,
+      "mean_v": 0.1253948797447505,
+      "n_spots": 32,
+      "time": 17699.0,
+      "step": 17699,
+      "wall_elapsed": 28.23975944519043
+    },
+    {
+      "spectral_entropy": 4.95902498040323,
+      "pattern_energy": 111.8762815487134,
+      "pattern_contrast": 0.4716533601133159,
+      "mean_v": 0.10661896145894273,
+      "n_spots": 25,
+      "time": 17799.0,
+      "step": 17799,
+      "wall_elapsed": 28.39183211326599
+    },
+    {
+      "spectral_entropy": 4.963079490684816,
+      "pattern_energy": 78.12762812131254,
+      "pattern_contrast": 0.3344827833348652,
+      "mean_v": 0.12989699228698573,
+      "n_spots": 32,
+      "time": 17899.0,
+      "step": 17899,
+      "wall_elapsed": 28.541649103164673
+    },
+    {
+      "spectral_entropy": 5.124056291406053,
+      "pattern_energy": 94.36856312073326,
+      "pattern_contrast": 0.47359963293919927,
+      "mean_v": 0.09158219054899852,
+      "n_spots": 24,
+      "time": 17999.0,
+      "step": 17999,
+      "wall_elapsed": 28.686808109283447
+    },
+    {
+      "spectral_entropy": 5.140887851367086,
+      "pattern_energy": 96.69101860499596,
+      "pattern_contrast": 0.37421812440011715,
+      "mean_v": 0.1360557182440359,
+      "n_spots": 34,
+      "time": 18099.0,
+      "step": 18099,
+      "wall_elapsed": 28.837791919708252
+    },
+    {
+      "spectral_entropy": 4.946676607898743,
+      "pattern_energy": 73.59466008672575,
+      "pattern_contrast": 0.42256850336349533,
+      "mean_v": 0.09015650239688278,
+      "n_spots": 25,
+      "time": 18199.0,
+      "step": 18199,
+      "wall_elapsed": 29.02294373512268
+    },
+    {
+      "spectral_entropy": 5.107188758288053,
+      "pattern_energy": 123.38274724447076,
+      "pattern_contrast": 0.5037425923812563,
+      "mean_v": 0.1123844883492118,
+      "n_spots": 29,
+      "time": 18299.0,
+      "step": 18299,
+      "wall_elapsed": 29.17074203491211
+    },
+    {
+      "spectral_entropy": 5.102101592965566,
+      "pattern_energy": 87.46851494098414,
+      "pattern_contrast": 0.36727110598643875,
+      "mean_v": 0.10342290583259262,
+      "n_spots": 29,
+      "time": 18399.0,
+      "step": 18399,
+      "wall_elapsed": 29.323129177093506
+    },
+    {
+      "spectral_entropy": 5.053251826414986,
+      "pattern_energy": 113.75302625625223,
+      "pattern_contrast": 0.4148861026290757,
+      "mean_v": 0.11632441367234467,
+      "n_spots": 30,
+      "time": 18499.0,
+      "step": 18499,
+      "wall_elapsed": 29.468691110610962
+    },
+    {
+      "spectral_entropy": 4.882579789314689,
+      "pattern_energy": 86.374267585587,
+      "pattern_contrast": 0.3554670445794265,
+      "mean_v": 0.10996776116379595,
+      "n_spots": 30,
+      "time": 18599.0,
+      "step": 18599,
+      "wall_elapsed": 29.619890213012695
+    },
+    {
+      "spectral_entropy": 4.908089723079564,
+      "pattern_energy": 107.01852360996608,
+      "pattern_contrast": 0.39651383463399786,
+      "mean_v": 0.11012876479676698,
+      "n_spots": 28,
+      "time": 18699.0,
+      "step": 18699,
+      "wall_elapsed": 29.77421498298645
+    },
+    {
+      "spectral_entropy": 4.973400865631188,
+      "pattern_energy": 90.20678365445146,
+      "pattern_contrast": 0.35993905446416896,
+      "mean_v": 0.11461665870401722,
+      "n_spots": 31,
+      "time": 18799.0,
+      "step": 18799,
+      "wall_elapsed": 29.939271211624146
+    },
+    {
+      "spectral_entropy": 4.876776599096208,
+      "pattern_energy": 103.90956772882957,
+      "pattern_contrast": 0.4300853422980417,
+      "mean_v": 0.11165409165316703,
+      "n_spots": 29,
+      "time": 18899.0,
+      "step": 18899,
+      "wall_elapsed": 30.092023372650146
+    },
+    {
+      "spectral_entropy": 4.996887467378196,
+      "pattern_energy": 91.24422828098795,
+      "pattern_contrast": 0.3670464336871421,
+      "mean_v": 0.11866052518253675,
+      "n_spots": 31,
+      "time": 18999.0,
+      "step": 18999,
+      "wall_elapsed": 30.240804195404053
+    },
+    {
+      "spectral_entropy": 4.964251565086982,
+      "pattern_energy": 97.46108770021293,
+      "pattern_contrast": 0.39438141370585433,
+      "mean_v": 0.1128723947661183,
+      "n_spots": 30,
+      "time": 19099.0,
+      "step": 19099,
+      "wall_elapsed": 30.400694370269775
+    },
+    {
+      "spectral_entropy": 5.037846778395098,
+      "pattern_energy": 92.57536130590388,
+      "pattern_contrast": 0.3751641142477074,
+      "mean_v": 0.12164622352733451,
+      "n_spots": 31,
+      "time": 19199.0,
+      "step": 19199,
+      "wall_elapsed": 30.554215908050537
+    },
+    {
+      "spectral_entropy": 5.043885219617965,
+      "pattern_energy": 91.12367012654184,
+      "pattern_contrast": 0.3873102222090483,
+      "mean_v": 0.11674253270059487,
+      "n_spots": 30,
+      "time": 19299.0,
+      "step": 19299,
+      "wall_elapsed": 30.704646110534668
+    },
+    {
+      "spectral_entropy": 4.989749884891908,
+      "pattern_energy": 93.57464312714986,
+      "pattern_contrast": 0.4094148077440384,
+      "mean_v": 0.12432745589561016,
+      "n_spots": 31,
+      "time": 19399.0,
+      "step": 19399,
+      "wall_elapsed": 30.85407328605652
+    },
+    {
+      "spectral_entropy": 5.006383302569276,
+      "pattern_energy": 89.24101351043174,
+      "pattern_contrast": 0.36749152779662825,
+      "mean_v": 0.1208092307714742,
+      "n_spots": 30,
+      "time": 19499.0,
+      "step": 19499,
+      "wall_elapsed": 31.026527643203735
+    },
+    {
+      "spectral_entropy": 4.927379637769592,
+      "pattern_energy": 96.02777217974987,
+      "pattern_contrast": 0.4114104585962106,
+      "mean_v": 0.12307230889520117,
+      "n_spots": 30,
+      "time": 19599.0,
+      "step": 19599,
+      "wall_elapsed": 31.174538135528564
+    },
+    {
+      "spectral_entropy": 4.9739213284425405,
+      "pattern_energy": 88.22636706025844,
+      "pattern_contrast": 0.39111615114174225,
+      "mean_v": 0.12384042579850794,
+      "n_spots": 31,
+      "time": 19699.0,
+      "step": 19699,
+      "wall_elapsed": 31.327284574508667
+    },
+    {
+      "spectral_entropy": 4.954531562368698,
+      "pattern_energy": 95.80241273407884,
+      "pattern_contrast": 0.4835408586681945,
+      "mean_v": 0.12035703828006783,
+      "n_spots": 30,
+      "time": 19799.0,
+      "step": 19799,
+      "wall_elapsed": 31.481724739074707
+    },
+    {
+      "spectral_entropy": 4.984207628882341,
+      "pattern_energy": 88.25997636166439,
+      "pattern_contrast": 0.4350309886009968,
+      "mean_v": 0.12747693923578918,
+      "n_spots": 31,
+      "time": 19899.0,
+      "step": 19899,
+      "wall_elapsed": 31.632760763168335
+    },
+    {
+      "spectral_entropy": 5.048227639440885,
+      "pattern_energy": 91.76771229753693,
+      "pattern_contrast": 0.465771411610165,
+      "mean_v": 0.11541896498047596,
+      "n_spots": 29,
+      "time": 19999.0,
+      "step": 19999,
+      "wall_elapsed": 31.782456398010254
+    },
+    {
+      "spectral_entropy": 5.112296011324129,
+      "pattern_energy": 93.02077763521956,
+      "pattern_contrast": 0.41966066991717077,
+      "mean_v": 0.12899170929674725,
+      "n_spots": 31,
+      "time": 20099.0,
+      "step": 20099,
+      "wall_elapsed": 31.950995445251465
+    },
+    {
+      "spectral_entropy": 5.108207401415924,
+      "pattern_energy": 84.55027187652144,
+      "pattern_contrast": 0.40761971423809584,
+      "mean_v": 0.11417796314979736,
+      "n_spots": 29,
+      "time": 20199.0,
+      "step": 20199,
+      "wall_elapsed": 32.10188388824463
+    },
+    {
+      "spectral_entropy": 5.173786453831984,
+      "pattern_energy": 98.26786621338717,
+      "pattern_contrast": 0.45369423573525103,
+      "mean_v": 0.12740377907947922,
+      "n_spots": 30,
+      "time": 20299.0,
+      "step": 20299,
+      "wall_elapsed": 32.247252464294434
+    },
+    {
+      "spectral_entropy": 5.087710307067571,
+      "pattern_energy": 80.49831404858033,
+      "pattern_contrast": 0.3755790171376219,
+      "mean_v": 0.11624021268139223,
+      "n_spots": 29,
+      "time": 20399.0,
+      "step": 20399,
+      "wall_elapsed": 32.39057803153992
+    },
+    {
+      "spectral_entropy": 5.033338625311581,
+      "pattern_energy": 100.86562323529634,
+      "pattern_contrast": 0.41341616624022254,
+      "mean_v": 0.12678377353257114,
+      "n_spots": 30,
+      "time": 20499.0,
+      "step": 20499,
+      "wall_elapsed": 32.544055700302124
+    },
+    {
+      "spectral_entropy": 4.972258262153885,
+      "pattern_energy": 79.15592689939217,
+      "pattern_contrast": 0.36781250310916747,
+      "mean_v": 0.11838051176586545,
+      "n_spots": 29,
+      "time": 20599.0,
+      "step": 20599,
+      "wall_elapsed": 32.68752837181091
+    },
+    {
+      "spectral_entropy": 5.021618256826026,
+      "pattern_energy": 103.94822862179764,
+      "pattern_contrast": 0.5511781866694636,
+      "mean_v": 0.1229070290789275,
+      "n_spots": 29,
+      "time": 20699.0,
+      "step": 20699,
+      "wall_elapsed": 32.833569049835205
+    },
+    {
+      "spectral_entropy": 4.96094610404654,
+      "pattern_energy": 78.95235087741622,
+      "pattern_contrast": 0.3667380573160025,
+      "mean_v": 0.12312445445157987,
+      "n_spots": 30,
+      "time": 20799.0,
+      "step": 20799,
+      "wall_elapsed": 32.99845290184021
+    },
+    {
+      "spectral_entropy": 5.065151077928952,
+      "pattern_energy": 105.03678782586519,
+      "pattern_contrast": 0.48397759132538376,
+      "mean_v": 0.11646890483124221,
+      "n_spots": 28,
+      "time": 20899.0,
+      "step": 20899,
+      "wall_elapsed": 33.14965629577637
+    },
+    {
+      "spectral_entropy": 4.995133053586608,
+      "pattern_energy": 83.16577997470516,
+      "pattern_contrast": 0.411200521823458,
+      "mean_v": 0.128789767802083,
+      "n_spots": 31,
+      "time": 20999.0,
+      "step": 20999,
+      "wall_elapsed": 33.2947723865509
+    },
+    {
+      "spectral_entropy": 5.062944715368065,
+      "pattern_energy": 99.93117153853632,
+      "pattern_contrast": 0.5700231339779226,
+      "mean_v": 0.10919202301507061,
+      "n_spots": 26,
+      "time": 21099.0,
+      "step": 21099,
+      "wall_elapsed": 33.43982172012329
+    },
+    {
+      "spectral_entropy": 5.143483704395278,
+      "pattern_energy": 89.7161846564042,
+      "pattern_contrast": 0.49264761389874545,
+      "mean_v": 0.12893445045415047,
+      "n_spots": 31,
+      "time": 21199.0,
+      "step": 21199,
+      "wall_elapsed": 33.58773231506348
+    },
+    {
+      "spectral_entropy": 5.077823126452066,
+      "pattern_energy": 90.83816039577177,
+      "pattern_contrast": 0.4184722794202442,
+      "mean_v": 0.10511119393985696,
+      "n_spots": 27,
+      "time": 21299.0,
+      "step": 21299,
+      "wall_elapsed": 33.73460555076599
+    },
+    {
+      "spectral_entropy": 5.0483388715658695,
+      "pattern_energy": 94.85755348843492,
+      "pattern_contrast": 0.4106523097724589,
+      "mean_v": 0.1333499787690593,
+      "n_spots": 31,
+      "time": 21399.0,
+      "step": 21399,
+      "wall_elapsed": 33.90121030807495
+    },
+    {
+      "spectral_entropy": 4.983530620017879,
+      "pattern_energy": 81.47312538873508,
+      "pattern_contrast": 0.4268476082441666,
+      "mean_v": 0.10359960540672246,
+      "n_spots": 27,
+      "time": 21499.0,
+      "step": 21499,
+      "wall_elapsed": 34.06977391242981
+    },
+    {
+      "spectral_entropy": 5.003950182574409,
+      "pattern_energy": 106.16999132759769,
+      "pattern_contrast": 0.4662289294074814,
+      "mean_v": 0.1334660345248444,
+      "n_spots": 31,
+      "time": 21599.0,
+      "step": 21599,
+      "wall_elapsed": 34.21699619293213
+    },
+    {
+      "spectral_entropy": 4.8497315078834635,
+      "pattern_energy": 74.60217333741006,
+      "pattern_contrast": 0.3989603013206867,
+      "mean_v": 0.10598533921179945,
+      "n_spots": 28,
+      "time": 21699.0,
+      "step": 21699,
+      "wall_elapsed": 34.35888671875
+    },
+    {
+      "spectral_entropy": 4.938451647831263,
+      "pattern_energy": 115.97516802372304,
+      "pattern_contrast": 0.5081538208254336,
+      "mean_v": 0.12699874602087316,
+      "n_spots": 30,
+      "time": 21799.0,
+      "step": 21799,
+      "wall_elapsed": 34.51113748550415
+    },
+    {
+      "spectral_entropy": 4.884541340150571,
+      "pattern_energy": 73.88598051989635,
+      "pattern_contrast": 0.3619214847113451,
+      "mean_v": 0.11186537193442261,
+      "n_spots": 29,
+      "time": 21899.0,
+      "step": 21899,
+      "wall_elapsed": 34.66429781913757
+    },
+    {
+      "spectral_entropy": 4.9495903228686755,
+      "pattern_energy": 116.50902106039607,
+      "pattern_contrast": 0.46791913990877687,
+      "mean_v": 0.1192576240484908,
+      "n_spots": 28,
+      "time": 21999.0,
+      "step": 21999,
+      "wall_elapsed": 34.81596517562866
+    },
+    {
+      "spectral_entropy": 4.871248394747219,
+      "pattern_energy": 77.20313193809321,
+      "pattern_contrast": 0.35660604703752224,
+      "mean_v": 0.12074732280116501,
+      "n_spots": 31,
+      "time": 22099.0,
+      "step": 22099,
+      "wall_elapsed": 34.972437620162964
+    },
+    {
+      "spectral_entropy": 4.798417181413388,
+      "pattern_energy": 110.1871737504192,
+      "pattern_contrast": 0.48790247256494523,
+      "mean_v": 0.1132873133106797,
+      "n_spots": 27,
+      "time": 22199.0,
+      "step": 22199,
+      "wall_elapsed": 35.12035632133484
+    },
+    {
+      "spectral_entropy": 4.750404484317517,
+      "pattern_energy": 82.8593694398562,
+      "pattern_contrast": 0.38051009480924386,
+      "mean_v": 0.12853538591163977,
+      "n_spots": 31,
+      "time": 22299.0,
+      "step": 22299,
+      "wall_elapsed": 35.268020153045654
+    },
+    {
+      "spectral_entropy": 4.763005844075773,
+      "pattern_energy": 98.69240133018148,
+      "pattern_contrast": 0.5215670983246513,
+      "mean_v": 0.10791806153984308,
+      "n_spots": 27,
+      "time": 22399.0,
+      "step": 22399,
+      "wall_elapsed": 35.41378474235535
+    },
+    {
+      "spectral_entropy": 4.713430204397568,
+      "pattern_energy": 91.58033266697821,
+      "pattern_contrast": 0.5502893580870596,
+      "mean_v": 0.13247568502601564,
+      "n_spots": 32,
+      "time": 22499.0,
+      "step": 22499,
+      "wall_elapsed": 35.56997513771057
+    },
+    {
+      "spectral_entropy": 4.877383799336827,
+      "pattern_energy": 88.8305583512418,
+      "pattern_contrast": 0.43798960318695623,
+      "mean_v": 0.1042549329789495,
+      "n_spots": 27,
+      "time": 22599.0,
+      "step": 22599,
+      "wall_elapsed": 35.713136434555054
+    },
+    {
+      "spectral_entropy": 4.872815476271294,
+      "pattern_energy": 102.54018848622162,
+      "pattern_contrast": 0.5157517712780557,
+      "mean_v": 0.1310299309925294,
+      "n_spots": 31,
+      "time": 22699.0,
+      "step": 22699,
+      "wall_elapsed": 35.858858585357666
+    },
+    {
+      "spectral_entropy": 5.024189139033233,
+      "pattern_energy": 81.39428072005167,
+      "pattern_contrast": 0.43393159216106236,
+      "mean_v": 0.10576885453261065,
+      "n_spots": 28,
+      "time": 22799.0,
+      "step": 22799,
+      "wall_elapsed": 36.021865129470825
+    },
+    {
+      "spectral_entropy": 4.96760388173201,
+      "pattern_energy": 109.26622686121962,
+      "pattern_contrast": 0.4606123787862303,
+      "mean_v": 0.1296903596016381,
+      "n_spots": 31,
+      "time": 22899.0,
+      "step": 22899,
+      "wall_elapsed": 36.16585826873779
+    },
+    {
+      "spectral_entropy": 4.978707646711462,
+      "pattern_energy": 76.05937416343286,
+      "pattern_contrast": 0.3784174290971281,
+      "mean_v": 0.1102769477424158,
+      "n_spots": 29,
+      "time": 22999.0,
+      "step": 22999,
+      "wall_elapsed": 36.309433698654175
+    },
+    {
+      "spectral_entropy": 4.950684148950421,
+      "pattern_energy": 115.54371031098688,
+      "pattern_contrast": 0.5533673691423194,
+      "mean_v": 0.12567395447645202,
+      "n_spots": 29,
+      "time": 23099.0,
+      "step": 23099,
+      "wall_elapsed": 36.45237994194031
+    },
+    {
+      "spectral_entropy": 4.989082111079625,
+      "pattern_energy": 74.44497493249487,
+      "pattern_contrast": 0.37068450041449996,
+      "mean_v": 0.11612164337783712,
+      "n_spots": 30,
+      "time": 23199.0,
+      "step": 23199,
+      "wall_elapsed": 36.59489631652832
+    },
+    {
+      "spectral_entropy": 5.091078393241339,
+      "pattern_energy": 112.67326254485707,
+      "pattern_contrast": 0.5003448182982914,
+      "mean_v": 0.11376685537229726,
+      "n_spots": 27,
+      "time": 23299.0,
+      "step": 23299,
+      "wall_elapsed": 36.73952007293701
+    },
+    {
+      "spectral_entropy": 5.145395736327134,
+      "pattern_energy": 81.18175090759316,
+      "pattern_contrast": 0.35294704635497554,
+      "mean_v": 0.12270504733029791,
+      "n_spots": 31,
+      "time": 23399.0,
+      "step": 23399,
+      "wall_elapsed": 36.880027294158936
+    },
+    {
+      "spectral_entropy": 5.095980810854056,
+      "pattern_energy": 101.13725371974753,
+      "pattern_contrast": 0.43761652993461236,
+      "mean_v": 0.11114227573634045,
+      "n_spots": 27,
+      "time": 23499.0,
+      "step": 23499,
+      "wall_elapsed": 37.03376483917236
+    },
+    {
+      "spectral_entropy": 5.0984016911601895,
+      "pattern_energy": 86.46471188641799,
+      "pattern_contrast": 0.3632709264304923,
+      "mean_v": 0.1281280601764107,
+      "n_spots": 31,
+      "time": 23599.0,
+      "step": 23599,
+      "wall_elapsed": 37.184107065200806
+    },
+    {
+      "spectral_entropy": 5.01566927227611,
+      "pattern_energy": 93.11845297555034,
+      "pattern_contrast": 0.4551611568175457,
+      "mean_v": 0.11140999214706143,
+      "n_spots": 27,
+      "time": 23699.0,
+      "step": 23699,
+      "wall_elapsed": 37.3338885307312
+    },
+    {
+      "spectral_entropy": 4.926847763716315,
+      "pattern_energy": 91.57461977263289,
+      "pattern_contrast": 0.41932407380046544,
+      "mean_v": 0.13044174881139292,
+      "n_spots": 31,
+      "time": 23799.0,
+      "step": 23799,
+      "wall_elapsed": 37.481902837753296
+    },
+    {
+      "spectral_entropy": 4.9368682618876925,
+      "pattern_energy": 86.79047446527868,
+      "pattern_contrast": 0.41640360067992943,
+      "mean_v": 0.1096429339340646,
+      "n_spots": 27,
+      "time": 23899.0,
+      "step": 23899,
+      "wall_elapsed": 37.625099658966064
+    },
+    {
+      "spectral_entropy": 4.874085909399591,
+      "pattern_energy": 99.24232731233124,
+      "pattern_contrast": 0.4642662697596937,
+      "mean_v": 0.1304610585321131,
+      "n_spots": 30,
+      "time": 23999.0,
+      "step": 23999,
+      "wall_elapsed": 37.76926279067993
+    },
+    {
+      "spectral_entropy": 4.900979244363237,
+      "pattern_energy": 81.60242886277717,
+      "pattern_contrast": 0.420211538510756,
+      "mean_v": 0.11092052047583806,
+      "n_spots": 28,
+      "time": 24099.0,
+      "step": 24099,
+      "wall_elapsed": 37.91152215003967
+    },
+    {
+      "spectral_entropy": 4.849621079591104,
+      "pattern_energy": 104.74641109528655,
+      "pattern_contrast": 0.4775233642280476,
+      "mean_v": 0.12910487912480678,
+      "n_spots": 30,
+      "time": 24199.0,
+      "step": 24199,
+      "wall_elapsed": 38.0776309967041
+    },
+    {
+      "spectral_entropy": 4.794442466798039,
+      "pattern_energy": 76.97705606890301,
+      "pattern_contrast": 0.399500949696433,
+      "mean_v": 0.11344690780447997,
+      "n_spots": 29,
+      "time": 24299.0,
+      "step": 24299,
+      "wall_elapsed": 38.22847032546997
+    },
+    {
+      "spectral_entropy": 4.916420088003259,
+      "pattern_energy": 108.4306691444787,
+      "pattern_contrast": 0.48214891912247965,
+      "mean_v": 0.12007264783744365,
+      "n_spots": 29,
+      "time": 24399.0,
+      "step": 24399,
+      "wall_elapsed": 38.37433862686157
+    },
+    {
+      "spectral_entropy": 4.9315399815466865,
+      "pattern_energy": 82.01813860724124,
+      "pattern_contrast": 0.38981861927959727,
+      "mean_v": 0.11714052737005473,
+      "n_spots": 30,
+      "time": 24499.0,
+      "step": 24499,
+      "wall_elapsed": 38.51835584640503
+    },
+    {
+      "spectral_entropy": 4.93174256337897,
+      "pattern_energy": 106.58837357137615,
+      "pattern_contrast": 0.44376011267473314,
+      "mean_v": 0.11769661368067166,
+      "n_spots": 28,
+      "time": 24599.0,
+      "step": 24599,
+      "wall_elapsed": 38.66529297828674
+    },
+    {
+      "spectral_entropy": 4.9140773168724605,
+      "pattern_energy": 85.64350716628546,
+      "pattern_contrast": 0.42439483847139575,
+      "mean_v": 0.11820616794887467,
+      "n_spots": 29,
+      "time": 24699.0,
+      "step": 24699,
+      "wall_elapsed": 38.81209588050842
+    },
+    {
+      "spectral_entropy": 4.932788167732717,
+      "pattern_energy": 106.58954939070429,
+      "pattern_contrast": 0.4587879832665111,
+      "mean_v": 0.11659059226630705,
+      "n_spots": 28,
+      "time": 24799.0,
+      "step": 24799,
+      "wall_elapsed": 38.97758460044861
+    },
+    {
+      "spectral_entropy": 4.903515210789715,
+      "pattern_energy": 85.6834552125599,
+      "pattern_contrast": 0.37825958977809454,
+      "mean_v": 0.1208850122159787,
+      "n_spots": 30,
+      "time": 24899.0,
+      "step": 24899,
+      "wall_elapsed": 39.1256308555603
+    },
+    {
+      "spectral_entropy": 4.9407099087882225,
+      "pattern_energy": 106.18528010793945,
+      "pattern_contrast": 0.47550171379576284,
+      "mean_v": 0.11151405788871276,
+      "n_spots": 27,
+      "time": 24999.0,
+      "step": 24999,
+      "wall_elapsed": 39.27207279205322
+    },
+    {
+      "spectral_entropy": 4.896085084870259,
+      "pattern_energy": 89.6362861050517,
+      "pattern_contrast": 0.3739472836292971,
+      "mean_v": 0.12526449617862173,
+      "n_spots": 31,
+      "time": 25099.0,
+      "step": 25099,
+      "wall_elapsed": 39.425039529800415
+    },
+    {
+      "spectral_entropy": 4.972490128935831,
+      "pattern_energy": 97.99000706465189,
+      "pattern_contrast": 0.4691751476585724,
+      "mean_v": 0.10703633571827403,
+      "n_spots": 27,
+      "time": 25199.0,
+      "step": 25199,
+      "wall_elapsed": 39.570626974105835
+    },
+    {
+      "spectral_entropy": 4.919349564262124,
+      "pattern_energy": 95.79713633008444,
+      "pattern_contrast": 0.37085477513673787,
+      "mean_v": 0.13039314914729663,
+      "n_spots": 32,
+      "time": 25299.0,
+      "step": 25299,
+      "wall_elapsed": 39.7199285030365
+    },
+    {
+      "spectral_entropy": 4.845055184240481,
+      "pattern_energy": 86.34466060107292,
+      "pattern_contrast": 0.39609588981495136,
+      "mean_v": 0.1060216057291686,
+      "n_spots": 28,
+      "time": 25399.0,
+      "step": 25399,
+      "wall_elapsed": 39.86863136291504
+    },
+    {
+      "spectral_entropy": 4.8822182076705944,
+      "pattern_energy": 106.1801096401003,
+      "pattern_contrast": 0.4175667901732267,
+      "mean_v": 0.13027444207283137,
+      "n_spots": 31,
+      "time": 25499.0,
+      "step": 25499,
+      "wall_elapsed": 40.0296368598938
+    },
+    {
+      "spectral_entropy": 4.716990301177724,
+      "pattern_energy": 79.49692004187183,
+      "pattern_contrast": 0.3612780051642712,
+      "mean_v": 0.11086481829280997,
+      "n_spots": 28,
+      "time": 25599.0,
+      "step": 25599,
+      "wall_elapsed": 40.1773145198822
+    },
+    {
+      "spectral_entropy": 4.798841784981055,
+      "pattern_energy": 110.76939615510771,
+      "pattern_contrast": 0.42731047885094964,
+      "mean_v": 0.12379109131794228,
+      "n_spots": 30,
+      "time": 25699.0,
+      "step": 25699,
+      "wall_elapsed": 40.321455240249634
+    },
+    {
+      "spectral_entropy": 4.690871337195638,
+      "pattern_energy": 80.14732537400317,
+      "pattern_contrast": 0.3590225237325924,
+      "mean_v": 0.11739909946697476,
+      "n_spots": 30,
+      "time": 25799.0,
+      "step": 25799,
+      "wall_elapsed": 40.465794801712036
+    },
+    {
+      "spectral_entropy": 4.695510237697705,
+      "pattern_energy": 107.25631218346197,
+      "pattern_contrast": 0.4540472712180022,
+      "mean_v": 0.12045970331071902,
+      "n_spots": 29,
+      "time": 25899.0,
+      "step": 25899,
+      "wall_elapsed": 40.608880281448364
+    },
+    {
+      "spectral_entropy": 4.629328395816132,
+      "pattern_energy": 81.73595687592655,
+      "pattern_contrast": 0.36863153425831946,
+      "mean_v": 0.12227635051051286,
+      "n_spots": 30,
+      "time": 25999.0,
+      "step": 25999,
+      "wall_elapsed": 40.75380063056946
+    },
+    {
+      "spectral_entropy": 4.656309742084627,
+      "pattern_energy": 104.02336680790658,
+      "pattern_contrast": 0.4714979663925037,
+      "mean_v": 0.1173202081317134,
+      "n_spots": 28,
+      "time": 26099.0,
+      "step": 26099,
+      "wall_elapsed": 40.89897632598877
+    },
+    {
+      "spectral_entropy": 4.591235063555486,
+      "pattern_energy": 83.84969458771421,
+      "pattern_contrast": 0.361618355461506,
+      "mean_v": 0.12655795458389169,
+      "n_spots": 31,
+      "time": 26199.0,
+      "step": 26199,
+      "wall_elapsed": 41.07175087928772
+    },
+    {
+      "spectral_entropy": 4.662883777314946,
+      "pattern_energy": 95.8701082649628,
+      "pattern_contrast": 0.5019705018793676,
+      "mean_v": 0.11003930560683492,
+      "n_spots": 27,
+      "time": 26299.0,
+      "step": 26299,
+      "wall_elapsed": 41.22030448913574
+    },
+    {
+      "spectral_entropy": 4.704552124755178,
+      "pattern_energy": 91.7791883039989,
+      "pattern_contrast": 0.36154795923743366,
+      "mean_v": 0.1299202023601486,
+      "n_spots": 31,
+      "time": 26399.0,
+      "step": 26399,
+      "wall_elapsed": 41.36427068710327
+    },
+    {
+      "spectral_entropy": 4.6436540898793055,
+      "pattern_energy": 87.85310165889965,
+      "pattern_contrast": 0.41687719081794744,
+      "mean_v": 0.1100538186098235,
+      "n_spots": 28,
+      "time": 26499.0,
+      "step": 26499,
+      "wall_elapsed": 41.51148843765259
+    },
+    {
+      "spectral_entropy": 4.6504517946548765,
+      "pattern_energy": 98.75914397197596,
+      "pattern_contrast": 0.5602879069459775,
+      "mean_v": 0.13123031854855302,
+      "n_spots": 31,
+      "time": 26599.0,
+      "step": 26599,
+      "wall_elapsed": 41.651052474975586
+    },
+    {
+      "spectral_entropy": 4.4889529634972165,
+      "pattern_energy": 81.39955244558514,
+      "pattern_contrast": 0.38270242748567695,
+      "mean_v": 0.11254397859708712,
+      "n_spots": 28,
+      "time": 26699.0,
+      "step": 26699,
+      "wall_elapsed": 41.802990436553955
+    },
+    {
+      "spectral_entropy": 4.593711257868186,
+      "pattern_energy": 105.26107880637913,
+      "pattern_contrast": 0.4636559253768619,
+      "mean_v": 0.1280732554450749,
+      "n_spots": 30,
+      "time": 26799.0,
+      "step": 26799,
+      "wall_elapsed": 41.95539832115173
+    },
+    {
+      "spectral_entropy": 4.543259409256172,
+      "pattern_energy": 79.80703723678992,
+      "pattern_contrast": 0.37808488418242236,
+      "mean_v": 0.11459341264393672,
+      "n_spots": 29,
+      "time": 26899.0,
+      "step": 26899,
+      "wall_elapsed": 42.10382699966431
+    },
+    {
+      "spectral_entropy": 4.484952200621921,
+      "pattern_energy": 108.28912182221333,
+      "pattern_contrast": 0.40980988086646153,
+      "mean_v": 0.126631255973724,
+      "n_spots": 29,
+      "time": 26999.0,
+      "step": 26999,
+      "wall_elapsed": 42.25210952758789
+    },
+    {
+      "spectral_entropy": 4.434914500174965,
+      "pattern_energy": 78.65112888169465,
+      "pattern_contrast": 0.38428225343407296,
+      "mean_v": 0.1179221085511321,
+      "n_spots": 30,
+      "time": 27099.0,
+      "step": 27099,
+      "wall_elapsed": 42.395424365997314
+    },
+    {
+      "spectral_entropy": 4.418768985081285,
+      "pattern_energy": 110.09076922761679,
+      "pattern_contrast": 0.41121520242438725,
+      "mean_v": 0.12299491482373437,
+      "n_spots": 29,
+      "time": 27199.0,
+      "step": 27199,
+      "wall_elapsed": 42.53833484649658
+    },
+    {
+      "spectral_entropy": 4.387638355021133,
+      "pattern_energy": 78.74898328859982,
+      "pattern_contrast": 0.3798181472341102,
+      "mean_v": 0.12193990007967347,
+      "n_spots": 30,
+      "time": 27299.0,
+      "step": 27299,
+      "wall_elapsed": 42.692670822143555
+    },
+    {
+      "spectral_entropy": 4.406762047565792,
+      "pattern_energy": 109.37033744083688,
+      "pattern_contrast": 0.5096936231416394,
+      "mean_v": 0.1183458606721812,
+      "n_spots": 28,
+      "time": 27399.0,
+      "step": 27399,
+      "wall_elapsed": 42.8348023891449
+    },
+    {
+      "spectral_entropy": 4.350688461771734,
+      "pattern_energy": 80.1110619297336,
+      "pattern_contrast": 0.3515165646752724,
+      "mean_v": 0.1269439362713389,
+      "n_spots": 31,
+      "time": 27499.0,
+      "step": 27499,
+      "wall_elapsed": 42.998157024383545
+    },
+    {
+      "spectral_entropy": 4.432328678539271,
+      "pattern_energy": 104.67469957322479,
+      "pattern_contrast": 0.4522845647628007,
+      "mean_v": 0.11090860067175418,
+      "n_spots": 26,
+      "time": 27599.0,
+      "step": 27599,
+      "wall_elapsed": 43.14366316795349
+    },
+    {
+      "spectral_entropy": 4.502755783702661,
+      "pattern_energy": 86.63001982755243,
+      "pattern_contrast": 0.3601480729869243,
+      "mean_v": 0.13173334364099665,
+      "n_spots": 31,
+      "time": 27699.0,
+      "step": 27699,
+      "wall_elapsed": 43.28814244270325
+    },
+    {
+      "spectral_entropy": 4.4987582740787895,
+      "pattern_energy": 96.79739476275107,
+      "pattern_contrast": 0.48199261837226876,
+      "mean_v": 0.10529998231110188,
+      "n_spots": 26,
+      "time": 27799.0,
+      "step": 27799,
+      "wall_elapsed": 43.43665385246277
+    },
+    {
+      "spectral_entropy": 4.605406398260743,
+      "pattern_energy": 95.1112784498969,
+      "pattern_contrast": 0.37932294242705844,
+      "mean_v": 0.1329170353199677,
+      "n_spots": 31,
+      "time": 27899.0,
+      "step": 27899,
+      "wall_elapsed": 43.58155083656311
+    },
+    {
+      "spectral_entropy": 4.581387524877979,
+      "pattern_energy": 87.28695126946032,
+      "pattern_contrast": 0.4943093315525463,
+      "mean_v": 0.10334842844786105,
+      "n_spots": 26,
+      "time": 27999.0,
+      "step": 27999,
+      "wall_elapsed": 43.72867035865784
+    },
+    {
+      "spectral_entropy": 4.567484130879386,
+      "pattern_energy": 103.74996347630315,
+      "pattern_contrast": 0.39039526094681765,
+      "mean_v": 0.1346251833686741,
+      "n_spots": 31,
+      "time": 28099.0,
+      "step": 28099,
+      "wall_elapsed": 43.87844181060791
+    },
+    {
+      "spectral_entropy": 4.555734065503364,
+      "pattern_energy": 76.53564466602936,
+      "pattern_contrast": 0.39964891232082883,
+      "mean_v": 0.10288504768240776,
+      "n_spots": 27,
+      "time": 28199.0,
+      "step": 28199,
+      "wall_elapsed": 44.042147397994995
+    },
+    {
+      "spectral_entropy": 4.602018649253379,
+      "pattern_energy": 116.32217272226617,
+      "pattern_contrast": 0.4221956416124687,
+      "mean_v": 0.13322884719492403,
+      "n_spots": 30,
+      "time": 28299.0,
+      "step": 28299,
+      "wall_elapsed": 44.18850922584534
+    },
+    {
+      "spectral_entropy": 4.494533113421684,
+      "pattern_energy": 69.15458505383262,
+      "pattern_contrast": 0.3619686559313114,
+      "mean_v": 0.10847669674215026,
+      "n_spots": 28,
+      "time": 28399.0,
+      "step": 28399,
+      "wall_elapsed": 44.330363273620605
+    },
+    {
+      "spectral_entropy": 4.622362841113602,
+      "pattern_energy": 126.82945060125212,
+      "pattern_contrast": 0.4771038740636482,
+      "mean_v": 0.12374293034045727,
+      "n_spots": 28,
+      "time": 28499.0,
+      "step": 28499,
+      "wall_elapsed": 44.47391629219055
+    },
+    {
+      "spectral_entropy": 4.511204551572891,
+      "pattern_energy": 68.27217928630134,
+      "pattern_contrast": 0.3557155524601323,
+      "mean_v": 0.12022559104968975,
+      "n_spots": 31,
+      "time": 28599.0,
+      "step": 28599,
+      "wall_elapsed": 44.62075424194336
+    },
+    {
+      "spectral_entropy": 4.621973426239096,
+      "pattern_energy": 118.90816301068617,
+      "pattern_contrast": 0.49963752752728363,
+      "mean_v": 0.1012786436872645,
+      "n_spots": 25,
+      "time": 28699.0,
+      "step": 28699,
+      "wall_elapsed": 44.76352858543396
+    },
+    {
+      "spectral_entropy": 4.91844367477055,
+      "pattern_energy": 86.05117921469736,
+      "pattern_contrast": 0.3594909361043641,
+      "mean_v": 0.12480392194327405,
+      "n_spots": 32,
+      "time": 28799.0,
+      "step": 28799,
+      "wall_elapsed": 44.91046714782715
+    },
+    {
+      "spectral_entropy": 4.948130836948662,
+      "pattern_energy": 101.78697804630865,
+      "pattern_contrast": 0.4185579021255922,
+      "mean_v": 0.09782887798421419,
+      "n_spots": 25,
+      "time": 28899.0,
+      "step": 28899,
+      "wall_elapsed": 45.08454155921936
+    },
+    {
+      "spectral_entropy": 5.111498238523361,
+      "pattern_energy": 96.40106605073716,
+      "pattern_contrast": 0.3759932393183741,
+      "mean_v": 0.1306575896918084,
+      "n_spots": 32,
+      "time": 28999.0,
+      "step": 28999,
+      "wall_elapsed": 45.23085975646973
+    },
+    {
+      "spectral_entropy": 5.000521364274138,
+      "pattern_energy": 87.63923441179391,
+      "pattern_contrast": 0.4005398242203271,
+      "mean_v": 0.10130918863808291,
+      "n_spots": 27,
+      "time": 29099.0,
+      "step": 29099,
+      "wall_elapsed": 45.38054347038269
+    },
+    {
+      "spectral_entropy": 5.047148944130474,
+      "pattern_energy": 105.00084407885187,
+      "pattern_contrast": 0.38165210363170415,
+      "mean_v": 0.13184486290786196,
+      "n_spots": 32,
+      "time": 29199.0,
+      "step": 29199,
+      "wall_elapsed": 45.53509521484375
+    },
+    {
+      "spectral_entropy": 4.94387582752614,
+      "pattern_energy": 79.77622577639508,
+      "pattern_contrast": 0.4025323357285035,
+      "mean_v": 0.10468649287985832,
+      "n_spots": 28,
+      "time": 29299.0,
+      "step": 29299,
+      "wall_elapsed": 45.68645191192627
+    },
+    {
+      "spectral_entropy": 4.882199439413765,
+      "pattern_energy": 114.76663635817658,
+      "pattern_contrast": 0.40142558377616955,
+      "mean_v": 0.12900086713290332,
+      "n_spots": 30,
+      "time": 29399.0,
+      "step": 29399,
+      "wall_elapsed": 45.84176993370056
+    },
+    {
+      "spectral_entropy": 4.935642942304157,
+      "pattern_energy": 74.93918308454184,
+      "pattern_contrast": 0.36144119840914435,
+      "mean_v": 0.11121364055308228,
+      "n_spots": 29,
+      "time": 29499.0,
+      "step": 29499,
+      "wall_elapsed": 46.01087474822998
+    },
+    {
+      "spectral_entropy": 4.827372543621059,
+      "pattern_energy": 119.60071630210307,
+      "pattern_contrast": 0.504621311538295,
+      "mean_v": 0.12373219305178774,
+      "n_spots": 29,
+      "time": 29599.0,
+      "step": 29599,
+      "wall_elapsed": 46.15847039222717
+    },
+    {
+      "spectral_entropy": 4.867307742661389,
+      "pattern_energy": 72.3212567527002,
+      "pattern_contrast": 0.36836980661567564,
+      "mean_v": 0.12108730282436042,
+      "n_spots": 31,
+      "time": 29699.0,
+      "step": 29699,
+      "wall_elapsed": 46.30618476867676
+    },
+    {
+      "spectral_entropy": 4.948473969225948,
+      "pattern_energy": 114.77449204842816,
+      "pattern_contrast": 0.5409288393323926,
+      "mean_v": 0.10842424228591244,
+      "n_spots": 26,
+      "time": 29799.0,
+      "step": 29799,
+      "wall_elapsed": 46.459537506103516
+    },
+    {
+      "spectral_entropy": 5.1936108784480615,
+      "pattern_energy": 83.03818543270285,
+      "pattern_contrast": 0.3756271226936016,
+      "mean_v": 0.12625786952084805,
+      "n_spots": 32,
+      "time": 29899.0,
+      "step": 29899,
+      "wall_elapsed": 46.613715410232544
+    },
+    {
+      "spectral_entropy": 5.188613065173627,
+      "pattern_energy": 102.17909776425553,
+      "pattern_contrast": 0.4860615284480564,
+      "mean_v": 0.10297781349467139,
+      "n_spots": 26,
+      "time": 29999.0,
+      "step": 29999,
+      "wall_elapsed": 46.76081871986389
+    },
+    {
+      "spectral_entropy": 5.180642487188403,
+      "pattern_energy": 88.71809626289728,
+      "pattern_contrast": 0.366636549199558,
+      "mean_v": 0.13198254811240825,
+      "n_spots": 33,
+      "time": 30099.0,
+      "step": 30099,
+      "wall_elapsed": 46.92635440826416
+    },
+    {
+      "spectral_entropy": 5.170197006205007,
+      "pattern_energy": 86.30468383577465,
+      "pattern_contrast": 0.4672385707075817,
+      "mean_v": 0.10275625467876746,
+      "n_spots": 27,
+      "time": 30199.0,
+      "step": 30199,
+      "wall_elapsed": 47.0882568359375
+    },
+    {
+      "spectral_entropy": 5.148758443416069,
+      "pattern_energy": 98.8126849288298,
+      "pattern_contrast": 0.38958496639564455,
+      "mean_v": 0.13240963008442797,
+      "n_spots": 32,
+      "time": 30299.0,
+      "step": 30299,
+      "wall_elapsed": 47.23391842842102
+    },
+    {
+      "spectral_entropy": 5.160732542058949,
+      "pattern_energy": 79.45233946259792,
+      "pattern_contrast": 0.43381448976413506,
+      "mean_v": 0.10448583754845428,
+      "n_spots": 27,
+      "time": 30399.0,
+      "step": 30399,
+      "wall_elapsed": 47.37312722206116
+    },
+    {
+      "spectral_entropy": 5.164219195480685,
+      "pattern_energy": 105.41027480782606,
+      "pattern_contrast": 0.3952927667574934,
+      "mean_v": 0.12503323825124263,
+      "n_spots": 30,
+      "time": 30499.0,
+      "step": 30499,
+      "wall_elapsed": 47.5201358795166
+    },
+    {
+      "spectral_entropy": 5.197483166909128,
+      "pattern_energy": 79.19754199250944,
+      "pattern_contrast": 0.4190785162948508,
+      "mean_v": 0.11083658169739372,
+      "n_spots": 29,
+      "time": 30599.0,
+      "step": 30599,
+      "wall_elapsed": 47.6637327671051
+    },
+    {
+      "spectral_entropy": 5.168313333788712,
+      "pattern_energy": 106.66679700344297,
+      "pattern_contrast": 0.4303535753412496,
+      "mean_v": 0.12485098747815779,
+      "n_spots": 30,
+      "time": 30699.0,
+      "step": 30699,
+      "wall_elapsed": 47.806169509887695
+    },
+    {
+      "spectral_entropy": 5.10718435616924,
+      "pattern_energy": 77.55171189531148,
+      "pattern_contrast": 0.3635244559284616,
+      "mean_v": 0.11555252153319215,
+      "n_spots": 30,
+      "time": 30799.0,
+      "step": 30799,
+      "wall_elapsed": 47.975722312927246
+    },
+    {
+      "spectral_entropy": 5.184331261359259,
+      "pattern_energy": 105.91871848461628,
+      "pattern_contrast": 0.41180514683639224,
+      "mean_v": 0.11791252769079635,
+      "n_spots": 29,
+      "time": 30899.0,
+      "step": 30899,
+      "wall_elapsed": 48.12367868423462
+    },
+    {
+      "spectral_entropy": 5.125687181835916,
+      "pattern_energy": 81.17638547546392,
+      "pattern_contrast": 0.3721196801441004,
+      "mean_v": 0.12199602502215197,
+      "n_spots": 31,
+      "time": 30999.0,
+      "step": 30999,
+      "wall_elapsed": 48.2679398059845
+    },
+    {
+      "spectral_entropy": 5.10276241727448,
+      "pattern_energy": 101.65239326435818,
+      "pattern_contrast": 0.42316526862251624,
+      "mean_v": 0.11718418435002534,
+      "n_spots": 28,
+      "time": 31099.0,
+      "step": 31099,
+      "wall_elapsed": 48.41801571846008
+    },
+    {
+      "spectral_entropy": 5.04084242206824,
+      "pattern_energy": 83.27052806789655,
+      "pattern_contrast": 0.3689538863166264,
+      "mean_v": 0.12487709026281668,
+      "n_spots": 31,
+      "time": 31199.0,
+      "step": 31199,
+      "wall_elapsed": 48.5654501914978
+    },
+    {
+      "spectral_entropy": 5.139442782042586,
+      "pattern_energy": 97.63319103731543,
+      "pattern_contrast": 0.4566454169460328,
+      "mean_v": 0.11182617780365905,
+      "n_spots": 28,
+      "time": 31299.0,
+      "step": 31299,
+      "wall_elapsed": 48.7043673992157
+    },
+    {
+      "spectral_entropy": 5.115347752858388,
+      "pattern_energy": 88.14112231778302,
+      "pattern_contrast": 0.3688497726543252,
+      "mean_v": 0.1283153502371377,
+      "n_spots": 31,
+      "time": 31399.0,
+      "step": 31399,
+      "wall_elapsed": 48.86632752418518
+    },
+    {
+      "spectral_entropy": 5.1315335933881245,
+      "pattern_energy": 90.59410094995735,
+      "pattern_contrast": 0.40728067066645784,
+      "mean_v": 0.11018050813703936,
+      "n_spots": 28,
+      "time": 31499.0,
+      "step": 31499,
+      "wall_elapsed": 49.031392335891724
+    },
+    {
+      "spectral_entropy": 5.058749211048524,
+      "pattern_energy": 94.0464211718007,
+      "pattern_contrast": 0.3663730981636447,
+      "mean_v": 0.13188113314985134,
+      "n_spots": 31,
+      "time": 31599.0,
+      "step": 31599,
+      "wall_elapsed": 49.18281054496765
+    },
+    {
+      "spectral_entropy": 5.025400475655139,
+      "pattern_energy": 82.4966576449064,
+      "pattern_contrast": 0.398269365891022,
+      "mean_v": 0.10954929543093059,
+      "n_spots": 28,
+      "time": 31699.0,
+      "step": 31699,
+      "wall_elapsed": 49.332361459732056
+    },
+    {
+      "spectral_entropy": 4.998410843153299,
+      "pattern_energy": 100.79243139217412,
+      "pattern_contrast": 0.37759966093757147,
+      "mean_v": 0.13302151566289025,
+      "n_spots": 31,
+      "time": 31799.0,
+      "step": 31799,
+      "wall_elapsed": 49.482998847961426
+    },
+    {
+      "spectral_entropy": 4.944986256044102,
+      "pattern_energy": 76.69262265748607,
+      "pattern_contrast": 0.38511017518268575,
+      "mean_v": 0.11088967424467525,
+      "n_spots": 28,
+      "time": 31899.0,
+      "step": 31899,
+      "wall_elapsed": 49.627031326293945
+    },
+    {
+      "spectral_entropy": 4.948417856000528,
+      "pattern_energy": 107.5877301672731,
+      "pattern_contrast": 0.4155592778979515,
+      "mean_v": 0.1317291227526331,
+      "n_spots": 30,
+      "time": 31999.0,
+      "step": 31999,
+      "wall_elapsed": 49.77109932899475
+    },
+    {
+      "spectral_entropy": 4.890618603411951,
+      "pattern_energy": 73.22542984745363,
+      "pattern_contrast": 0.35987039938132587,
+      "mean_v": 0.11378122714579508,
+      "n_spots": 29,
+      "time": 32099.0,
+      "step": 32099,
+      "wall_elapsed": 49.91637849807739
+    },
+    {
+      "spectral_entropy": 4.933677505634898,
+      "pattern_energy": 112.45689965005366,
+      "pattern_contrast": 0.43747531336944945,
+      "mean_v": 0.12902052368328104,
+      "n_spots": 30,
+      "time": 32199.0,
+      "step": 32199,
+      "wall_elapsed": 50.080655336380005
+    },
+    {
+      "spectral_entropy": 4.92290385543612,
+      "pattern_energy": 71.38984318911213,
+      "pattern_contrast": 0.3551796856371367,
+      "mean_v": 0.1168165249239147,
+      "n_spots": 30,
+      "time": 32299.0,
+      "step": 32299,
+      "wall_elapsed": 50.22580003738403
+    },
+    {
+      "spectral_entropy": 4.962230063849749,
+      "pattern_energy": 116.06110432774264,
+      "pattern_contrast": 0.49201541217764766,
+      "mean_v": 0.12441347585456516,
+      "n_spots": 28,
+      "time": 32399.0,
+      "step": 32399,
+      "wall_elapsed": 50.36657643318176
+    },
+    {
+      "spectral_entropy": 4.897345179993349,
+      "pattern_energy": 70.68614724844412,
+      "pattern_contrast": 0.3571683639400538,
+      "mean_v": 0.12189249494958844,
+      "n_spots": 31,
+      "time": 32499.0,
+      "step": 32499,
+      "wall_elapsed": 50.515523195266724
+    },
+    {
+      "spectral_entropy": 5.062210488635361,
+      "pattern_energy": 114.75588048227218,
+      "pattern_contrast": 0.5228742115353298,
+      "mean_v": 0.11351850722671944,
+      "n_spots": 27,
+      "time": 32599.0,
+      "step": 32599,
+      "wall_elapsed": 50.657511711120605
+    },
+    {
+      "spectral_entropy": 5.118362245587606,
+      "pattern_energy": 76.07338289028912,
+      "pattern_contrast": 0.36145250595486744,
+      "mean_v": 0.12765737049928866,
+      "n_spots": 31,
+      "time": 32699.0,
+      "step": 32699,
+      "wall_elapsed": 50.80292558670044
+    },
+    {
+      "spectral_entropy": 5.165867367707738,
+      "pattern_energy": 103.54713053514408,
+      "pattern_contrast": 0.4476764854055552,
+      "mean_v": 0.10287404240167931,
+      "n_spots": 25,
+      "time": 32799.0,
+      "step": 32799,
+      "wall_elapsed": 50.96189904212952
+    },
+    {
+      "spectral_entropy": 5.242364599742238,
+      "pattern_energy": 89.68249110324894,
+      "pattern_contrast": 0.4913829477805956,
+      "mean_v": 0.13110000759223067,
+      "n_spots": 31,
+      "time": 32899.0,
+      "step": 32899,
+      "wall_elapsed": 51.115806102752686
+    },
+    {
+      "spectral_entropy": 5.195303474186116,
+      "pattern_energy": 90.2005692235063,
+      "pattern_contrast": 0.45359466987326047,
+      "mean_v": 0.10251639347561298,
+      "n_spots": 26,
+      "time": 32999.0,
+      "step": 32999,
+      "wall_elapsed": 51.26975607872009
+    },
+    {
+      "spectral_entropy": 5.204104556509861,
+      "pattern_energy": 96.78333889181775,
+      "pattern_contrast": 0.43404498539552494,
+      "mean_v": 0.1301632342232727,
+      "n_spots": 31,
+      "time": 33099.0,
+      "step": 33099,
+      "wall_elapsed": 51.4199104309082
+    },
+    {
+      "spectral_entropy": 5.253023740876476,
+      "pattern_energy": 82.5186168437309,
+      "pattern_contrast": 0.5443933724963046,
+      "mean_v": 0.09902453364712839,
+      "n_spots": 26,
+      "time": 33199.0,
+      "step": 33199,
+      "wall_elapsed": 51.56721568107605
+    },
+    {
+      "spectral_entropy": 5.21350004086808,
+      "pattern_energy": 106.73329209852243,
+      "pattern_contrast": 0.4302499395112785,
+      "mean_v": 0.12871689328000363,
+      "n_spots": 31,
+      "time": 33299.0,
+      "step": 33299,
+      "wall_elapsed": 51.707640647888184
+    },
+    {
+      "spectral_entropy": 5.183929891876681,
+      "pattern_energy": 75.4049004750427,
+      "pattern_contrast": 0.4073360674169856,
+      "mean_v": 0.10243194868860231,
+      "n_spots": 28,
+      "time": 33399.0,
+      "step": 33399,
+      "wall_elapsed": 51.859862327575684
+    },
+    {
+      "spectral_entropy": 5.2074992381167515,
+      "pattern_energy": 115.52879784494951,
+      "pattern_contrast": 0.4431383065079325,
+      "mean_v": 0.12004303595312163,
+      "n_spots": 29,
+      "time": 33499.0,
+      "step": 33499,
+      "wall_elapsed": 52.029993295669556
+    },
+    {
+      "spectral_entropy": 5.19705283827814,
+      "pattern_energy": 74.86188780298072,
+      "pattern_contrast": 0.3621720853974701,
+      "mean_v": 0.11565478985315442,
+      "n_spots": 30,
+      "time": 33599.0,
+      "step": 33599,
+      "wall_elapsed": 52.179893493652344
+    },
+    {
+      "spectral_entropy": 5.1805392107117045,
+      "pattern_energy": 110.80677170714038,
+      "pattern_contrast": 0.42336048459205516,
+      "mean_v": 0.1107756425425146,
+      "n_spots": 27,
+      "time": 33699.0,
+      "step": 33699,
+      "wall_elapsed": 52.32672166824341
+    },
+    {
+      "spectral_entropy": 5.146101026583122,
+      "pattern_energy": 79.80853354806342,
+      "pattern_contrast": 0.3531490351713767,
+      "mean_v": 0.1271910110845473,
+      "n_spots": 33,
+      "time": 33799.0,
+      "step": 33799,
+      "wall_elapsed": 52.469494342803955
+    },
+    {
+      "spectral_entropy": 5.065244521844577,
+      "pattern_energy": 94.44040676345848,
+      "pattern_contrast": 0.4438995884208435,
+      "mean_v": 0.1046231377120133,
+      "n_spots": 27,
+      "time": 33899.0,
+      "step": 33899,
+      "wall_elapsed": 52.61513686180115
+    },
+    {
+      "spectral_entropy": 5.015077820522204,
+      "pattern_energy": 89.57402461463585,
+      "pattern_contrast": 0.3736619056997301,
+      "mean_v": 0.1337507623091695,
+      "n_spots": 33,
+      "time": 33999.0,
+      "step": 33999,
+      "wall_elapsed": 52.76715278625488
+    },
+    {
+      "spectral_entropy": 4.985440268863614,
+      "pattern_energy": 80.44006725825857,
+      "pattern_contrast": 0.38598563243873885,
+      "mean_v": 0.10515821922907803,
+      "n_spots": 28,
+      "time": 34099.0,
+      "step": 34099,
+      "wall_elapsed": 52.9208025932312
+    },
+    {
+      "spectral_entropy": 4.909322094100719,
+      "pattern_energy": 99.10275495882735,
+      "pattern_contrast": 0.36911262270544265,
+      "mean_v": 0.13518197431967297,
+      "n_spots": 32,
+      "time": 34199.0,
+      "step": 34199,
+      "wall_elapsed": 53.095000982284546
+    },
+    {
+      "spectral_entropy": 4.931107450991377,
+      "pattern_energy": 73.59712229795072,
+      "pattern_contrast": 0.37414423350047166,
+      "mean_v": 0.10752688652672157,
+      "n_spots": 28,
+      "time": 34299.0,
+      "step": 34299,
+      "wall_elapsed": 53.24591517448425
+    },
+    {
+      "spectral_entropy": 4.892654303173371,
+      "pattern_energy": 107.86898260182151,
+      "pattern_contrast": 0.43232215573520333,
+      "mean_v": 0.13412876451471029,
+      "n_spots": 31,
+      "time": 34399.0,
+      "step": 34399,
+      "wall_elapsed": 53.38809680938721
+    },
+    {
+      "spectral_entropy": 4.904473314555943,
+      "pattern_energy": 69.74866903814066,
+      "pattern_contrast": 0.3756550837948629,
+      "mean_v": 0.11083457180268375,
+      "n_spots": 29,
+      "time": 34499.0,
+      "step": 34499,
+      "wall_elapsed": 53.54209589958191
+    },
+    {
+      "spectral_entropy": 4.9852209154431595,
+      "pattern_energy": 115.49862286129742,
+      "pattern_contrast": 0.4721481341857477,
+      "mean_v": 0.13074955292075063,
+      "n_spots": 30,
+      "time": 34599.0,
+      "step": 34599,
+      "wall_elapsed": 53.69396448135376
+    },
+    {
+      "spectral_entropy": 5.00507996178415,
+      "pattern_energy": 67.7150476186217,
+      "pattern_contrast": 0.35777633946314613,
+      "mean_v": 0.11391315346947667,
+      "n_spots": 29,
+      "time": 34699.0,
+      "step": 34699,
+      "wall_elapsed": 53.84156131744385
+    },
+    {
+      "spectral_entropy": 5.129507102442394,
+      "pattern_energy": 118.57907524222665,
+      "pattern_contrast": 0.4722565457823184,
+      "mean_v": 0.11724847008797765,
+      "n_spots": 28,
+      "time": 34799.0,
+      "step": 34799,
+      "wall_elapsed": 54.01602864265442
+    },
+    {
+      "spectral_entropy": 5.269515435626263,
+      "pattern_energy": 75.14853409233515,
+      "pattern_contrast": 0.38552374681965884,
+      "mean_v": 0.11543305034277823,
+      "n_spots": 30,
+      "time": 34899.0,
+      "step": 34899,
+      "wall_elapsed": 54.16467499732971
+    },
+    {
+      "spectral_entropy": 5.26408469478119,
+      "pattern_energy": 113.50960470289874,
+      "pattern_contrast": 0.5330603516046877,
+      "mean_v": 0.11464393489625294,
+      "n_spots": 27,
+      "time": 34999.0,
+      "step": 34999,
+      "wall_elapsed": 54.34084510803223
+    },
+    {
+      "spectral_entropy": 5.243397093461972,
+      "pattern_energy": 77.41846307090358,
+      "pattern_contrast": 0.38122766482048775,
+      "mean_v": 0.12330289420104765,
+      "n_spots": 31,
+      "time": 35099.0,
+      "step": 35099,
+      "wall_elapsed": 54.494545221328735
+    },
+    {
+      "spectral_entropy": 5.269360582946806,
+      "pattern_energy": 103.24098776478117,
+      "pattern_contrast": 0.4618430527259394,
+      "mean_v": 0.1072919353858443,
+      "n_spots": 26,
+      "time": 35199.0,
+      "step": 35199,
+      "wall_elapsed": 54.64962577819824
+    },
+    {
+      "spectral_entropy": 5.192541976826206,
+      "pattern_energy": 84.68960290831518,
+      "pattern_contrast": 0.3727343171873898,
+      "mean_v": 0.12994767734707457,
+      "n_spots": 32,
+      "time": 35299.0,
+      "step": 35299,
+      "wall_elapsed": 54.7988760471344
+    },
+    {
+      "spectral_entropy": 5.136095535682871,
+      "pattern_energy": 90.28821740469513,
+      "pattern_contrast": 0.46683229135978044,
+      "mean_v": 0.10384754506007875,
+      "n_spots": 27,
+      "time": 35399.0,
+      "step": 35399,
+      "wall_elapsed": 54.95707941055298
+    },
+    {
+      "spectral_entropy": 5.139941894012345,
+      "pattern_energy": 94.81432566709992,
+      "pattern_contrast": 0.39271474402178036,
+      "mean_v": 0.13321416285509857,
+      "n_spots": 32,
+      "time": 35499.0,
+      "step": 35499,
+      "wall_elapsed": 55.14002513885498
+    },
+    {
+      "spectral_entropy": 5.093363646144063,
+      "pattern_energy": 79.06435351184065,
+      "pattern_contrast": 0.41641884767813103,
+      "mean_v": 0.10428557526451243,
+      "n_spots": 27,
+      "time": 35599.0,
+      "step": 35599,
+      "wall_elapsed": 55.305514335632324
+    },
+    {
+      "spectral_entropy": 5.12272956455478,
+      "pattern_energy": 102.70978319020355,
+      "pattern_contrast": 0.4182583527224339,
+      "mean_v": 0.1298350817304681,
+      "n_spots": 31,
+      "time": 35699.0,
+      "step": 35699,
+      "wall_elapsed": 55.470372915267944
+    },
+    {
+      "spectral_entropy": 5.110622349015039,
+      "pattern_energy": 76.03692655995187,
+      "pattern_contrast": 0.40088981116202177,
+      "mean_v": 0.10853471979383128,
+      "n_spots": 28,
+      "time": 35799.0,
+      "step": 35799,
+      "wall_elapsed": 55.61164975166321
+    },
+    {
+      "spectral_entropy": 5.045969384844164,
+      "pattern_energy": 106.2532334127908,
+      "pattern_contrast": 0.4437169994200211,
+      "mean_v": 0.12995371776967257,
+      "n_spots": 30,
+      "time": 35899.0,
+      "step": 35899,
+      "wall_elapsed": 55.755974769592285
+    },
+    {
+      "spectral_entropy": 5.00926460776581,
+      "pattern_energy": 73.06139941625035,
+      "pattern_contrast": 0.35506106589137004,
+      "mean_v": 0.11120469367405637,
+      "n_spots": 29,
+      "time": 35999.0,
+      "step": 35999,
+      "wall_elapsed": 55.901124715805054
+    },
+    {
+      "spectral_entropy": 5.032796216033732,
+      "pattern_energy": 111.80704804896287,
+      "pattern_contrast": 0.47282429452012753,
+      "mean_v": 0.12619508433059218,
+      "n_spots": 30,
+      "time": 36099.0,
+      "step": 36099,
+      "wall_elapsed": 56.064980030059814
+    },
+    {
+      "spectral_entropy": 4.949773881847485,
+      "pattern_energy": 72.12536036996666,
+      "pattern_contrast": 0.3597211587320892,
+      "mean_v": 0.11638301062230103,
+      "n_spots": 30,
+      "time": 36199.0,
+      "step": 36199,
+      "wall_elapsed": 56.2081995010376
+    },
+    {
+      "spectral_entropy": 5.102502403148527,
+      "pattern_energy": 109.84661338286841,
+      "pattern_contrast": 0.45625164721703204,
+      "mean_v": 0.11297694028797103,
+      "n_spots": 28,
+      "time": 36299.0,
+      "step": 36299,
+      "wall_elapsed": 56.3497588634491
+    },
+    {
+      "spectral_entropy": 5.152367915657914,
+      "pattern_energy": 80.5867897926015,
+      "pattern_contrast": 0.38205602919904,
+      "mean_v": 0.11991106586672531,
+      "n_spots": 30,
+      "time": 36399.0,
+      "step": 36399,
+      "wall_elapsed": 56.49542593955994
+    },
+    {
+      "spectral_entropy": 5.220785254764396,
+      "pattern_energy": 104.30758881330507,
+      "pattern_contrast": 0.5045238968831921,
+      "mean_v": 0.11160996016193866,
+      "n_spots": 27,
+      "time": 36499.0,
+      "step": 36499,
+      "wall_elapsed": 56.63869500160217
+    },
+    {
+      "spectral_entropy": 5.1630969404606875,
+      "pattern_energy": 83.25968534785699,
+      "pattern_contrast": 0.36009680807678623,
+      "mean_v": 0.12602263966553212,
+      "n_spots": 31,
+      "time": 36599.0,
+      "step": 36599,
+      "wall_elapsed": 56.78081035614014
+    },
+    {
+      "spectral_entropy": 5.123349224230112,
+      "pattern_energy": 94.08276277874022,
+      "pattern_contrast": 0.46973141011449976,
+      "mean_v": 0.10785432855695981,
+      "n_spots": 27,
+      "time": 36699.0,
+      "step": 36699,
+      "wall_elapsed": 56.926223039627075
+    },
+    {
+      "spectral_entropy": 5.092801392019506,
+      "pattern_energy": 91.97415158610748,
+      "pattern_contrast": 0.3678851777980246,
+      "mean_v": 0.12697343796706856,
+      "n_spots": 31,
+      "time": 36799.0,
+      "step": 36799,
+      "wall_elapsed": 57.0890748500824
+    },
+    {
+      "spectral_entropy": 5.0675930470690345,
+      "pattern_energy": 87.44563649602276,
+      "pattern_contrast": 0.41102333310119493,
+      "mean_v": 0.11140924417273876,
+      "n_spots": 28,
+      "time": 36899.0,
+      "step": 36899,
+      "wall_elapsed": 57.23495888710022
+    },
+    {
+      "spectral_entropy": 4.968294699794175,
+      "pattern_energy": 95.647625167707,
+      "pattern_contrast": 0.4048435157206637,
+      "mean_v": 0.1287299008548936,
+      "n_spots": 31,
+      "time": 36999.0,
+      "step": 36999,
+      "wall_elapsed": 57.38062596321106
+    },
+    {
+      "spectral_entropy": 4.87961132782468,
+      "pattern_energy": 82.54651514981212,
+      "pattern_contrast": 0.4166022148049181,
+      "mean_v": 0.11336631372908298,
+      "n_spots": 28,
+      "time": 37099.0,
+      "step": 37099,
+      "wall_elapsed": 57.52677059173584
+    },
+    {
+      "spectral_entropy": 4.846170218764039,
+      "pattern_energy": 99.39747759284496,
+      "pattern_contrast": 0.41412745656596106,
+      "mean_v": 0.12786483796488962,
+      "n_spots": 30,
+      "time": 37199.0,
+      "step": 37199,
+      "wall_elapsed": 57.66717314720154
+    },
+    {
+      "spectral_entropy": 4.786436584217039,
+      "pattern_energy": 79.39530454152928,
+      "pattern_contrast": 0.39040712995256677,
+      "mean_v": 0.11670772765794603,
+      "n_spots": 29,
+      "time": 37299.0,
+      "step": 37299,
+      "wall_elapsed": 57.810715198516846
+    },
+    {
+      "spectral_entropy": 4.748076833173563,
+      "pattern_energy": 101.65257632616861,
+      "pattern_contrast": 0.5074033368089764,
+      "mean_v": 0.12593121154403358,
+      "n_spots": 30,
+      "time": 37399.0,
+      "step": 37399,
+      "wall_elapsed": 57.97288274765015
+    },
+    {
+      "spectral_entropy": 4.6968959438750755,
+      "pattern_energy": 77.26435445091394,
+      "pattern_contrast": 0.36467069324448187,
+      "mean_v": 0.11952885583202355,
+      "n_spots": 30,
+      "time": 37499.0,
+      "step": 37499,
+      "wall_elapsed": 58.12097215652466
+    },
+    {
+      "spectral_entropy": 4.805166575059984,
+      "pattern_energy": 101.26981940144071,
+      "pattern_contrast": 0.4751796224832979,
+      "mean_v": 0.12085608103551784,
+      "n_spots": 29,
+      "time": 37599.0,
+      "step": 37599,
+      "wall_elapsed": 58.26287531852722
+    },
+    {
+      "spectral_entropy": 4.887747750107945,
+      "pattern_energy": 80.27701895727785,
+      "pattern_contrast": 0.3657546778087497,
+      "mean_v": 0.1200664025830093,
+      "n_spots": 30,
+      "time": 37699.0,
+      "step": 37699,
+      "wall_elapsed": 58.406795501708984
+    },
+    {
+      "spectral_entropy": 4.974349773182291,
+      "pattern_energy": 100.55109605985378,
+      "pattern_contrast": 0.431910093870962,
+      "mean_v": 0.11698835064169344,
+      "n_spots": 28,
+      "time": 37799.0,
+      "step": 37799,
+      "wall_elapsed": 58.55107045173645
+    },
+    {
+      "spectral_entropy": 4.923120705522362,
+      "pattern_energy": 82.6509156158794,
+      "pattern_contrast": 0.354699534916553,
+      "mean_v": 0.12415990991819914,
+      "n_spots": 31,
+      "time": 37899.0,
+      "step": 37899,
+      "wall_elapsed": 58.69231081008911
+    },
+    {
+      "spectral_entropy": 4.9056596657480025,
+      "pattern_energy": 94.73690347590014,
+      "pattern_contrast": 0.4331790165546861,
+      "mean_v": 0.11554956522842633,
+      "n_spots": 28,
+      "time": 37999.0,
+      "step": 37999,
+      "wall_elapsed": 58.84056782722473
+    },
+    {
+      "spectral_entropy": 4.821474401005943,
+      "pattern_energy": 85.13706417685526,
+      "pattern_contrast": 0.36661336349933166,
+      "mean_v": 0.12784149616173246,
+      "n_spots": 31,
+      "time": 38099.0,
+      "step": 38099,
+      "wall_elapsed": 59.000662326812744
+    },
+    {
+      "spectral_entropy": 4.779946340870407,
+      "pattern_energy": 90.10847456721835,
+      "pattern_contrast": 0.4170563751875027,
+      "mean_v": 0.11310967353363577,
+      "n_spots": 27,
+      "time": 38199.0,
+      "step": 38199,
+      "wall_elapsed": 59.15100383758545
+    },
+    {
+      "spectral_entropy": 4.882300339338551,
+      "pattern_energy": 90.37994667820574,
+      "pattern_contrast": 0.3689839849810607,
+      "mean_v": 0.12918996016237044,
+      "n_spots": 31,
+      "time": 38299.0,
+      "step": 38299,
+      "wall_elapsed": 59.29403877258301
+    },
+    {
+      "spectral_entropy": 4.774029581165433,
+      "pattern_energy": 86.25010323641871,
+      "pattern_contrast": 0.39523406725995847,
+      "mean_v": 0.11263593491304263,
+      "n_spots": 28,
+      "time": 38399.0,
+      "step": 38399,
+      "wall_elapsed": 59.43510317802429
+    },
+    {
+      "spectral_entropy": 4.814528164444797,
+      "pattern_energy": 95.08606569745065,
+      "pattern_contrast": 0.45084160902055376,
+      "mean_v": 0.13124102045466818,
+      "n_spots": 31,
+      "time": 38499.0,
+      "step": 38499,
+      "wall_elapsed": 59.57713031768799
+    },
+    {
+      "spectral_entropy": 4.6811825830946665,
+      "pattern_energy": 80.9230621262407,
+      "pattern_contrast": 0.3831949375629879,
+      "mean_v": 0.11252309800623257,
+      "n_spots": 28,
+      "time": 38599.0,
+      "step": 38599,
+      "wall_elapsed": 59.718806743621826
+    },
+    {
+      "spectral_entropy": 4.793779290134444,
+      "pattern_energy": 100.13819850526843,
+      "pattern_contrast": 0.485940174814672,
+      "mean_v": 0.12822754168030298,
+      "n_spots": 30,
+      "time": 38699.0,
+      "step": 38699,
+      "wall_elapsed": 59.86468243598938
+    },
+    {
+      "spectral_entropy": 4.782850938581816,
+      "pattern_energy": 79.56825423275745,
+      "pattern_contrast": 0.40559295014629587,
+      "mean_v": 0.11354035508373299,
+      "n_spots": 28,
+      "time": 38799.0,
+      "step": 38799,
+      "wall_elapsed": 60.0623722076416
+    },
+    {
+      "spectral_entropy": 4.753944515101348,
+      "pattern_energy": 102.82123476019953,
+      "pattern_contrast": 0.43936693796794757,
+      "mean_v": 0.12804392449764243,
+      "n_spots": 30,
+      "time": 38899.0,
+      "step": 38899,
+      "wall_elapsed": 60.20607018470764
+    },
+    {
+      "spectral_entropy": 4.7302469967055725,
+      "pattern_energy": 77.2816893442573,
+      "pattern_contrast": 0.43064096690273423,
+      "mean_v": 0.11631192256997686,
+      "n_spots": 29,
+      "time": 38999.0,
+      "step": 38999,
+      "wall_elapsed": 60.34552264213562
+    },
+    {
+      "spectral_entropy": 4.765233790293488,
+      "pattern_energy": 105.64702818523192,
+      "pattern_contrast": 0.5090664662915548,
+      "mean_v": 0.12369111966494606,
+      "n_spots": 29,
+      "time": 39099.0,
+      "step": 39099,
+      "wall_elapsed": 60.487948417663574
+    },
+    {
+      "spectral_entropy": 4.765731415494926,
+      "pattern_energy": 77.69075745358388,
+      "pattern_contrast": 0.47630617258340546,
+      "mean_v": 0.12068803480294771,
+      "n_spots": 30,
+      "time": 39199.0,
+      "step": 39199,
+      "wall_elapsed": 60.626554012298584
+    },
+    {
+      "spectral_entropy": 4.7688849890259855,
+      "pattern_energy": 102.83129709131109,
+      "pattern_contrast": 0.4368756246171735,
+      "mean_v": 0.1200546076273663,
+      "n_spots": 28,
+      "time": 39299.0,
+      "step": 39299,
+      "wall_elapsed": 60.76915907859802
+    },
+    {
+      "spectral_entropy": 4.806879045810699,
+      "pattern_energy": 79.18989501868515,
+      "pattern_contrast": 0.4653025893147005,
+      "mean_v": 0.12330367068358294,
+      "n_spots": 30,
+      "time": 39399.0,
+      "step": 39399,
+      "wall_elapsed": 60.91305470466614
+    },
+    {
+      "spectral_entropy": 4.7918449079954835,
+      "pattern_energy": 100.41617934812083,
+      "pattern_contrast": 0.4677787449537452,
+      "mean_v": 0.11610721437211328,
+      "n_spots": 28,
+      "time": 39499.0,
+      "step": 39499,
+      "wall_elapsed": 61.07945418357849
+    },
+    {
+      "spectral_entropy": 4.76428236945567,
+      "pattern_energy": 79.99158365200488,
+      "pattern_contrast": 0.3873125176808875,
+      "mean_v": 0.1282556661929653,
+      "n_spots": 31,
+      "time": 39599.0,
+      "step": 39599,
+      "wall_elapsed": 61.23565435409546
+    },
+    {
+      "spectral_entropy": 4.825298087408005,
+      "pattern_energy": 95.20164209196794,
+      "pattern_contrast": 0.4776813461533937,
+      "mean_v": 0.10883851715575152,
+      "n_spots": 27,
+      "time": 39699.0,
+      "step": 39699,
+      "wall_elapsed": 61.390174865722656
+    },
+    {
+      "spectral_entropy": 4.8853819727304995,
+      "pattern_energy": 87.41884141812477,
+      "pattern_contrast": 0.36155500393117757,
+      "mean_v": 0.12946299544811965,
+      "n_spots": 31,
+      "time": 39799.0,
+      "step": 39799,
+      "wall_elapsed": 61.53736400604248
+    },
+    {
+      "spectral_entropy": 4.947067653045857,
+      "pattern_energy": 89.40236760683959,
+      "pattern_contrast": 0.4569971129581043,
+      "mean_v": 0.10568432549080156,
+      "n_spots": 26,
+      "time": 39899.0,
+      "step": 39899,
+      "wall_elapsed": 61.69028425216675
+    },
+    {
+      "spectral_entropy": 4.951522568638964,
+      "pattern_energy": 95.27708770920306,
+      "pattern_contrast": 0.3771275055059781,
+      "mean_v": 0.1325267803937744,
+      "n_spots": 31,
+      "time": 39999.0,
+      "step": 39999,
+      "wall_elapsed": 61.83713388442993
+    },
+    {
+      "spectral_entropy": 4.861128406072104,
+      "pattern_energy": 81.34787057123701,
+      "pattern_contrast": 0.40516245156708586,
+      "mean_v": 0.10372046228025548,
+      "n_spots": 27,
+      "time": 40099.0,
+      "step": 40099,
+      "wall_elapsed": 62.00258016586304
+    },
+    {
+      "spectral_entropy": 4.970391362232895,
+      "pattern_energy": 107.3709702605713,
+      "pattern_contrast": 0.42041212341999534,
+      "mean_v": 0.1295815435501242,
+      "n_spots": 30,
+      "time": 40199.0,
+      "step": 40199,
+      "wall_elapsed": 62.16125702857971
+    },
+    {
+      "spectral_entropy": 4.92043290943725,
+      "pattern_energy": 75.85037124730783,
+      "pattern_contrast": 0.42763673588811046,
+      "mean_v": 0.10769186015760246,
+      "n_spots": 28,
+      "time": 40299.0,
+      "step": 40299,
+      "wall_elapsed": 62.31599426269531
+    },
+    {
+      "spectral_entropy": 5.026146070255556,
+      "pattern_energy": 113.5816724879961,
+      "pattern_contrast": 0.5499226816202173,
+      "mean_v": 0.12211852615861016,
+      "n_spots": 29,
+      "time": 40399.0,
+      "step": 40399,
+      "wall_elapsed": 62.46667456626892
+    },
+    {
+      "spectral_entropy": 5.01852446282698,
+      "pattern_energy": 75.43841843952842,
+      "pattern_contrast": 0.40987186658753494,
+      "mean_v": 0.1172893363147523,
+      "n_spots": 30,
+      "time": 40499.0,
+      "step": 40499,
+      "wall_elapsed": 62.62085819244385
+    },
+    {
+      "spectral_entropy": 5.0837939752671835,
+      "pattern_energy": 109.51968421552658,
+      "pattern_contrast": 0.49300326424299395,
+      "mean_v": 0.11373421620030796,
+      "n_spots": 28,
+      "time": 40599.0,
+      "step": 40599,
+      "wall_elapsed": 62.7658052444458
+    },
+    {
+      "spectral_entropy": 5.1230600745669,
+      "pattern_energy": 80.66790759280227,
+      "pattern_contrast": 0.3900058414856752,
+      "mean_v": 0.12285525331106244,
+      "n_spots": 31,
+      "time": 40699.0,
+      "step": 40699,
+      "wall_elapsed": 62.90983724594116
+    },
+    {
+      "spectral_entropy": 5.061581487989449,
+      "pattern_energy": 99.94258818152879,
+      "pattern_contrast": 0.47221953612655754,
+      "mean_v": 0.10887974549791199,
+      "n_spots": 27,
+      "time": 40799.0,
+      "step": 40799,
+      "wall_elapsed": 63.07314872741699
+    },
+    {
+      "spectral_entropy": 5.085406668297666,
+      "pattern_energy": 87.9301157145062,
+      "pattern_contrast": 0.3848542073720029,
+      "mean_v": 0.12939226077072652,
+      "n_spots": 32,
+      "time": 40899.0,
+      "step": 40899,
+      "wall_elapsed": 63.21808671951294
+    },
+    {
+      "spectral_entropy": 4.9665073977049055,
+      "pattern_energy": 89.99515455026531,
+      "pattern_contrast": 0.40266300653374537,
+      "mean_v": 0.10596287688543275,
+      "n_spots": 27,
+      "time": 40999.0,
+      "step": 40999,
+      "wall_elapsed": 63.36609935760498
+    },
+    {
+      "spectral_entropy": 5.180578969469945,
+      "pattern_energy": 98.65433886005357,
+      "pattern_contrast": 0.4329892211615035,
+      "mean_v": 0.12459217866583318,
+      "n_spots": 31,
+      "time": 41099.0,
+      "step": 41099,
+      "wall_elapsed": 63.5118350982666
+    },
+    {
+      "spectral_entropy": 5.057418004396687,
+      "pattern_energy": 86.43870010442721,
+      "pattern_contrast": 0.37919843041930534,
+      "mean_v": 0.10835257427925687,
+      "n_spots": 28,
+      "time": 41199.0,
+      "step": 41199,
+      "wall_elapsed": 63.652169942855835
+    },
+    {
+      "spectral_entropy": 5.155956768613553,
+      "pattern_energy": 102.45097397377938,
+      "pattern_contrast": 0.5344568302508627,
+      "mean_v": 0.12524176443147508,
+      "n_spots": 30,
+      "time": 41299.0,
+      "step": 41299,
+      "wall_elapsed": 63.79500865936279
+    },
+    {
+      "spectral_entropy": 5.028996119563036,
+      "pattern_energy": 82.47357449611941,
+      "pattern_contrast": 0.38782542860458036,
+      "mean_v": 0.11299526610089841,
+      "n_spots": 29,
+      "time": 41399.0,
+      "step": 41399,
+      "wall_elapsed": 63.964956521987915
+    },
+    {
+      "spectral_entropy": 5.077492647100771,
+      "pattern_energy": 105.07023906409786,
+      "pattern_contrast": 0.4536339726637937,
+      "mean_v": 0.12272203863643855,
+      "n_spots": 30,
+      "time": 41499.0,
+      "step": 41499,
+      "wall_elapsed": 64.17835354804993
+    },
+    {
+      "spectral_entropy": 5.034174317641575,
+      "pattern_energy": 83.10921700312184,
+      "pattern_contrast": 0.3832353347716344,
+      "mean_v": 0.11684647064515863,
+      "n_spots": 30,
+      "time": 41599.0,
+      "step": 41599,
+      "wall_elapsed": 64.32756543159485
+    },
+    {
+      "spectral_entropy": 5.012185250432185,
+      "pattern_energy": 103.46792584978645,
+      "pattern_contrast": 0.4227441819720372,
+      "mean_v": 0.1205517905655334,
+      "n_spots": 29,
+      "time": 41699.0,
+      "step": 41699,
+      "wall_elapsed": 64.47101998329163
+    },
+    {
+      "spectral_entropy": 4.960592657916147,
+      "pattern_energy": 84.80610390185626,
+      "pattern_contrast": 0.38833468139192723,
+      "mean_v": 0.1206256250678103,
+      "n_spots": 30,
+      "time": 41799.0,
+      "step": 41799,
+      "wall_elapsed": 64.6090760231018
+    },
+    {
+      "spectral_entropy": 4.868029030454171,
+      "pattern_energy": 100.2732757496834,
+      "pattern_contrast": 0.42618433431476044,
+      "mean_v": 0.12012765898669163,
+      "n_spots": 29,
+      "time": 41899.0,
+      "step": 41899,
+      "wall_elapsed": 64.75527906417847
+    },
+    {
+      "spectral_entropy": 4.850509630387901,
+      "pattern_energy": 85.54394664018533,
+      "pattern_contrast": 0.3877740146044394,
+      "mean_v": 0.12359080447764878,
+      "n_spots": 30,
+      "time": 41999.0,
+      "step": 41999,
+      "wall_elapsed": 64.90058279037476
+    },
+    {
+      "spectral_entropy": 4.839363674574334,
+      "pattern_energy": 97.93836495676341,
+      "pattern_contrast": 0.4297848617136919,
+      "mean_v": 0.11776972933574914,
+      "n_spots": 28,
+      "time": 42099.0,
+      "step": 42099,
+      "wall_elapsed": 65.06529879570007
+    },
+    {
+      "spectral_entropy": 4.814198451048431,
+      "pattern_energy": 86.8838220758691,
+      "pattern_contrast": 0.3869464731910168,
+      "mean_v": 0.1266804833074259,
+      "n_spots": 30,
+      "time": 42199.0,
+      "step": 42199,
+      "wall_elapsed": 65.21048998832703
+    },
+    {
+      "spectral_entropy": 4.790782640566571,
+      "pattern_energy": 94.47096344210298,
+      "pattern_contrast": 0.4229860966614693,
+      "mean_v": 0.11591750291738609,
+      "n_spots": 28,
+      "time": 42299.0,
+      "step": 42299,
+      "wall_elapsed": 65.35213470458984
+    },
+    {
+      "spectral_entropy": 4.803875008738575,
+      "pattern_energy": 88.49743476863544,
+      "pattern_contrast": 0.44939873405218195,
+      "mean_v": 0.1292522162437586,
+      "n_spots": 31,
+      "time": 42399.0,
+      "step": 42399,
+      "wall_elapsed": 65.4967725276947
+    },
+    {
+      "spectral_entropy": 4.804279823298119,
+      "pattern_energy": 90.46868453229347,
+      "pattern_contrast": 0.4299908630571392,
+      "mean_v": 0.11226523138389363,
+      "n_spots": 28,
+      "time": 42499.0,
+      "step": 42499,
+      "wall_elapsed": 65.63684463500977
+    },
+    {
+      "spectral_entropy": 4.841831342404357,
+      "pattern_energy": 93.06501825522199,
+      "pattern_contrast": 0.43383678366193595,
+      "mean_v": 0.1326806478102584,
+      "n_spots": 31,
+      "time": 42599.0,
+      "step": 42599,
+      "wall_elapsed": 65.787832736969
+    },
+    {
+      "spectral_entropy": 4.78976518827064,
+      "pattern_energy": 84.02518056003001,
+      "pattern_contrast": 0.3973283501198529,
+      "mean_v": 0.10798166847729589,
+      "n_spots": 27,
+      "time": 42699.0,
+      "step": 42699,
+      "wall_elapsed": 65.93086624145508
+    },
+    {
+      "spectral_entropy": 4.969318749511123,
+      "pattern_energy": 102.22282211882037,
+      "pattern_contrast": 0.50475418208549,
+      "mean_v": 0.13118377591768185,
+      "n_spots": 30,
+      "time": 42799.0,
+      "step": 42799,
+      "wall_elapsed": 66.08694767951965
+    },
+    {
+      "spectral_entropy": 4.883855973332351,
+      "pattern_energy": 79.48534347063831,
+      "pattern_contrast": 0.3971761605581947,
+      "mean_v": 0.10781489755510892,
+      "n_spots": 27,
+      "time": 42899.0,
+      "step": 42899,
+      "wall_elapsed": 66.2366087436676
+    },
+    {
+      "spectral_entropy": 5.07140777149498,
+      "pattern_energy": 108.11389619712853,
+      "pattern_contrast": 0.4990260635534423,
+      "mean_v": 0.12903581725069438,
+      "n_spots": 30,
+      "time": 42999.0,
+      "step": 42999,
+      "wall_elapsed": 66.38100671768188
+    },
+    {
+      "spectral_entropy": 4.953039118273425,
+      "pattern_energy": 75.32537610778202,
+      "pattern_contrast": 0.36579529110943515,
+      "mean_v": 0.11154028419039666,
+      "n_spots": 29,
+      "time": 43099.0,
+      "step": 43099,
+      "wall_elapsed": 66.52877068519592
+    },
+    {
+      "spectral_entropy": 4.988430922967019,
+      "pattern_energy": 109.71725146696559,
+      "pattern_contrast": 0.4686257038552566,
+      "mean_v": 0.1267342006367077,
+      "n_spots": 30,
+      "time": 43199.0,
+      "step": 43199,
+      "wall_elapsed": 66.67526197433472
+    },
+    {
+      "spectral_entropy": 4.9842256034472605,
+      "pattern_energy": 73.0977404657598,
+      "pattern_contrast": 0.35105930340105995,
+      "mean_v": 0.11570198335963375,
+      "n_spots": 30,
+      "time": 43299.0,
+      "step": 43299,
+      "wall_elapsed": 66.81952500343323
+    },
+    {
+      "spectral_entropy": 4.918217072007245,
+      "pattern_energy": 111.46993499170156,
+      "pattern_contrast": 0.42192441037073725,
+      "mean_v": 0.12460695623239224,
+      "n_spots": 29,
+      "time": 43399.0,
+      "step": 43399,
+      "wall_elapsed": 66.97790265083313
+    },
+    {
+      "spectral_entropy": 4.959377088446461,
+      "pattern_energy": 71.32545531773617,
+      "pattern_contrast": 0.3600047621162905,
+      "mean_v": 0.12041045054825777,
+      "n_spots": 30,
+      "time": 43499.0,
+      "step": 43499,
+      "wall_elapsed": 67.12907004356384
+    },
+    {
+      "spectral_entropy": 4.862757691361888,
+      "pattern_energy": 114.61327663910278,
+      "pattern_contrast": 0.46175342548851084,
+      "mean_v": 0.11982351362866484,
+      "n_spots": 27,
+      "time": 43599.0,
+      "step": 43599,
+      "wall_elapsed": 67.27556443214417
+    },
+    {
+      "spectral_entropy": 4.947478688903584,
+      "pattern_energy": 69.59859553236475,
+      "pattern_contrast": 0.3548871228869263,
+      "mean_v": 0.12740116168525223,
+      "n_spots": 31,
+      "time": 43699.0,
+      "step": 43699,
+      "wall_elapsed": 67.41827416419983
+    },
+    {
+      "spectral_entropy": 4.974348824585497,
+      "pattern_energy": 110.66712068425059,
+      "pattern_contrast": 0.5031465179412558,
+      "mean_v": 0.10520936032483057,
+      "n_spots": 25,
+      "time": 43799.0,
+      "step": 43799,
+      "wall_elapsed": 67.56322360038757
+    },
+    {
+      "spectral_entropy": 5.190824344268988,
+      "pattern_energy": 76.55070386448868,
+      "pattern_contrast": 0.36719777548218036,
+      "mean_v": 0.1366450526358604,
+      "n_spots": 33,
+      "time": 43899.0,
+      "step": 43899,
+      "wall_elapsed": 67.70668530464172
+    },
+    {
+      "spectral_entropy": 5.189038041471435,
+      "pattern_energy": 89.62828654948026,
+      "pattern_contrast": 0.44922579299088844,
+      "mean_v": 0.0898085098646439,
+      "n_spots": 23,
+      "time": 43999.0,
+      "step": 43999,
+      "wall_elapsed": 67.8483293056488
+    },
+    {
+      "spectral_entropy": 5.378144571392009,
+      "pattern_energy": 99.49181439911878,
+      "pattern_contrast": 0.4436005923209064,
+      "mean_v": 0.13510007467978075,
+      "n_spots": 32,
+      "time": 44099.0,
+      "step": 44099,
+      "wall_elapsed": 68.01333951950073
+    },
+    {
+      "spectral_entropy": 5.43121534288537,
+      "pattern_energy": 72.19491824651051,
+      "pattern_contrast": 0.4726654073780132,
+      "mean_v": 0.08699623408794754,
+      "n_spots": 25,
+      "time": 44199.0,
+      "step": 44199,
+      "wall_elapsed": 68.16142249107361
+    },
+    {
+      "spectral_entropy": 5.411200762722916,
+      "pattern_energy": 122.620986715998,
+      "pattern_contrast": 0.4763982788940075,
+      "mean_v": 0.12890871622435207,
+      "n_spots": 31,
+      "time": 44299.0,
+      "step": 44299,
+      "wall_elapsed": 68.30707144737244
+    },
+    {
+      "spectral_entropy": 5.3816814316823365,
+      "pattern_energy": 68.16667672330998,
+      "pattern_contrast": 0.3748534590871585,
+      "mean_v": 0.10188030686220959,
+      "n_spots": 28,
+      "time": 44399.0,
+      "step": 44399,
+      "wall_elapsed": 68.45100426673889
+    },
+    {
+      "spectral_entropy": 5.369948879302995,
+      "pattern_energy": 119.12678391846187,
+      "pattern_contrast": 0.5648835294299276,
+      "mean_v": 0.10224831304115481,
+      "n_spots": 26,
+      "time": 44499.0,
+      "step": 44499,
+      "wall_elapsed": 68.5948429107666
+    },
+    {
+      "spectral_entropy": 5.394760391633062,
+      "pattern_energy": 87.06214767666435,
+      "pattern_contrast": 0.3878095844264851,
+      "mean_v": 0.11718469063861554,
+      "n_spots": 32,
+      "time": 44599.0,
+      "step": 44599,
+      "wall_elapsed": 68.73612976074219
+    },
+    {
+      "spectral_entropy": 5.302041804250369,
+      "pattern_energy": 99.30222884502095,
+      "pattern_contrast": 0.44046480557772444,
+      "mean_v": 0.10134932006971656,
+      "n_spots": 27,
+      "time": 44699.0,
+      "step": 44699,
+      "wall_elapsed": 68.88138008117676
+    },
+    {
+      "spectral_entropy": 5.245138598282534,
+      "pattern_energy": 96.32318835665,
+      "pattern_contrast": 0.40848288093378726,
+      "mean_v": 0.1273539104636801,
+      "n_spots": 32,
+      "time": 44799.0,
+      "step": 44799,
+      "wall_elapsed": 69.03986954689026
+    },
+    {
+      "spectral_entropy": 5.170785566177102,
+      "pattern_energy": 84.96714706421912,
+      "pattern_contrast": 0.4064601121111894,
+      "mean_v": 0.10619386457620994,
+      "n_spots": 28,
+      "time": 44899.0,
+      "step": 44899,
+      "wall_elapsed": 69.18734931945801
+    },
+    {
+      "spectral_entropy": 5.1787997376664965,
+      "pattern_energy": 102.95681099181198,
+      "pattern_contrast": 0.38378797509367624,
+      "mean_v": 0.12819138134791502,
+      "n_spots": 31,
+      "time": 44999.0,
+      "step": 44999,
+      "wall_elapsed": 69.3371958732605
+    },
+    {
+      "spectral_entropy": 5.144295939129613,
+      "pattern_energy": 79.20296979799672,
+      "pattern_contrast": 0.3725585226895297,
+      "mean_v": 0.11156896908266009,
+      "n_spots": 29,
+      "time": 45099.0,
+      "step": 45099,
+      "wall_elapsed": 69.4882915019989
+    },
+    {
+      "spectral_entropy": 5.128614557075885,
+      "pattern_energy": 107.20345485443944,
+      "pattern_contrast": 0.4176617407808568,
+      "mean_v": 0.12799776359597043,
+      "n_spots": 30,
+      "time": 45199.0,
+      "step": 45199,
+      "wall_elapsed": 69.63446807861328
+    },
+    {
+      "spectral_entropy": 5.046119273108167,
+      "pattern_energy": 77.2602331531581,
+      "pattern_contrast": 0.380579758767106,
+      "mean_v": 0.11589457176422366,
+      "n_spots": 30,
+      "time": 45299.0,
+      "step": 45299,
+      "wall_elapsed": 69.7779769897461
+    },
+    {
+      "spectral_entropy": 5.04934757991254,
+      "pattern_energy": 110.88523269790424,
+      "pattern_contrast": 0.4341249614101116,
+      "mean_v": 0.12685184991012843,
+      "n_spots": 30,
+      "time": 45399.0,
+      "step": 45399,
+      "wall_elapsed": 69.92120289802551
+    },
+    {
+      "spectral_entropy": 4.917109851211641,
+      "pattern_energy": 75.37547253553215,
+      "pattern_contrast": 0.3526130095679892,
+      "mean_v": 0.1193445795680331,
+      "n_spots": 30,
+      "time": 45499.0,
+      "step": 45499,
+      "wall_elapsed": 70.08727264404297
+    },
+    {
+      "spectral_entropy": 5.018439409059354,
+      "pattern_energy": 115.2575898323535,
+      "pattern_contrast": 0.4948777536308036,
+      "mean_v": 0.12305094865391487,
+      "n_spots": 28,
+      "time": 45599.0,
+      "step": 45599,
+      "wall_elapsed": 70.23243379592896
+    },
+    {
+      "spectral_entropy": 4.871692469101891,
+      "pattern_energy": 73.41185580276739,
+      "pattern_contrast": 0.33532373856297104,
+      "mean_v": 0.12433236278531413,
+      "n_spots": 31,
+      "time": 45699.0,
+      "step": 45699,
+      "wall_elapsed": 70.3779993057251
+    },
+    {
+      "spectral_entropy": 5.141052545638984,
+      "pattern_energy": 109.96123060596594,
+      "pattern_contrast": 0.47385320527681996,
+      "mean_v": 0.10799583795767785,
+      "n_spots": 26,
+      "time": 45799.0,
+      "step": 45799,
+      "wall_elapsed": 70.52684092521667
+    },
+    {
+      "spectral_entropy": 5.180153077428651,
+      "pattern_energy": 81.73108818868315,
+      "pattern_contrast": 0.35593057611423906,
+      "mean_v": 0.1318673908547977,
+      "n_spots": 32,
+      "time": 45899.0,
+      "step": 45899,
+      "wall_elapsed": 70.66916584968567
+    },
+    {
+      "spectral_entropy": 5.1896366574805555,
+      "pattern_energy": 98.73838631521504,
+      "pattern_contrast": 0.44041530689652686,
+      "mean_v": 0.10074998862085444,
+      "n_spots": 25,
+      "time": 45999.0,
+      "step": 45999,
+      "wall_elapsed": 70.81489539146423
+    },
+    {
+      "spectral_entropy": 5.229968727792226,
+      "pattern_energy": 93.90462180215322,
+      "pattern_contrast": 0.5334951717796252,
+      "mean_v": 0.13316772745549887,
+      "n_spots": 32,
+      "time": 46099.0,
+      "step": 46099,
+      "wall_elapsed": 70.96145796775818
+    },
+    {
+      "spectral_entropy": 5.168218045842023,
+      "pattern_energy": 86.86740042391563,
+      "pattern_contrast": 0.4404870650445957,
+      "mean_v": 0.09990376792381382,
+      "n_spots": 26,
+      "time": 46199.0,
+      "step": 46199,
+      "wall_elapsed": 71.12307167053223
+    },
+    {
+      "spectral_entropy": 5.1757516197097955,
+      "pattern_energy": 102.24277888340204,
+      "pattern_contrast": 0.5149701272805248,
+      "mean_v": 0.1348879088265113,
+      "n_spots": 32,
+      "time": 46299.0,
+      "step": 46299,
+      "wall_elapsed": 71.269296169281
+    },
+    {
+      "spectral_entropy": 5.088222126421852,
+      "pattern_energy": 77.68967521637997,
+      "pattern_contrast": 0.38011913042112605,
+      "mean_v": 0.10051594691062304,
+      "n_spots": 27,
+      "time": 46399.0,
+      "step": 46399,
+      "wall_elapsed": 71.41297960281372
+    },
+    {
+      "spectral_entropy": 5.14490507904649,
+      "pattern_energy": 115.24303314198471,
+      "pattern_contrast": 0.42886052592561147,
+      "mean_v": 0.1289562284144921,
+      "n_spots": 31,
+      "time": 46499.0,
+      "step": 46499,
+      "wall_elapsed": 71.57021903991699
+    },
+    {
+      "spectral_entropy": 5.118955841586432,
+      "pattern_energy": 76.4655602505713,
+      "pattern_contrast": 0.3587724094699736,
+      "mean_v": 0.10590734090477585,
+      "n_spots": 28,
+      "time": 46599.0,
+      "step": 46599,
+      "wall_elapsed": 71.72005271911621
+    },
+    {
+      "spectral_entropy": 5.105639227207567,
+      "pattern_energy": 120.61846847061783,
+      "pattern_contrast": 0.4749563470203507,
+      "mean_v": 0.126055719088011,
+      "n_spots": 30,
+      "time": 46699.0,
+      "step": 46699,
+      "wall_elapsed": 71.8753399848938
+    },
+    {
+      "spectral_entropy": 4.98067365655603,
+      "pattern_energy": 75.05151526672712,
+      "pattern_contrast": 0.36215829222464946,
+      "mean_v": 0.11381501837204061,
+      "n_spots": 30,
+      "time": 46799.0,
+      "step": 46799,
+      "wall_elapsed": 72.054283618927
+    },
+    {
+      "spectral_entropy": 5.0437032270391144,
+      "pattern_energy": 123.13276625697837,
+      "pattern_contrast": 0.4796801434552764,
+      "mean_v": 0.11722834382325162,
+      "n_spots": 28,
+      "time": 46899.0,
+      "step": 46899,
+      "wall_elapsed": 72.1983630657196
+    },
+    {
+      "spectral_entropy": 4.984864295456773,
+      "pattern_energy": 80.94302407111421,
+      "pattern_contrast": 0.35988407355311736,
+      "mean_v": 0.12446990359416019,
+      "n_spots": 31,
+      "time": 46999.0,
+      "step": 46999,
+      "wall_elapsed": 72.343759059906
+    },
+    {
+      "spectral_entropy": 5.0730438966834495,
+      "pattern_energy": 107.85957064291456,
+      "pattern_contrast": 0.47843660137811694,
+      "mean_v": 0.10557853122103278,
+      "n_spots": 27,
+      "time": 47099.0,
+      "step": 47099,
+      "wall_elapsed": 72.49471426010132
+    },
+    {
+      "spectral_entropy": 5.092250705984781,
+      "pattern_energy": 94.24525029434156,
+      "pattern_contrast": 0.3655738667376378,
+      "mean_v": 0.12710332659145623,
+      "n_spots": 32,
+      "time": 47199.0,
+      "step": 47199,
+      "wall_elapsed": 72.6468563079834
+    },
+    {
+      "spectral_entropy": 5.08344828592086,
+      "pattern_energy": 93.92173939657809,
+      "pattern_contrast": 0.4237601369342454,
+      "mean_v": 0.10678258853104307,
+      "n_spots": 27,
+      "time": 47299.0,
+      "step": 47299,
+      "wall_elapsed": 72.79506015777588
+    },
+    {
+      "spectral_entropy": 5.076943395230571,
+      "pattern_energy": 99.2289482315044,
+      "pattern_contrast": 0.37595752836023844,
+      "mean_v": 0.12909619636046382,
+      "n_spots": 32,
+      "time": 47399.0,
+      "step": 47399,
+      "wall_elapsed": 72.94589161872864
+    },
+    {
+      "spectral_entropy": 5.069362346247215,
+      "pattern_energy": 87.10419517344529,
+      "pattern_contrast": 0.430473660681664,
+      "mean_v": 0.10848658997340749,
+      "n_spots": 28,
+      "time": 47499.0,
+      "step": 47499,
+      "wall_elapsed": 73.13204216957092
+    },
+    {
+      "spectral_entropy": 5.074370898714921,
+      "pattern_energy": 104.20151103997446,
+      "pattern_contrast": 0.38263787809172817,
+      "mean_v": 0.1269803625633179,
+      "n_spots": 31,
+      "time": 47599.0,
+      "step": 47599,
+      "wall_elapsed": 73.27538824081421
+    },
+    {
+      "spectral_entropy": 5.046226390746146,
+      "pattern_energy": 85.19170389242598,
+      "pattern_contrast": 0.4016799233002655,
+      "mean_v": 0.11132888995575965,
+      "n_spots": 29,
+      "time": 47699.0,
+      "step": 47699,
+      "wall_elapsed": 73.4171392917633
+    },
+    {
+      "spectral_entropy": 4.976208850111039,
+      "pattern_energy": 107.71808662132507,
+      "pattern_contrast": 0.4133278232979607,
+      "mean_v": 0.12688203667507544,
+      "n_spots": 30,
+      "time": 47799.0,
+      "step": 47799,
+      "wall_elapsed": 73.56996130943298
+    },
+    {
+      "spectral_entropy": 4.908416799578169,
+      "pattern_energy": 83.24254230026054,
+      "pattern_contrast": 0.36563862761253585,
+      "mean_v": 0.11473278320525485,
+      "n_spots": 30,
+      "time": 47899.0,
+      "step": 47899,
+      "wall_elapsed": 73.71830892562866
+    },
+    {
+      "spectral_entropy": 4.935455780976981,
+      "pattern_energy": 109.5358320618518,
+      "pattern_contrast": 0.40754136980764866,
+      "mean_v": 0.12425704292733998,
+      "n_spots": 30,
+      "time": 47999.0,
+      "step": 47999,
+      "wall_elapsed": 73.86767911911011
+    },
+    {
+      "spectral_entropy": 4.9253923659136225,
+      "pattern_energy": 82.8722798849621,
+      "pattern_contrast": 0.3655571655610206,
+      "mean_v": 0.11828969953702535,
+      "n_spots": 30,
+      "time": 48099.0,
+      "step": 48099,
+      "wall_elapsed": 74.02251696586609
+    },
+    {
+      "spectral_entropy": 4.917721082534786,
+      "pattern_energy": 109.14306031316615,
+      "pattern_contrast": 0.42297518915049764,
+      "mean_v": 0.12189641567426246,
+      "n_spots": 29,
+      "time": 48199.0,
+      "step": 48199,
+      "wall_elapsed": 74.16903805732727
+    },
+    {
+      "spectral_entropy": 4.892117668947735,
+      "pattern_energy": 83.22478644333027,
+      "pattern_contrast": 0.34616871252553255,
+      "mean_v": 0.12279960062225827,
+      "n_spots": 30,
+      "time": 48299.0,
+      "step": 48299,
+      "wall_elapsed": 74.31390166282654
+    },
+    {
+      "spectral_entropy": 4.872749007262364,
+      "pattern_energy": 106.01724817612151,
+      "pattern_contrast": 0.4701157581615077,
+      "mean_v": 0.11873103303695498,
+      "n_spots": 28,
+      "time": 48399.0,
+      "step": 48399,
+      "wall_elapsed": 74.46145749092102
+    },
+    {
+      "spectral_entropy": 4.826593137069051,
+      "pattern_energy": 85.29457733751131,
+      "pattern_contrast": 0.3548865257894348,
+      "mean_v": 0.1272542022658724,
+      "n_spots": 31,
+      "time": 48499.0,
+      "step": 48499,
+      "wall_elapsed": 74.60331845283508
+    },
+    {
+      "spectral_entropy": 4.864285394549672,
+      "pattern_energy": 99.70314427777625,
+      "pattern_contrast": 0.4398750430377802,
+      "mean_v": 0.11554937926086352,
+      "n_spots": 28,
+      "time": 48599.0,
+      "step": 48599,
+      "wall_elapsed": 74.75030755996704
+    },
+    {
+      "spectral_entropy": 4.785102104271381,
+      "pattern_energy": 87.81561844915164,
+      "pattern_contrast": 0.356666172722357,
+      "mean_v": 0.13087694861181143,
+      "n_spots": 31,
+      "time": 48699.0,
+      "step": 48699,
+      "wall_elapsed": 74.89335513114929
+    },
+    {
+      "spectral_entropy": 4.805014249815872,
+      "pattern_energy": 93.53968014284513,
+      "pattern_contrast": 0.39858635448302937,
+      "mean_v": 0.11240697863615949,
+      "n_spots": 28,
+      "time": 48799.0,
+      "step": 48799,
+      "wall_elapsed": 75.06096148490906
+    },
+    {
+      "spectral_entropy": 4.723632730768776,
+      "pattern_energy": 93.13427955251983,
+      "pattern_contrast": 0.4546650493886386,
+      "mean_v": 0.1340174681432853,
+      "n_spots": 31,
+      "time": 48899.0,
+      "step": 48899,
+      "wall_elapsed": 75.2059314250946
+    },
+    {
+      "spectral_entropy": 4.748290693638594,
+      "pattern_energy": 86.53566271721844,
+      "pattern_contrast": 0.41339057757240877,
+      "mean_v": 0.11008472001368402,
+      "n_spots": 27,
+      "time": 48999.0,
+      "step": 48999,
+      "wall_elapsed": 75.35519456863403
+    },
+    {
+      "spectral_entropy": 4.829994883590656,
+      "pattern_energy": 100.51854121963079,
+      "pattern_contrast": 0.4674213589705569,
+      "mean_v": 0.1309283973109711,
+      "n_spots": 31,
+      "time": 49099.0,
+      "step": 49099,
+      "wall_elapsed": 75.50231170654297
+    },
+    {
+      "spectral_entropy": 4.862793395557622,
+      "pattern_energy": 83.87671480897909,
+      "pattern_contrast": 0.4464543398534816,
+      "mean_v": 0.11075398611591342,
+      "n_spots": 28,
+      "time": 49199.0,
+      "step": 49199,
+      "wall_elapsed": 75.64473557472229
+    },
+    {
+      "spectral_entropy": 4.905400484362048,
+      "pattern_energy": 101.13791153450045,
+      "pattern_contrast": 0.4828469622677271,
+      "mean_v": 0.12888914192329515,
+      "n_spots": 30,
+      "time": 49299.0,
+      "step": 49299,
+      "wall_elapsed": 75.78792595863342
+    },
+    {
+      "spectral_entropy": 4.87604186700421,
+      "pattern_energy": 82.43692323114894,
+      "pattern_contrast": 0.41658030792956413,
+      "mean_v": 0.1137766832727099,
+      "n_spots": 29,
+      "time": 49399.0,
+      "step": 49399,
+      "wall_elapsed": 75.93192195892334
+    },
+    {
+      "spectral_entropy": 4.844447919356704,
+      "pattern_energy": 100.00488579689937,
+      "pattern_contrast": 0.43607759485707115,
+      "mean_v": 0.12813592685957592,
+      "n_spots": 30,
+      "time": 49499.0,
+      "step": 49499,
+      "wall_elapsed": 76.09014010429382
+    },
+    {
+      "spectral_entropy": 4.869447063487119,
+      "pattern_energy": 82.69407531193788,
+      "pattern_contrast": 0.389471683628975,
+      "mean_v": 0.11362400221589183,
+      "n_spots": 28,
+      "time": 49599.0,
+      "step": 49599,
+      "wall_elapsed": 76.23801302909851
+    },
+    {
+      "spectral_entropy": 4.953319196421577,
+      "pattern_energy": 103.68612291486916,
+      "pattern_contrast": 0.43192388144544147,
+      "mean_v": 0.12404836686170528,
+      "n_spots": 29,
+      "time": 49699.0,
+      "step": 49699,
+      "wall_elapsed": 76.38119339942932
+    },
+    {
+      "spectral_entropy": 5.104701936533805,
+      "pattern_energy": 83.93220320316125,
+      "pattern_contrast": 0.3862626658349291,
+      "mean_v": 0.11332377174779706,
+      "n_spots": 29,
+      "time": 49799.0,
+      "step": 49799,
+      "wall_elapsed": 76.52421617507935
+    },
+    {
+      "spectral_entropy": 5.057240022665288,
+      "pattern_energy": 107.21369242391792,
+      "pattern_contrast": 0.4297402090226541,
+      "mean_v": 0.126304806861819,
+      "n_spots": 30,
+      "time": 49899.0,
+      "step": 49899,
+      "wall_elapsed": 76.66444706916809
+    },
+    {
+      "spectral_entropy": 5.050598391360985,
+      "pattern_energy": 80.6724888244919,
+      "pattern_contrast": 0.40159298105764,
+      "mean_v": 0.11538870372140328,
+      "n_spots": 29,
+      "time": 49999.0,
+      "step": 49999,
+      "wall_elapsed": 76.81693267822266
+    }
+  ]
+}

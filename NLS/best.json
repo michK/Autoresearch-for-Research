@@ -1,0 +1,1 @@
+{"score": 7.710687648567118, "exp_id": "20260324_012631_6dc4fa", "config": {"name": "perg_akm_k072_ph135", "description": "Peregrine t0=-4 + Akhmediev k=0.72 phase=2.36", "N": 1024, "L": 62.83185307179586, "a": 1.0, "max_wall_seconds": 120, "ic_rms_before_norm": 1.4632160139510342}}

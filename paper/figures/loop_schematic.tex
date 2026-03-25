@@ -1,0 +1,55 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.misc, calc}
+
+\begin{document}
+  \definecolor{cphysics}{HTML}{4472C4}
+  \definecolor{cagent}{HTML}{ED7D31}
+  \definecolor{ccode}{HTML}{A9D18E}
+  \definecolor{csolver}{HTML}{5B9BD5}
+  \definecolor{cbest}{HTML}{FFD966}
+  \begin{tikzpicture}[
+      node distance=0.6cm and 1.0cm,
+      box/.style={
+        rounded corners=4pt, minimum height=1.4cm, minimum width=2.6cm,
+        text width=2.4cm, align=center, font=\small\bfseries,
+        draw=black!60, line width=0.7pt
+      },
+      arr/.style={-{Stealth[length=5pt]}, thick, black!70},
+      lbl/.style={font=\scriptsize, text=black!60, fill=white, inner sep=1pt},
+    ]
+    % Nodes — main row
+    \node[box, fill=cphysics!80, text=white]
+      (physics) {Physics Prior\\[1pt]\normalfont\scriptsize (reference doc)};
+    \node[box, fill=cagent!90, text=white, right=of physics]
+      (agent) {LLM Agent\\[1pt]\normalfont\scriptsize (Claude Sonnet)};
+    \node[box, fill=ccode!80, right=of agent]
+      (code) {IC Code\\[1pt]\normalfont\scriptsize (\texttt{simulate.py})};
+
+    % Nodes — side column
+    \node[box, fill=csolver!80, text=white,
+          minimum width=2.2cm, text width=2.0cm,
+          above right=0.15cm and 1.4cm of code]
+      (solver) {PDE Solver\\[1pt]\normalfont\scriptsize (\texttt{prepare.py})};
+    \node[box, fill=cbest!90,
+          minimum width=2.2cm, text width=2.0cm,
+          below right=0.15cm and 1.4cm of code]
+      (best) {Best Config\\[1pt]\normalfont\scriptsize + Log};
+
+    % Forward arrows
+    \draw[arr] (physics) -- node[lbl, above] {\textcircled{\scriptsize 1} context} (agent);
+    \draw[arr] (agent)   -- node[lbl, above] {\textcircled{\scriptsize 2} writes}  (code);
+    \draw[arr] (code.north east)
+               -- node[lbl, above left=-2pt, pos=0.45] {\textcircled{\scriptsize 3} runs}
+               (solver.west);
+    \draw[arr] (solver.south)
+               -- node[lbl, right, pos=0.5] {\textcircled{\scriptsize 4} score}
+               (best.north);
+
+    % Feedback arrow
+    \draw[arr, color=cphysics!80, thick,
+          rounded corners=6pt]
+      (best.west) -- +(-0.6,0) |- node[lbl, below, pos=0.25]
+        {\textcircled{\scriptsize 5} \textbf{iterate}} (agent.south);
+  \end{tikzpicture}
+\end{document}

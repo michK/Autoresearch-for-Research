@@ -1,0 +1,1 @@
+{"score": 12.5310773480663, "exp_id": "20260324_021012_4dfe29", "config": {"name": "gauss_c1_0p1_c2_m20", "description": "gauss c1=0.1 c2=-20.0", "ic": "gauss", "N": 128, "L": 64.0, "c1": 0.1, "c2": -20.0, "max_wall_seconds": 120}}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "20260322_232821_8c0151",
+    "score": 565.149990202668,
+    "peak_max_vorticity": 515.9004165523537,
+    "timestamp": "2026-03-22T23:31:22.272688+00:00",
+    "config": {
+      "name": "tg_multiscale_eps027_nu0001",
+      "description": "TG multiscale eps=0.27 at nu=0.0001. eps=0.25 got bonus score=560. Pushing eps up; if bonus still applies expect score~570-580.",
+      "initial_condition": "tg_multiscale",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_232438_d812b8",
+    "score": 559.9250775535825,
+    "peak_max_vorticity": 505.04594313462695,
+    "timestamp": "2026-03-22T23:27:38.996476+00:00",
+    "config": {
+      "name": "tg_multiscale_eps025_nu0001",
+      "description": "TG multiscale eps=0.25 at nu=0.0001. eps=0.20 got bonus score=521. eps=0.25 might give peak~505 with bonus for score~548, or no bonus for ~375. Testing the threshold.",
+      "initial_condition": "tg_multiscale",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260323_003404_ee9d46",
+    "score": 553.6348192417695,
+    "peak_max_vorticity": 501.94861199033517,
+    "timestamp": "2026-03-23T00:37:04.360297+00:00",
+    "config": {
+      "name": "tg_multiscale_eps027_nu000095",
+      "description": "TG multiscale A=2, eps=0.27 (optimal) but nu=0.000095 (5% less than optimal 0.0001). Higher Re \u2192 higher peak vort. Risk: bonus might disappear if cascade peaks earlier. If bonus holds and peak ~525: score ~580.",
+      "initial_condition": "tg_multiscale",
+      "nu": 9.5e-05,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_234829_01b5a7",
+    "score": 541.5321481124273,
+    "peak_max_vorticity": 498.35917097585565,
+    "timestamp": "2026-03-22T23:51:29.400412+00:00",
+    "config": {
+      "name": "tg_k1_3d_k2_gamma02_nu0001",
+      "description": "TG k=1 (A=2) with Kida z-mode (gamma=0.2) + k=2 seed (eps=0.27). Adding uz=gamma*cos(x)cos(y)sin(z) enables z-stretching from t=0. Best so far: 565 at pure TG k=2.",
+      "initial_condition": "tg_k1_3d_k2",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260323_004120_e1d75f",
+    "score": 526.8865507173915,
+    "peak_max_vorticity": 472.6678170198615,
+    "timestamp": "2026-03-23T00:44:20.665556+00:00",
+    "config": {
+      "name": "tg_direct_stretch_gamma01_eps027_nu0001",
+      "description": "TG + uz=0.1*sin(x)sin(y)sin(z) + k=2 seed (eps=0.27). uz creates immediate \u2202uz/\u2202z stretching of \u03c9_z at its maximum. After Leray 2/3 survives. Starts vortex cascade earlier \u2192 higher peak vort? Best so far: 565.",
+      "initial_condition": "tg_direct_stretch",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_232046_43310f",
+    "score": 520.795614177137,
+    "peak_max_vorticity": 472.4731652464406,
+    "timestamp": "2026-03-22T23:23:46.794254+00:00",
+    "config": {
+      "name": "tg_multiscale_eps020_nu0001",
+      "description": "TG multiscale eps=0.20 at nu=0.0001. Sweet spot between eps=0.15 (bonus, score=503) and eps=0.30 (no bonus, score=392). If bonus applies: peak~490, amp=122, score=122*2.97*1.5=544. If no bonus: ~363.",
+      "initial_condition": "tg_multiscale",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_233923_e2832a",
+    "score": 515.2852149757754,
+    "peak_max_vorticity": 466.87077552994464,
+    "timestamp": "2026-03-22T23:42:23.412703+00:00",
+    "config": {
+      "name": "tg_multiscale_3d_epsz015_nu0001",
+      "description": "TG k=1 + k=2 xy (eps=0.27, optimal) + k=2 z (eps_z=0.15). Hypothesis: adding uz at k=2 seeds z-cascade, making turbulent cascade more isotropic \u2192 higher peak vorticity than eps=0.27 baseline (565).",
+      "initial_condition": "tg_multiscale_3d",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_235421_b909fe",
+    "score": 515.1034583324841,
+    "peak_max_vorticity": 479.93501755777004,
+    "timestamp": "2026-03-22T23:57:21.456687+00:00",
+    "config": {
+      "name": "tg_ms_A22_eps027_nu0001",
+      "description": "TG multiscale with A=2.2 (vs optimal A=2.0). Higher Re (22k vs 20k) \u2192 higher peak vort. Initial vort ~4.4 (vs 4.0), cascade faster. Checking if timing remains OK for bonus. eps=0.27 (optimal k=2 seed).",
+      "initial_condition": "tg_A22",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_230342_3d6f9f",
+    "score": 503.0907374729452,
+    "peak_max_vorticity": 454.40717896005384,
+    "timestamp": "2026-03-22T23:06:42.759795+00:00",
+    "config": {
+      "name": "tg_multiscale_nu0001",
+      "description": "TG k=1 (A=2) + small k=2 seed (eps=0.15) at nu=0.0001. k=2 component seeds cascade with minimal initial vorticity increase (~1%). Targeting score>500 by getting higher peak vort while maintaining bonus.",
+      "initial_condition": "tg_multiscale",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_224436_caaee1",
+    "score": 494.6213710808057,
+    "peak_max_vorticity": 446.0898415177638,
+    "timestamp": "2026-03-22T22:47:36.682086+00:00",
+    "config": {
+      "name": "taylor_green_A2_nu0001",
+      "description": "Taylor-Green A=2 at nu=0.0001: Re=125664, extreme limit. Near-Euler dynamics; aliasing will be severe but if vorticity grows explosively before wall clock expires, score should exceed 300.",
+      "initial_condition": "taylor_green_low_nu",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260323_011155_d0211e",
+    "score": 478.4539389673005,
+    "peak_max_vorticity": 435.1387571565289,
+    "timestamp": "2026-03-23T01:14:55.894616+00:00",
+    "config": {
+      "name": "tg_eps0275_nu0001",
+      "description": "Cliff search: eps=0.275 (between 0.27=bonus/565 and 0.28=no-bonus/305). Score is monotone increasing in eps within the bonus region. If eps=0.275 still earns the bonus, its score should exceed 565. The cascade timing ~ 1/eps, so 0.275 peaks slightly sooner than 0.27 but should still be ascending at 180s.",
+      "initial_condition": "tg_eps_cliff_search",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260323_005937_60cadc",
+    "score": 474.8567453970464,
+    "peak_max_vorticity": 421.6307560934914,
+    "timestamp": "2026-03-23T01:02:37.626372+00:00",
+    "config": {
+      "name": "tg_antiphase_k2_eps-010_nu00005",
+      "description": "Anti-phase k=2 seed (eps=-0.10) at nu=0.00005. At nu=0.00005 no seed: peak=464 no bonus. Anti-phase delays cascade \u2192 bonus + higher Re (50k vs 20k) might give peak>515. Score target: 573.",
+      "initial_condition": "tg_antiphase_k2_low_nu",
+      "nu": 5e-05,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260323_013215_6bd731",
+    "score": 465.01770040544847,
+    "peak_max_vorticity": 428.0169179522601,
+    "timestamp": "2026-03-23T01:35:16.203965+00:00",
+    "config": {
+      "name": "tg_tiny_eps_nu0001",
+      "description": "TG k=1 (A=2) + tiny k=2 seed (eps=0.05). Pure TG (eps=0) at nu=0.0001 has egr~3.5 but no bonus (score=494). TG+k2 eps=0.27 has egr~2.0 with bonus (score=565). HYPOTHESIS: eps=0.05 preserves egr near 3.0 from the slow cascade while still getting the bonus (if the tiny seed delays pure TG enough). Score estimate: if egr=2.5, peak~460: 115*3.5*1.5=603. Key question: does eps=0.05 convert no-bonus to bonus?",
+      "initial_condition": "tg_tiny_eps",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_234346_abacee",
+    "score": 439.85107559175657,
+    "peak_max_vorticity": 426.79275531545693,
+    "timestamp": "2026-03-22T23:46:46.409255+00:00",
+    "config": {
+      "name": "tg_multiscale_k23_epsk3_005_nu0001",
+      "description": "TG k=1 (A=2) + k=2 (eps=0.27, optimal) + k=3 (eps=0.05). k=3 modes carry little energy so shouldn't shift bonus cliff, but may amplify vorticity in early cascade phase. Best so far: 565 at eps_k2=0.27.",
+      "initial_condition": "tg_multiscale_k23",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_225433_95b56a",
+    "score": 429.7179178113371,
+    "peak_max_vorticity": 483.54291336821615,
+    "timestamp": "2026-03-22T22:57:34.033088+00:00",
+    "config": {
+      "name": "kida_pelz_nu0001",
+      "description": "Kida-Pelz high-symmetry IC at nu=0.0001. Multi-scale energy (k=1 and k=2) with octahedral symmetry focusing interactions. Higher enstrophy growth rate may compensate for higher initial vorticity. Targeting score>500.",
+      "initial_condition": "kida_vortex",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_230816_c4d0f3",
+    "score": 392.9209102975184,
+    "peak_max_vorticity": 533.3434689044774,
+    "timestamp": "2026-03-22T23:11:16.686116+00:00",
+    "config": {
+      "name": "tg_multiscale_eps03_nu0001",
+      "description": "TG multiscale eps=0.3 at nu=0.0001. Testing if doubled k=2 seed gives proportionally higher peak vorticity (need >4.5% increase in peak to compensate for higher initial vort 4.0->4.18).",
+      "initial_condition": "tg_multiscale",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_224853_7dc9be",
+    "score": 352.80674795587703,
+    "peak_max_vorticity": 464.51403327886146,
+    "timestamp": "2026-03-22T22:51:53.917742+00:00",
+    "config": {
+      "name": "taylor_green_A2_nu00005",
+      "description": "Taylor-Green A=2 at nu=0.00005: Re=251327, 2x Re of nu=0.0001 case. Expect vort_amp~157 (sqrt(2) scaling). Near-Euler aliasing dominant. Targeting score>500.",
+      "initial_condition": "taylor_green_low_nu",
+      "nu": 5e-05,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260323_004739_92913c",
+    "score": 352.520686683836,
+    "peak_max_vorticity": 448.59754965806434,
+    "timestamp": "2026-03-23T00:50:39.223554+00:00",
+    "config": {
+      "name": "tg_asymmetric_Ap02_eps027_nu0001",
+      "description": "TG_xyz (A=2) + TG_yzx (A'=0.2) + k=2 seed (eps=0.27). \u03c9_z reduces to 3.8 (vs 4.0) giving better vort_amp. uz=-0.2*cos(x)cos(y)sin(z) from t=0. Div-free by construction. Expected score ~577 if peak ~500.",
+      "initial_condition": "tg_asymmetric_k2",
+      "nu": 0.0001,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260323_005253_33b895",
+    "score": 344.43552798137756,
+    "peak_max_vorticity": 468.0463972192469,
+    "timestamp": "2026-03-23T00:55:54.036408+00:00",
+    "config": {
+      "name": "tg_multiscale_eps027_nu00008",
+      "description": "TG multiscale eps=0.27 (optimal) at nu=0.00008 (20% lower than optimal). Re=25000 vs 20000. If bonus holds: score ~ (575/4)*2.93*1.5 = 631. Risk: bonus disappears (nu=0.000095 gave 553 < 565).",
+      "initial_condition": "tg_multiscale",
+      "nu": 8e-05,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  },
+  {
+    "id": "20260322_231302_79cbf5",
+    "score": 334.0900954122733,
+    "peak_max_vorticity": 458.84656063075056,
+    "timestamp": "2026-03-22T23:16:02.390340+00:00",
+    "config": {
+      "name": "tg_multiscale_eps03_nu00012",
+      "description": "TG multiscale eps=0.3 at nu=0.00012. eps=0.3 gives vort_amp=132 but no bonus at nu=0.0001 (peak at t=4.7 vs wall clock t=4.84). nu=0.00012 slows cascade ~20%, pushing peak to t~5.6 after wall clock (~5.1) -> bonus expected. Target: 120*3*1.5=540.",
+      "initial_condition": "tg_multiscale",
+      "nu": 0.00012,
+      "N": 64,
+      "max_wall_seconds": 180
+    }
+  }
+]
