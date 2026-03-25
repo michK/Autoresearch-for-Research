@@ -1,5 +1,9 @@
 # Autoresearch for Research
 
+<p align="center">
+  <img src="paper/figures/loop_schematic.png" alt="Auto-research loop" width="700">
+</p>
+
 An autonomous LLM research loop that discovers optimal initial conditions across five PDE systems — no training, no human-in-the-loop, just a physics reference and a solver.
 
 ## The Approach
