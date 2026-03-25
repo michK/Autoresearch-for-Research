@@ -8,6 +8,10 @@
 
 An autonomous LLM research loop that discovers optimal initial conditions across five PDE systems — no training, no human-in-the-loop, just a physics reference and a solver. Inspired by Andrej Karpathy's [autoresearch](https://github.com/karpathy/autoresearch) concept of AI agents autonomously running research experiments.
 
+<p align="center">
+  <img src="paper/figures/ks_spacetime.png" alt="KS spatiotemporal chaos" width="700">
+</p>
+
 ## The Approach
 
 We study a minimal *auto-research loop* in which a large language model acts as an autonomous scientific agent:
@@ -60,6 +64,26 @@ Each domain directory contains:
 
 Key discoveries include super-Peregrine rogue waves via Akhmediev breather interference (NLS), a two-regime transition between genuine chaos and IC-engineering (CGLE), non-monotone bonus-threshold cliffs in Turing pattern space (Gray-Scott), and attractor convergence as a fundamental score ceiling (KS).
 
+<p align="center">
+  <img src="paper/figures/ks_spacetime.png" alt="KS spatiotemporal chaos" width="600"><br>
+  <em>Kuramoto-Sivashinsky: spatiotemporal chaos from optimal odd-sawtooth IC</em>
+</p>
+
+<p align="center">
+  <img src="paper/figures/gs_patterns.png" alt="Gray-Scott patterns" width="600"><br>
+  <em>Gray-Scott: Turing pattern evolution at optimal (F, k) parameters</em>
+</p>
+
+<p align="center">
+  <img src="paper/figures/nls_spacetime.png" alt="NLS rogue wave" width="600"><br>
+  <em>NLS: super-Peregrine rogue wave via Akhmediev breather interference</em>
+</p>
+
+<p align="center">
+  <img src="paper/figures/cgle_snapshots.png" alt="CGLE spiral waves" width="600"><br>
+  <em>CGLE: spiral wave defect chaos at the physical chaos optimum</em>
+</p>
+
 ## Running
 
 Each domain is self-contained. To run a simulation:
@@ -78,7 +102,7 @@ python make_figures.py
 
 ## Paper
 
-The full paper is in `paper/main.tex`. Build with:
+The full paper is in `paper/autoresearch_for_research.tex`. Build with:
 
 ```bash
 cd paper/
