@@ -6,7 +6,7 @@
 
 > **Disclaimer:** This work — including all code, experiments, analysis, figures, and the paper — was written almost entirely by Claude (Anthropic). A human provided only high-level direction and big-picture flow; all implementation, scientific reasoning, and writing were performed autonomously by the LLM.
 
-An autonomous LLM research loop that discovers optimal initial conditions across five PDE systems — no training, no human-in-the-loop, just a physics reference and a solver.
+An autonomous LLM research loop that discovers optimal initial conditions across five PDE systems — no training, no human-in-the-loop, just a physics reference and a solver. Inspired by Andrej Karpathy's [autoresearch](https://github.com/karpathy/autoresearch) concept of AI agents autonomously running research experiments.
 
 ## The Approach
 
