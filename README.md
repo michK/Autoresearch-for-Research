@@ -27,7 +27,7 @@ The loop requires no specialist programming skill, domain-specific training, or 
 
 ```
 ├── paper/              # LaTeX source, figures, and build scripts
-│   ├── main.tex
+│   ├── autoresearch_for_research.tex
 │   ├── references.bib
 │   ├── make_figures.py
 │   └── figures/
@@ -80,7 +80,7 @@ The full paper is in `paper/main.tex`. Build with:
 
 ```bash
 cd paper/
-pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
+pdflatex autoresearch_for_research.tex && bibtex autoresearch_for_research && pdflatex autoresearch_for_research.tex && pdflatex autoresearch_for_research.tex
 ```
 
 ## Citation

@@ -8,7 +8,7 @@ __pycache__/
 *.synctex.gz
 *.fls
 *.fdb_latexmk
-paper/main.pdf
+paper/autoresearch_for_research.pdf
 paper/figures/*.aux
 paper/figures/*.log
 .DS_Store
