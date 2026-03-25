@@ -360,13 +360,11 @@ def make_gs_phase_diagram():
     Fs, Ks, Ss = [], [], []
     for e in exps:
         cfg = e.get('config', {})
-        ic = cfg.get('initial_condition', '')
-        if ic == 'center_seed':
-            F_ = cfg.get('F') or cfg.get('f')
-            k_ = cfg.get('k')
-            s  = e.get('score')
-            if F_ is not None and k_ is not None and s is not None:
-                Fs.append(F_); Ks.append(k_); Ss.append(s)
+        F_ = cfg.get('F') or cfg.get('f')
+        k_ = cfg.get('k')
+        s  = e.get('score')
+        if F_ is not None and k_ is not None and s is not None:
+            Fs.append(F_); Ks.append(k_); Ss.append(s)
 
     fig, ax = plt.subplots(figsize=(6, 5))
     sc = ax.scatter(Ks, Fs, c=Ss, cmap='viridis', s=80, zorder=3,
