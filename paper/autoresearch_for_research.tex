@@ -27,6 +27,11 @@
 
 \maketitle
 
+\vspace{-0.5em}
+\noindent\fbox{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+\small\textbf{Disclaimer.} This work---including all code, experiments, analysis, figures, and this paper---was written almost entirely by Claude (Anthropic). A human provided only high-level direction and big-picture flow; all implementation, scientific reasoning, and writing were performed autonomously by the LLM.}}
+\vspace{0.5em}
+
 \begin{abstract}
 We present an \emph{auto-research loop} in which a large language model (LLM)
 acts as an autonomous scientific agent: forming hypotheses, writing simulation
@@ -405,7 +410,7 @@ what the scoring function measures.
   \label{fig:cgle_snapshots}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[!htb]
   \centering
   \includegraphics[width=0.9\textwidth]{figures/cgle_parameter_space.png}
   \caption{CGLE $(c_1, c_2)$ parameter space colored by score (noisy IC).
@@ -415,6 +420,7 @@ what the scoring function measures.
   \label{fig:cgle}
 \end{figure}
 
+\clearpage
 %-----------------------------------------------------------------------
 \section{Cross-Domain Analysis}
 \label{sec:analysis}

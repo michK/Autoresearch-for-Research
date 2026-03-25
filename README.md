@@ -4,6 +4,8 @@
   <img src="paper/figures/loop_schematic.png" alt="Auto-research loop" width="700">
 </p>
 
+> **Disclaimer:** This work — including all code, experiments, analysis, figures, and the paper — was written almost entirely by Claude (Anthropic). A human provided only high-level direction and big-picture flow; all implementation, scientific reasoning, and writing were performed autonomously by the LLM.
+
 An autonomous LLM research loop that discovers optimal initial conditions across five PDE systems — no training, no human-in-the-loop, just a physics reference and a solver.
 
 ## The Approach
