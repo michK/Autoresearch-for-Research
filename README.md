@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1191183759.svg)](https://doi.org/10.5281/zenodo.19228691)
+
 # Autoresearch for Research
 
 <p align="center">
