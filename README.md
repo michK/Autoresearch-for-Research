@@ -115,7 +115,7 @@ pdflatex autoresearch_for_research.tex && bibtex autoresearch_for_research && pd
 @misc{kruger2025autoresearch,
   title={Autoresearch for Research},
   author={Kruger, Michael},
-  year={2025},
+  year={2026},
   howpublished={\url{https://github.com/michK/Autoresearch-for-Research}}
 }
 ```
