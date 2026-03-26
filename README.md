@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/1191183759.svg)](https://doi.org/10.5281/zenodo.19228691)
+[![Paper](https://img.shields.io/badge/paper-OpenReview-blue)](https://openreview.net/forum?id=2cUoG4gVFn)
 
 # Autoresearch for Research
 
